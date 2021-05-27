@@ -1,0 +1,14 @@
+.idea/
+.vscode/
+
+__pycache__/
+django_server/__pycache__/
+
+venv/
+env/
+
+*.pyc
+*.pyo
+*.zip
+*.tar.gz
+*.sqlite3

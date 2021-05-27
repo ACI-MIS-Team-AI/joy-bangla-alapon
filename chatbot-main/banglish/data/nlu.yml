@@ -1,0 +1,1116 @@
+nlu:
+- intent: bangladesh_politics
+  examples: |
+    - Bangladeshe prothom jatiyo shongshod nirbachon kobe onushthito hoy? Kara bijoyi hon?
+    - Shadhin Banglar prothon shongshod nirbachon hoy kobe?
+    - Bangladesher prothom nirbachon hoy kobe?
+    - Bangladesher prothom nirbachon hoy koto shale?
+
+- intent: language_politics_01
+  examples: |
+    - Khaja najimuddin urduke pakistani rashtro bhasha hishebe ghoshona koren koto tarikhe?
+    - Urduke pakistani rashtro bhasha hishebe ghoshona koren koto tarikhe?
+    - Kobe urduke pakistani rashtro bhasha hishebe ghoshona kora hoy? ,Pakistani rashtrobhasha ghoshona kora hoy  koto tarikhe?
+
+- intent: language_politics_02
+  examples: |
+    - Rashtrobhasha Banglar dabite Bangabandhur prostabe shorbodoliyo rashtrobhasha shongram porishod gothito hoy koto tarikhe?
+    - Rashtrobhasha banglar dabite rashtrobhasha andolon shuru hoy kobe? Rashtrobhasha andolon shuru hoy kobe?
+    - Rashtrobhasha Banglar dabite shongram porishod hoy koto tarikhe?
+
+- intent: liberation_war_01
+  examples: |
+    - Bangabandhu Bangladesher shadhinota barta wireless joge Chattograme kaake preron koren?
+    - Śheikh mujib shadhinotar ghoshona barta prothom kake pathay?
+    - Sheikh mujibur rahman kar maddhome shadhinota ghoshona den?
+    - Bangabandhu prothom kake wireless maddhome shadhinotar barta den?
+
+- intent: liberation_war_02
+  examples: |
+    - Bangabandhu Bangladeshe shadhinotar ghoshona den kobe?
+    - Bangabandhu kobe shadhinotar ghoshona den?
+    - Shadhinotar ghoshona kobe den sheikh mujibur rahman? Sheikh mujib shadhinotar barta den kobe?
+
+- intent: liberation_war_03
+  examples: |
+    - Koto tarikhe Bangabandhu iyahiya khaner deya shomjhota ghrinatore prottakkhan koren? Iyahia khaner shomjhotar prostab firiye den kobe bangabandhu?
+    - Pakistan shorkarer shomjhotar prostab prottakkhan koren koto tarikhe sheikh mujib?
+
+- intent: liberation_war_04
+  examples: |
+    - Bangladesh bijoy labh kore koto shale? Bangladesher bijoy dibosh kobe? Bangladesher bijoy kobe ashe? Kobe Bangladesh bijoy labh kore? Bangladesh bijoy hoy kobe?
+
+- intent: liberation_war_05
+  examples: |
+    - Kader binimoye eshechilo churanto bijoy? Shadhinota juddhe kotojon shoheed hon? Kotojon naareer ijjoter binimoye eshechilo ei shadhinota?
+    - Juddhe shoheed hon koto lakh bangali? Koto jon naaree dhorshito hoyechilo? koto lakh manusher jiboner binimoye desh shadhin hoyechilo? Kotojon naareer ijjoter binimoye desh shadhin hoyechilo?
+
+- intent: liberation_war_06
+  examples: |
+    - 27 March Chattogramer kalurghat betarkendro hote anushthanikbhabe bangabandhur pokkhe hote Bangladesher shadhinota ghoshona den ke?
+    - Bangabondhur pokkho theke Bangladesher shadhinotar ghoshona den ke?
+    - Shadhinotar ghoshona sheikh jatir pitar pokkho theke ke den?
+
+- intent: liberation_war_flag_01
+  examples: |
+    - Ke prothom Bangladesher potaka uttolon korechilen?
+    - Bangladesher potaka prothom ke uthiyechilo?
+    - amader desher potaka Ke prothom uttolon korechilo?
+    - ei desher potaka Ke prothom uttolon korechilo?
+    - Potaka Ke prothom uttolon korechilo?
+
+- intent: liberation_war_flag_02
+  examples: |
+    - kon kon diboshe jatiyo potaka uttolon kora hoy?
+    - bangladesher jatiyo potaka kon kon diboshe uttolon kora hoy?
+    - Amader desher jatiyo potaka kon kon diboshe uttolon kora hoy
+    - ei desher jatiyo potaka kon kon diboshe uttolon kora hoy
+    - kon kon diboshe ei desher jatiyo potaka uttolon kora hoy
+    - kon kon diboshe bangladesher jatiyo potaka uttolon kora hoy?
+
+- intent: liberation_war_flag_03
+  examples: |
+    - Jatiyo potaka shorbo prothom kobe anushthanikbhabe uttolon kora hoy?
+    - Potaka shorbo prothom kobe anushthanikbhabe uttolon kora hoy?
+    - anushthanikbhabe kobe potaka uttolon kora hoy?
+    - shobar aage kobe anushthanikbhabe jatiyo potaka uttolon kora hoy?
+    - 
+
+- intent: liberation_war_flag_04
+  examples: |
+    - Jatiyo potakar noksha prothom ke kothay toiri koren?
+    - Jatiyo potakar noksha shobar aage ke kothay toiri koren?
+    - Potakar noksha prothom ke kothay toiri koren?
+    - Jatiyo potakar noksha prothom ke kothay banay?
+    - Potakar noksha prothom ke kothay toiri koren?
+    - 
+
+- intent: liberation_war_flag_05
+  examples: |
+    - Jatiyo potakar rong ebong britter taatporjo ki?
+    - Potakar rong ebong britter taatporjo ki?
+    - Jatiyo potakar color ebong britter taatporjo ki?
+    - Jatiyo potakar rong ebong goler taatporjo ki?
+    - Jatiyo potakar rong ebong britter gurutto ki?
+
+- intent: liberation_war_flag_06
+  examples: |
+    - Prothom dike Bangladesher  potakar laal britter moddhe kisher proteek?
+    - Prothom dike  potakar laal britter moddhe kisher proteek?
+    - Shurur dike Bangladesher  potakar laal britter moddhe kisher proteek?
+    - Shurur dike edesher  potakar laal britter moddhe kisher proteek?
+
+- intent: liberation_war_flag_07
+  examples: |
+    - Bangladesher jatiyo potaka prothom uttolon kora hoy kobe?
+    - Bangladesher potaka prothom kobe uthiyechilo?
+    - Amader desher jatiyo potaka shobar aage kobe uttolon kora hoyechilo?
+    - Amader desher potaka shobar aage kobe uttolon kora hoyechilo
+    - Potaka shobar aage kobe uttolon kora hoyechilo?
+
+- intent: liberation_war_flag_08
+  examples: |
+    - Bangladesher potakar shathe kon desher potakar mil royeche?
+    - kon desher sathe edesher potakar mil ache?
+
+- intent: liberation_war_flag_09
+  examples: |
+    - Bangladesher baire kothay shorbo prothom Bangladesher jatiyo potaka uttolon kora hoy?
+    - Edesher baire kothay shorbo prothom Bangladesher jatiyo potaka uttolon kora hoy?
+    - Bangladesher baire kothay shorbo prothom Bangladesher jatiyo potaka uttolon kora hoy?
+
+- intent: liberation_war_flag_10
+  examples: |
+    - Bangladesher manchitro prothom ke aken?
+    - Shobar aage ke edesher manchitro aken?
+    - Kon bekti bangladesher manchitro prothom aken?
+    - Kon bekti edesher manchitro prothom aken
+
+- intent: liberation_war_flag_11
+  examples: |
+    - Manchitro khochito Bangladesher prothom jaityo potakar designer ke chilen?
+    - Prothom jaityo potakar designer(Manchitro khochito) ke chilen?
+    - Manchitro khochito edesher prothom jaityo potakar designer ke chilen?
+
+- intent: liberation_war_flag_12
+  examples: |
+    - Sheikh mujibur rahman prothom kothay bangladesher potaka uttolon koren?
+    - Jatir pita prothom kothay bangladesher potaka uttolon koren?
+    - Jatir pita Sheikh mujibur rahman prothom kothay bangladesher potaka uttolon koren?
+
+- intent: liberation_war_flag_13
+  examples: |
+    - 2 tarikhe ke potaka uttolon koren?
+    - Dui tarikhe ke potaka uttolon koren?
+    - 2 tarikhe ke edesher potaka uttolon koren?
+
+- intent: liberation_war_flag_14
+  examples: |
+    - Bangladesher Jatiyo potaka prothom kothay uttolon kora hoy?
+    - Edesher Jatiyo potaka prothom kothay uttolon kora hoy?
+    - Bangladesher Jatiyo potaka shobar aage kothay uttolon kora hoy?
+
+- intent: liberation_war_flag_15
+  examples: |
+    - Bangladesher Jatiyo potaka dibosh kobe?
+    - Edesher Jatiyo potaka dibosh kobe?
+
+- intent: liberation_war_flag_16
+  examples: |
+    - Bangladesher jatiyo potakar rong ki?
+    - Bangladesher jatiyo potakar color ki?
+    - Edesher jatiyo potakar rong ki?
+    - Edesher jatiyo potakar color ki?
+
+- intent: liberation_war_flag_17
+  examples: |
+    - Bangladesher jatiyo potaka shorkari bhabe grihito hoyechilo koto tarikhe?
+    - Edesher jatiyo potaka shorkari bhabe grihito hoyechilo koto tarikhe?
+    - Bangladesher potaka shorkari bhabe grihito hoyechilo koto tarikhe?
+    - Edesher jatiyo potaka shorkari bhabe grihito hoyechilo koto tarikhe?
+
+- intent: liberation_war_flag_18
+  examples: |
+    - "Amar shonar Bangla" prothom gawar sathe jaityo potaka kothay o kobe uttolon kora hoy?
+    - "Amar shonar Bangla" prothom gawar sathe potaka kobe o kothay uttolon kora hoy?
+
+- intent: liberation_war_flag_19
+  examples: |
+    - Bangladesher jatiyo potakar onupat ki??
+    - Edesher jatiyo potakar onupat ki?
+    - Bangladesher jatiyo potakar ratio ki?
+    - Bangladesher jatiyo potakar onupat koto?
+    - Bangladesher jatiyo potakar ratio koto?
+    - 
+
+- intent: liberation_war_flag_20
+  examples: |
+    - Bangladesher jatiyo potakar noksha ki?
+    - Bangladesher jatiyo potakar noksha kemon?
+    - Bangladesher potakar noksha ki?
+    - Bangladesher potakar noksha kemon?
+
+- intent: liberation_war_flag_21
+  examples: |
+    - Bangladesher jatiyo potakar noksha ke design koren?
+    - Bangladesher jatiyo potakar rupkar ke?
+    - Bangladesher potakar noksha ke design koren? - Edesher jatiyo potakar noksha ke design koren
+
+- intent: liberation_war_flag_22
+  examples: |
+    - Bangladesher jatiyo potakar rong ki?
+    - Bangladesher jatiyo potakar color ki?
+
+- intent: liberation_war_foreign_aid_01
+  examples: |
+    - Blood Telegram' kon tarikhe lekha hoy?
+    - 'Blood Telegram' koy tarikhe lekha hoy?
+    - 'Blood Telegram' kon tarikhe lekha hoyechilo?
+
+- intent: liberation_war_foreign_aid_02
+  examples: |
+    - Concert for bangladesher gayok k chilen?
+    - Concert for bangladesher singer k chilen?
+
+- intent: liberation_war_foreign_aid_03
+  examples: |
+    - Concert for Bangladesh koto tarikhe onushthito hoy?
+    - Concert for Bangladesh koy tarikhe onushthito hoy?
+    - Concert for Bangladesh kobe onushthito hoy?
+
+- intent: liberation_war_foreign_aid_04
+  examples: |
+    - New York er Madison Square Garden e Concert For Bangladesh kobe hoye chilo?
+    - New York er Madison Square Garden e Concert For Bangladesh koto tarikhe hoyechilo?
+
+- intent: liberation_war_foreign_aid_05
+  examples: |
+    - New York er Madison Square Garden e Concert For Bangladeshe kara kara chilen?
+    - New York er Madison Square Garden e Concert For Bangladesh e kon kon gayok chilen?
+
+- intent: liberation_war_foreign_aid_06
+  examples: |
+    - Bharot shorkar koto tarikhe bangladesh k help koren?
+    - Bharot shorkar koto tarikhe bangladesh k shahajjo koren?
+
+- intent: liberation_war_foreign_aid_07
+  examples: |
+    - Muktijuddhe bideshi shahajjo kon kon desh theke ashe?
+    - Muktijuddhe bairer shahajjo kon kon desh theke ashe?
+    - Muktijuddhe bideshi help kon desh theke ashe?
+    - Muktijuddhe bairer help kon desh theke ashe?
+
+- intent: liberation_war_honorary_title_13
+  examples: |
+    - Bīraśrēṣṭha iñjinaruma ārṭiphisāra mōhām'mada ruhula āmina kata tārikhē mr̥tyu baraṇa karēna?
+    - Kabē ruhula āmina mārā yāna
+    - kōna tārikhē bīraśrēṣṭha ruhula āmina śahīda hana
+    - kōna samaẏē ijinaruma ārṭiphisāra ruhula āmina śāhādata baraṇa karēna
+
+- intent: liberation_war_honorary_title_14
+  examples: |
+    - Bīraśrēṣṭha kyāpṭēna mahi'uddina jāhāṅgīra kata tārikhē mr̥tyu baraṇa karēna?
+    - Kabē mahi'uddina jāhāṅgīra mārā yāna
+    - kōna tārikhē bīraśrēṣṭha mahi'uddina jāhāṅgīra śahīda hana
+    - kōna samaẏē kyāpṭēna mahi'uddina jāhāṅgīra śāhādata baraṇa karēna
+
+- intent: liberation_war_honorary_title_15
+  examples: |
+    - Bīraśrēṣṭha kyāpṭēna mahi'uddina jāhāṅgīra janma kata tārikhē?
+    - Kabē mahi'uddina jāhāṅgīra janma grahana karēna
+    - kōna tārikhē bīraśrēṣṭha mahi'uddina jāhāṅgīra janma nēna
+    - kōna samaẏē kyāpṭēna mahi'uddina jāhāṅgīra bhumiṣṭha hana
+
+- intent: liberation_war_honorary_title_16
+  examples: |
+    - Bīraśrēṣṭha phlā'iṭa lēphaṭēn'yānṭa mati'ura rahamāna kata tārikhē mr̥tyu baraṇa karēna?
+    - Kabē mati'ura rahamāna mārā yāna
+    - kōna tārikhē bīraśrēṣṭha mati'ura rahamāna śahīda hana
+    - kōna samaẏē phlā'iṭa lēphaṭēn'yānṭa mati'ura rahamāna śāhādata baraṇa karēna
+
+- intent: liberation_war_honorary_title_17
+  examples: |
+    - Bīraśrēṣṭha phlā'iṭa lēphaṭēn'yānṭa mati'ura rahamāna janma kata tārikhē?
+    - Kabē mati'ura rahamāna janma grahana karēna
+    - kōna tārikhē bīraśrēṣṭha mati'ura rahamāna janma nēna
+    - kōna samaẏē phlā'iṭa lēphaṭēn'yānṭa mati'ura rahamāna bhumiṣṭha hana 
+
+- intent: liberation_war_honorary_title_18
+  examples: |
+    - Bīraśrēṣṭha lyānsa nāẏēka nūra mōhām'mada śēkha kata tārikhē mr̥tyu baraṇa karēna?
+    - Kabē nūra mōhām'mada śēkha mārā yāna
+    - kōna tārikhē bīraśrēṣṭha nūra mōhām'mada śēkha śahīda hana
+    - kōna samaẏē lyānsa nāẏēka nūra mōhām'mada śēkha śāhādata baraṇa karēna
+
+- intent: liberation_war_honorary_title_19
+  examples: |
+    - Bīraśrēṣṭha lyānsa nāẏēka nūra mōhām'mada śēkha janma kata tārikhē?
+    - Kabē nūra mōhām'mada śēkha janma grahana karēna
+    - kōna tārikhē bīraśrēṣṭha nūra mōhām'mada śēkha janma nēna
+    - kōna samaẏē lyānsa nāẏēka nūra mōhām'mada śēkha bhumiṣṭha hana
+
+- intent: liberation_war_honorary_title_20
+  examples: |
+    - Bīraśrēṣṭha lyānsa nāẏēka munsi ābdura ra'upha kata tārikhē mr̥tyu baraṇa karēna?
+    - Kabē munsi ābdura ra'upha mārā yāna
+    - kōna tārikhē bīraśrēṣṭha munsi ābdura ra'upha śahīda hana
+    - kōna samaẏē lyānsa nāẏēka munsi ābdura ra'upha śāhādata baraṇa karēna
+
+- intent: liberation_war_honorary_title_21
+  examples: |
+    - Bīraśrēṣṭha lyānsa nāẏēka munsi ābdura ra'upha janma kata tārikhē?
+    - Kabē munsi ābdura ra'upha janma grahana karēna
+    - kōna tārikhē bīraśrēṣṭha munsi ābdura ra'upha janma nēna
+    - kōna samaẏē lyānsa nāẏēka munsi ābdura ra'upha bhumiṣṭha hana
+
+- intent: liberation_war_honorary_title_22
+  examples: |
+    - Bīraśrēṣṭha sipāhī mōstaphā kāmāla kata tārikhē mr̥tyu baraṇa karēna?
+    - Kabē mōstaphā kāmāla mārā yāna
+    - kōna tārikhē bīraśrēṣṭha mōstaphā kāmāla śahīda hana
+    - kōna samaẏē sipāhī mōstaphā kāmāla śāhādata baraṇa karēna
+
+- intent: liberation_war_honorary_title_23
+  examples: |
+    - Bīraśrēṣṭha sipāhī mōstaphā kāmāla janma kata tārikhē?
+    - Kabē mōstaphā kāmāla janma grahana karēna
+    - kōna tārikhē bīraśrēṣṭha mōstaphā kāmāla janma nēna
+    - kōna samaẏē sipāhī mōstaphā kāmāla bhumiṣṭha hana
+
+- intent: liberation_war_honorary_title_24
+  examples: |
+    - Bīraśrēṣṭha sipāhī hāmidura rahamāna kata tārikhē mr̥tyu baraṇa karēna?
+    - Kabē hāmidura rahamāna mārā yāna
+    - kōna tārikhē bīraśrēṣṭha hāmidura rahamāna śahīda hana
+    - kōna samaẏē sipāhī hāmidura rahamāna śāhādata baraṇa karēna
+
+- intent: liberation_war_honorary_title_25
+  examples: |
+    - Bīraśrēṣṭha sipāhī hāmidura rahamāna janma kata tārikhē?
+    - Kabē hāmidura rahamāna janma grahana karēna
+    - kōna tārikhē bīraśrēṣṭha hāmidura rahamāna janma nēna
+    - kōna samaẏē sipāhī hāmidura rahamāna bhumiṣṭha hana
+
+- intent: liberation_war_radio_06
+  examples: |
+    - Sbādhīna bānlā bētāra kēndrēra pratiṣṭhākālīna karmīra saṅkhyā kata?
+    - Sbādhīna bānlā bētāra kēndrēra pratiṣṭhākālīna karmī kaẏajana chila?
+    - Sbādhīna bānlā bētāra kēndrēra pratiṣṭhā karāra samaẏa karmīra saṅkhyā kata?
+    - Sbādhīna bānlā bētāra kēndrēra pratiṣṭhāra samaẏa karmī kata jana chila?
+    - Sbādhīna bānlā bētāra kēndra kaẏajana karmī niẏē śuru haẏēchila?
+
+- intent: liberation_war_secretariate_01
+  examples: |
+    - Ēma ē ji ōsamānī kabē bānlādēśa saśastra bāhinīra kamānḍa grahaṇa karēchēna?
+    - Ēma ē ji ōsamānī kakhana bānlādēśa saśastra bāhinīra kamānḍa grahaṇa karēchēna?
+    - Ēma ē ji ōsamānī bānlādēśa saśastra bāhinīra kamānḍa kakhana grahaṇa karēchēna?
+    - Ēma ē ji ōsamānī kabē bānlādēśa saśastra bāhinīra kamānḍa grahaṇa karēchilēna?
+    - Ēma ē ji ōsamānī bānlādēśa saśastra bāhinīra kamānḍa kabē grahaṇa karēchilēna?
+    - Ēma ē ji ōsamānī kabē bānlādēśa saśastra bāhinīra kamānḍa grahaṇa karēna?
+    - Ēma ē ji ōsamānī kakhana bānlādēśa saśastra bāhinīra kamānḍa grahaṇa karēna?
+    - 
+
+- intent: liberation_war_secretariate_02
+  examples: |
+    - Kalakātā hā'ikamiśanē kē kabē bānlādēśēra jātīẏa patākā uttōlana karēna?
+    - Kalakātā hā'ikamiśanē kē ēbaṁ kabē bānlādēśēra jātīẏa patākā uttōlana karēna?
+    - Kalakātā hā'ikamiśanē bānlādēśēra jātīẏa patākā kē ēbaṁ kabē uttōlana karēna?
+    - Kē kabē kalakātā hā'ikamiśanē bānlādēśēra jātīẏa patākā uttōlana karēna?
+    - 
+
+- intent: liberation_war_secretariate_03
+  examples: |
+    - Kōna tārikhē bānlādēśa bimāna bāhinī kāja śuru karē?
+    - Kata tārikhē bānlādēśa bimāna bāhinī kāja śuru karē?
+    - Kabē bānlādēśa bimāna bāhinī kāja śuru karē?
+    - Bānlādēśa bimāna bāhinī kata tārikhē kāja śuru karē?
+    - Bānlādēśa bimāna bāhinī kakhana kāja śuru karē?
+    - 
+
+- intent: liberation_war_secretariate_04
+  examples: |
+    - Mēhērapura jēlāra baidyanāthatalāẏa (bartamānē mujibanagara nāmē paricita) asthāẏī sarakāra-prabāsa kōna tārikhē śapatha niẏēchē?
+    - Mēhērapura jēlāra baidyanāthatalāẏa asthāẏī sarakāra-prabāsa kōna tārikhē śapatha niẏēchē?
+    - Mēhērapura jēlāra baidyanāthatalāẏa (bartamānē mujibanagara nāmē paricita) asthāẏī sarakāra-prabāsa kata tārikhē śapatha niẏēchē?
+    - Mēhērapura jēlāra baidyanāthatalāẏa asthāẏī sarakāra-prabāsa kata tārikhē śapatha niẏēchē?
+    - Asthāẏī sarakāra-prabāsa kōna tārikhē mēhērapura jēlāra baidyanāthatalāẏa śapatha niẏēchē?
+    - 
+
+- intent: liberation_war_secretariate_05
+  examples: |
+    - Tāja'uddina āhamēda kabē pratibēśīdēra kāchē astra sahāẏatāra ābēdana karēchilēna?
+    - Tāja'uddina āhamēda kabē pratibēśīdēra kāchē astrēra jan'ya sāhāyya cēẏēchilēna?
+    - Tāja'uddina āhamēda kakhana pratibēśīdēra kāchē astra sahāẏatāra ābēdana karēchilēna
+    - pratibēśīdēra kāchē tāja'uddina āhamēda kakhana astra sahāẏatāra ābēdana karēchilēna
+    - pratibēśīdēra kāchē tāja'uddina āhamēda kakhana astrēra jan'ya sāhāyya cēẏēchilēna?
+
+- intent: liberation_war_secretariate_06
+  examples: |
+    - Prabāsī bānlādēśa sarakāra kabē gaṭhita haẏa?
+    - Prabāsī bānlādēśa sarakāra kakhana gaṭhita haẏa?
+    - Prabāsī bānlādēśa sarakāra kabē gaṭhana karā haẏa?
+    - Kabē prabāsī bānlādēśa sarakāra gaṭhita haẏa?
+    - Kabē prabāsī bānlādēśa sarakāra gaṭhana karā haẏa?
+    - 
+
+- intent: liberation_war_secretariate_07
+  examples: |
+    - Bānlādēśēra asthāẏī sarakāra kata sālē gaṭhita haẏa?
+    - Bānlādēśēra asthāẏī sarakāra kōna sālē gaṭhita haẏa?
+    - Kata sālē bānlādēśēra asthāẏī sarakāra gaṭhita haẏa?
+    - Kōna sālē bānlādēśēra asthāẏī sarakāra gaṭhita haẏa?
+    - Bānlādēśēra asthāẏī sarakāra kata sālē gaṭhana karā haẏa?
+    - Bānlādēśēra asthāẏī sarakāra kōna sālē gaṭhana karā haẏa?
+    - 
+
+- intent: liberation_war_secretariate_08
+  examples: |
+    - Bānlādēśēra asthāẏī sarakārēra antarbartīkālīna rāṣṭrapati kē chilēna
+    - asthāẏī sarakārēra antarbartīkālīna rāṣṭrapati kē chilēna
+    - bānlādēśēra asthāẏī sarakārēra antarbartīkālīna prēsiḍēnṭa kē chilēna
+    - asthāẏī sarakārēra antarbartīkālīna prēsiḍēnṭa kē chilēna
+
+- intent: liberation_war_secretariate_09
+  examples: |
+    - Bānlādēśēra asthāẏī sarakārēra pradhāna mantri kē chilēna
+    - asthāẏī sarakārēra pradhāna mantri kē chilēna
+    - pradhāna mantrī kē chilēna
+
+- intent: liberation_war_secretariate_10
+  examples: |
+    - Bānlādēśēra asthāẏī sarakārēra rāṣṭrapati kē chilēna
+    - asthāẏī sarakārēra rāṣṭrapati kē chilēna
+    - bānlādēśēra asthāẏī sarakārēra prēsiḍēnṭa kē chilēna
+    - asthāẏī sarakārēra prēsiḍēnṭa kē chilēna
+
+- intent: liberation_war_secretariate_11
+  examples: |
+    - Bānlādēśēra asthāẏī sarakārēra rāṣṭrapatira mēẏāda kata dina chila?
+    - Mēẏāda kata dina chila bānlādēśēra asthāẏī sarakārēra rāṣṭrapatira?
+    - Bānlādēśēra asthāẏī sarakārēra rāṣṭrapatira katadina mēẏāda chila
+
+- intent: liberation_war_secretariate_12
+  examples: |
+    - Bānlādēśēra asthāẏī sarakārēra rāṣṭrapatira mēẏāda kata dina chila?
+    - Mēẏāda kata dina chila bānlādēśēra asthāẏī sarakārēra rāṣṭrapatira?
+    - Bānlādēśēra asthāẏī sarakārēra rāṣṭrapatira katadina mēẏāda chila
+
+- intent: liberation_war_secretariate_13
+  examples: |
+    - Muuktiyud'dhē bānlādēśēra cipha apha sṭāpha kē chilēna
+    - muuktiyud'dhēra samaẏa bānlādēśēra cipha apha sṭāpha kē chilēna
+    - bānlādēśēra cipha apha sṭāpha kē chilēna muktiyud'dhē
+    - bānlādēśēra cipha apha sṭāpha kē chilēna muktiyud'dhēra samaẏa
+    - muuktiyud'dha calākālīna samaẏē bānlādēśēra cipha apha sṭāpha kē chilēna
+
+- intent: liberation_war_secretarieate_14
+  examples: |
+    - Mantripariṣada ēbaṁ ēma'ēna'ē ō ēmapi'ēgaṇa 10 ēprila artha mantraṇālayaẏē kākē nirbācita karēna?
+    - Asasthāẏī sarakāra nirbācanēra samaẏa kākē artha mantrī hisēbē nirbācita karā haẏa?
+    - Baṅgabandhura anupasthitē kākē asthāẏī artha mantrī bānānō haẏa?
+    - Bānlādēśa sbādhīna ha'ōẏāra pūrbē āsthāẏī artha mantrī kākē nirbācita karēna?
+
+- intent: liberation_war_secretarieate_15
+  examples: |
+    - Natuna rāṣṭrēra muktibāhinīra pradhāna sēnāpati hisēbē kākē niyukta karā haẏa?
+    - Natuna rāṣṭrēra muktibāhinīra pradhāna sēnāpati hisēbē kākē bāchā'i karā haẏa?
+    - Natuna rāṣṭrēra muktibāhinīra pradhāna sēnāpati hisēbē kākē nirbācita karā haẏa?
+    - Kākē natuna rāṣṭrēra muktibāhinīra pradhāna sēnāpati hisēbē niyukta karā haẏa?
+    - Kākē natuna rāṣṭrēra muktibāhinīra pradhāna sēnāpati padē bāchā'i karā haẏa?
+    - Kākē natuna rāṣṭrēra muktibāhinīra pradhāna sēnāpati padē nirbācita karā haẏa?
+    - 
+
+- intent: liberation_war_secretarieate_16
+  examples: |
+    - Natuna rāṣṭrēra muktibāhinīra cipha aba sṭāpha hisēbē kākē niyukta karā haẏa?
+    - Natuna rāṣṭrēra muktibāhinīra cipha aba sṭāpha hisēbē kākē bāchā'i karā haẏa?
+    - Natuna rāṣṭrēra muktibāhinīra cipha aba sṭāpha hisēbē kākē nirbācita karā haẏa?
+    - Kākē natuna rāṣṭrēra muktibāhinīra cipha aba sṭāpha hisēbē niyukta karā haẏa?
+    - Kākē natuna rāṣṭrēra muktibāhinīra cipha aba sṭāpha padē bāchā'i karā haẏa?
+    - Kākē natuna rāṣṭrēra muktibāhinīra cipha aba sṭāpha padē nirbācita karā haẏa?
+    - 
+
+- intent: liberation_war_secretarieate_17
+  examples: |
+    - Natuna rāṣṭrēra muktibāhinīra ḍēpuṭi cipha aba sṭāpha u'iṁ hisēbē kākē niyukta karā haẏa?
+    - Natuna rāṣṭrēra muktibāhinīra ḍēpuṭi cipha aba sṭāpha u'iṁ hisēbē kākē bāchā'i karā haẏa?
+    - Natuna rāṣṭrēra muktibāhinīra ḍēpuṭi cipha aba sṭāpha u'iṁ hisēbē kākē nirbācita karā haẏa?
+    - Kākē natuna rāṣṭrēra muktibāhinīra ḍēpuṭi cipha aba sṭāpha u'iṁ hisēbē niyukta karā haẏa?
+    - Kākē natuna rāṣṭrēra muktibāhinīra ḍēpuṭi cipha aba sṭāpha u'iṁ padē bāchā'i karā haẏa?
+    - Kākē natuna rāṣṭrēra muktibāhinīra ḍēpuṭi cipha aba sṭāpha u'iṁ padē nirbācita karā haẏa?
+    - 
+
+- intent: liberation_war_secretarieate_18
+  examples: |
+    - Tāja'uddīna āhamada kōna kōna mantrālaẏēra dāẏitbē chilēna?
+    - Tāja'uddīna āhamada kōna kōna mantrālaẏēra dāẏitbē niẏōjita chilēna?
+    - Kōna kōna mantrālaẏēra dāẏitba tāja'uddīna āhamēdēra chila?
+    - Tāja'uddīna āhamadakē kōna kōna mantraṇālaẏēra dāẏitba dēẏā haẏēchila
+    - tāja'uddīna āhamēda kōna kōna mantrālaẏē dāẏitbaprāpta chilēna?
+    - 
+
+- intent: liberation_war_secretarieate_19
+  examples: |
+    - Ēma manasura ālī kōna kōna mantrālaẏēra dāẏitbē chilēna?
+    - Ēma manasura ālī kōna kōna mantrālaẏēra dāẏitbē niẏōjita chilēna?
+    - Kōna kōna mantrālaẏēra dāẏitba ēma manasura ālīra chila?
+    - Ēma manasura ālīkē kōna kōna mantraṇālaẏēra dāẏitba dēẏā haẏēchila
+    - ēma manasura ālī kōna kōna mantrālaẏē dāẏitbaprāpta chilēna?
+    - 
+
+- intent: liberation_war_secretarieate_20
+  examples: |
+    - Ē ē'ica ēma kāmarajjāmāna kōna kōna mantrālaẏēra dāẏitbē chilēna?
+    - Ē ē'ica ēma kāmarajjāmāna kōna kōna mantrālaẏēra dāẏitbē niẏōjita chilēna?
+    - Kōna kōna mantrālaẏēra dāẏitba ē ē'ica ēma kāmarajjāmānēra chila?
+    - Ē ē'ica ēma kāmarajjāmānakē kōna kōna mantraṇālaẏēra dāẏitba dēẏā haẏēchila
+    - ē ē'ica ēma kāmarajjāmāna kōna kōna mantrālaẏē dāẏitbaprāpta chilēna?
+    - 
+
+- intent: liberation_war_secretarieate_21
+  examples: |
+    - Mantraṇālaẏēra bā'irē ārō sansthā chila yārā sarāsari mantripariṣadēra kartr̥tbādhīnē kāja karata. Sansthāgulōra nāma ki ki?
+    - Mantraṇālaẏēra bā'irē ārō sansthā chila yārā sarāsari mantripariṣadēra kartr̥tbādhīnē kāja karata, tādēra nāma ki ki?
+    - Mantraṇālaẏēra bā'irē ārō sansthā chila yārā sarāsari mantripariṣadēra kartr̥tbādhīnē kāja karata, sē'i sansthāgulōra nāma ki ki?
+    - Yē'i sansthāgulō mantraṇālaẏēra bā'irē thēkē sarāsari mantripariṣadēra kartr̥tbādhīnē kāja karata. Ōgulōra nāma ki ki?
+    - 
+
+- intent: liberation_war_secretarieate_22
+  examples: |
+    - Asthāẏī sarakāra gaṭhanēra para pradhānamantrī daptarēra ēkānta saciba kē chilēna?
+    - Asthāẏī sarakārē pradhānamantrī daptarēra ēkānta saciba kē chilēna?
+    - Asthāẏī sarakāra gaṭhanēra para pradhānamantrī aphisēra ēkānta saciba kē chilēna?
+    - Asthāẏī sarakārē pradhānamantrī aphisēra ēkānta saciba kē chilēna?
+    - Asthāẏī sarakāra gaṭhana ha'ōẏāra para pradhānamantrī daptarēra ēkānta saciba kē chilēna?
+    - 
+
+- intent: liberation_war_secretarieate_23
+  examples: |
+    - Asthāẏī sarakāra gaṭhanēra para pradhānamantrī daptarēra tathya aphisāra kē chilēna?
+    - Asthāẏī sarakārē pradhānamantrī daptarēra tathya aphisāra kē chilēna?
+    - Asthāẏī sarakāra gaṭhanēra para pradhānamantrī aphisēra tathya aphisāra kē chilēna?
+    - Asthāẏī sarakārē pradhānamantrī aphisēra tathya aphisāra kē chilēna?
+    - Asthāẏī sarakāra gaṭhana ha'ōẏāra para pradhānamantrī daptarēra tathya aphisāra kē chilēna?
+    - 
+
+- intent: liberation_war_secretarieate_24
+  examples: |
+    - Pratirakṣā mantrālaẏēra pradhāna sēnāpati kē chilēna?
+    - Pratirakṣā mantrālaẏēra pradhāna sēnāpatira nāma ki chila?
+    - Ēkāttarē pratirakṣā mantrālaẏēra pradhāna sēnāpati kē chilēna?
+    - Pradhāna sēnāpati kē chilēna pratirakṣā mantrālaẏēra?
+    - 
+
+- intent: liberation_war_secretarieate_25
+  examples: |
+    - Protirokkha montronaloyer chief of staff k chilen?
+    - Protirrokha montronaloyer chief of staff er nam ki chilo?
+    - Ekattore protirokkha montronaloyer chief of staff k chilen?
+    - Chief of staff k chilen protirokkha montronaloyer?
+    - 
+
+- intent: liberation_war_secretarieate_26
+  examples: |
+    - Sikkha montronaloyer upodeshta k chilen?
+    - Sikkha montronaliyer upodeshtar nam ki chilo?
+    - Ekattore sikkha montronaloyer upodeshta k chilen?
+    - Upodeshta k chilen sikkha montronaloyer?
+    - 
+
+- intent: liberation_war_secretarieate_27
+  examples: |
+    - Sikkha montronaloyer sikkha officer k chilen?
+    - Sikkha montronaliyer sikkha officer er nam ki chilo?
+    - Ekattore sikkha montronaloyer sikkha officer k chilen?
+    - sikkha officer k chilen sikkha montronaloyer?
+    - 
+
+- intent: liberation_war_secretarieate_28
+  examples: |
+    - Muktijuddho k susongothito korar lokkhe somogro bangladesh k kototi sector a bivokto kora hoy?
+    - Muktijuddho k susongothito korte somogro bangladesh k kototi sector a bivokto kora hoy?
+    - Muktijuddho k susongothito korar jonno somogro bangladesh k kototi sector a bivokto kora hoy?
+    - Muktijuddho k susongothito korar lokkhe somogro bangladesh k kototi sector a vag kora hoy?
+    - 
+
+- intent: liberation_war_secretarieate_29
+  examples: |
+    - Bangladesh sorkarer ortho songsthaner jonno ki nam a ekti tohobil khola hoy?
+    - Bangladesh sorkarer ortho songsthaner jonno jei tohobil khola hoy tar nam ki?
+    - Ekattore Bangladesh sorkarer ortho songsthaner jonno jei tohobil khola hoy tar nam ki?
+    - Ekattore Bangladesh sorkarer orthonitite sahajjo korar jonno jei tohobil khola hoy tar nam ki?
+    - Ekattore Bangladesh sorkarer orthosongsthaner jonno ki nam a tohobil khola hoy?
+    - 
+
+- intent: liberation_war_secretarieate_30
+  examples: |
+    - nan
+
+- intent: liberation_war_sector_01
+  examples: |
+    - 1971 sal a bharoter kon onchole pakistan biman hamla chalae?
+    - 1971 sal a bharoter kothae pakistan biman hamla chalae?
+    - 1971 sal a bharoter kon jaegae pakistan biman hamla chalae?
+    - Muktijuddher shomoy bharoter kon onchole pakistan biman hamla chalae?
+    - Muktijuddher shomoy bharoter kothae pakistan biman hamla chalae?
+    - Muktijuddher shomoy bharoter kon jaegae pakistan biman hamla chalae?
+
+- intent: liberation_war_sector_02
+  examples: |
+    - koto tarikh a bharitio senabahini bangladesh a probesh kore?
+    - Kokhon bharitio senabahini bangladesh a probesh kore?
+    - Bharitio senabahini kokhon bangladesh a probesh kore?
+    - Bharitio senabahini koto tarikh a bangladesh a probesh kore?
+    - 1971 saler koto tarikh a bharitio senabahini bangladesh a probesh kore?
+
+- intent: liberation_war_sector_03
+  examples: |
+    - Muktibahini koto sale operation shuru kore?
+    - Muktibahini kon shal theke operation shuru kore?
+    - Koto sal a muktibahini operation shuru kore?
+    - Kon sal theke muktibahini operation shuru kore?
+    - Muktibahini kokhon theke operation shuru kore?
+    - 
+
+- intent: liberation_war_sector_05
+  examples: |
+    - Muktijuddher somoy kushtia, jessore, khulna, barisal, faridpur ebong potuakhali jelar sector commandar k chilen?
+    - Muktijuddho cholakalin somoy kushtia, jessore, khulna, barisal, faridpur ebong potuakhali jelar sector commandar k chilen?
+    - kushtia, jessore, khulna, barisal, faridpur ebong potuakhali jelar sector commandar k chilen muktijuddher somoy?
+    - kushtia, jessore, khulna, barisal, faridpur ebong potuakhali jelar sector commandar k chilen muktijuddho cholakalin?
+    - 
+
+- intent: liberation_war_sector_06
+  examples: |
+    - Muktijuddher somoy chottogram jelar sector commandar k chilen?
+    - Muktijuddho cholakalin somoy chottogram jelar sector commandar k chilen?
+    - Chottogram jelar sector commandar k chilen muktijuddher somoy?
+    - Chottogram jelar sector commandar k chilen muktijuddho cholakalin?
+    - 
+
+- intent: liberation_war_sector_07
+  examples: |
+    - Muktijuddher somoy dhakar sector commandar k chilen?
+    - Muktijuddho cholakalin somoy dhakar sector commandar k chilen?
+    - Dhakar sector commandar k chilen muktijuddher somoy?
+    - Dhakar sector commandar k chilen muktijuddho cholakalin?
+    - 
+
+- intent: liberation_war_sector_08
+  examples: |
+    - Muktijuddher somoy nou commando sector commandar k chilen?
+    - Muktijuddho cholakalin somoy nou commando sector commandar k chilen?
+    - Nou commando sector commandar k chilen muktijuddher somoy?
+    - Nou commandor sector commandar k chilen muktijuddho cholakalin?
+    - 
+
+- intent: liberation_war_sector_09
+  examples: |
+    - Muktijuddher somoy durgapurer sector commandar k chilen?
+    - Muktijuddho cholakalin somoy durgapur er sector commandar k chilen?
+    - Durgapur er sector commandar k chilen muktijuddher somoy?
+    - Durgapur jelar sector commandar k chilen muktijuddho cholakalin?
+    - 
+
+- intent: liberation_war_sector_10
+  examples: |
+    - Muktijuddher somoy barisal, potuakhali jelar sector commandar k chilen?
+    - Muktijuddho cholakalin somoy barisal, potuakhali jelar sector commandar k chilen?
+    - Barisal, potuakhali jelar sector commandar k chilen muktijuddher somoy?
+    - Barisal, potuakhali jelar sector commandar k chilen muktijuddho cholakalin?
+    - 
+
+- intent: liberation_war_sector_11
+  examples: |
+    - Muktijuddhe bangladesh a kototti sector chilo?
+    - Ekattore bangladesh a kototi sector chilo?
+    - Kototi sector chilo muktijuddher shomoy?
+    - Kototi sector chilo muktijuddher shomoy bangladesh a?
+    - Muktijuddher shomoy bangladesh a koyti sector chilo?
+    - 
+
+- intent: liberation_war_sector_12
+  examples: |
+    - Muktijuddhe bangladesh a kototti special force chilo?
+    - Ekattore bangladesh a kototi special force chilo?
+    - Kototi special force chilo muktijuddher shomoy?
+    - Kototi special force chilo muktijuddher shomoy bangladesh a?
+    - Muktijuddher shomoy bangladesh a koyti special force chilo?
+    - 
+
+- intent: liberation_war_sector_13
+  examples: |
+    - Muktijuddhe bangladesh er sena prodhan k chilen?
+    - Muktijuddhe bangladesh er sorbadhinayok k chilen?
+    - Muktijuddher shomoy bangladesh er sena prodhan k chilen?
+    - Muktijuddher shomoy bangladesh er sorbadhinayok k chilen?
+    - Bangladesh er sena prodhan k chilen muktijuddhe?
+    - Bangladesh er sorbadhinayok k chilen muktijuddhe?
+    - 
+
+- intent: liberation_war_sector_14
+  examples: |
+    - Muktijuddher somoy mymensingh and tangail jelar sector commandar k chilen?
+    - Muktijuddho cholakalin somoy mymensingh and tangail jelar sector commandar k chilen?
+    - mymensingh and tangail jelar sector commandar k chilen muktijuddher somoy?
+    - mymensingh and tangail jelar sector commandar k chilen muktijuddho cholakalin?
+    - 
+
+- intent: liberation_war_sector_15
+  examples: |
+    - Muktijuddher somoy rangpur jelar sector commandar k chilen?
+    - Muktijuddho cholakalin somoy rangpur jelar sector commandar k chilen?
+    - Rangpur jelar sector commandar k chilen muktijuddher somoy?
+    - Rangpur jelar sector commandar k chilen muktijuddho cholakalin?
+    - 
+
+- intent: liberation_war_sector_16
+  examples: |
+    - Muktijuddher somoy rajshahi, pabna ebong bogura jelar sector commandar k chilen?
+    - Muktijuddho cholakalin somoy rajshahi, pabna ebong bogura jelar sector commandar k chilen?
+    - Rajshahi, pabna ebong bogura jelar sector commandar k chilen muktijuddher somoy?
+    - Rajshahi, pabna ebong bogura jelar sector commandar k chilen muktijuddho cholakalin?
+    - 
+
+- intent: liberation_war_sector_17
+  examples: |
+    - Muktijuddher somoy sylhet er sector commandar k chilen?
+    - Muktijuddho cholakalin somoy sylhet er sector commandar k chilen?
+    - Sylhet er sector commandar k chilen muktijuddher somoy?
+    - Sylhet er sector commandar k chilen muktijuddho cholakalin?
+    - 
+
+- intent: liberation_war_sector_18
+  examples: |
+    - Muktijuddhe sector 1 er odhine kon kon onchol chilo?
+    - kon kon elaka nie sector 1 gothito hoyechilo?
+    - Sector 1 kon kon jela nie gothon kora hoechilo?
+    - 
+
+- intent: liberation_war_sector_19
+  examples: |
+    - Muktijuddhe sector 10 er odhine kon kon onchol chilo?
+    - kon kon elaka nie sector 10 gothito hoyechilo?
+    - Sector 10 kon kon jela nie gothon kora hoechilo?
+    - 
+
+- intent: liberation_war_sector_20
+  examples: |
+    - Muktijuddhe sector 11 er odhine kon kon onchol chilo?
+    - kon kon elaka nie sector 11 gothito hoyechilo?
+    - Sector 11 kon kon jela nie gothon kora hoechilo?
+    - 
+
+- intent: liberation_war_sector_21
+  examples: |
+    - Muktijuddhe sector 2 er odhine kon kon onchol chilo?
+    - kon kon elaka nie sector 2 gothito hoyechilo?
+    - Sector 2 kon kon jela nie gothon kora hoechilo?
+    - 
+
+- intent: liberation_war_sector_22
+  examples: |
+    - Muktijuddhe sector 3 er odhine kon kon onchol chilo?
+    - kon kon elaka nie sector 3 gothito hoyechilo?
+    - Sector 3 kon kon jela nie gothon kora hoechilo?
+    - 
+
+- intent: liberation_war_sector_23
+  examples: |
+    - Muktijuddhe sector 4 er odhine kon kon onchol chilo?
+    - kon kon elaka nie sector 4 gothito hoyechilo?
+    - Sector 4 kon kon jela nie gothon kora hoechilo?
+    - 
+
+- intent: liberation_war_sector_24
+  examples: |
+    - Muktijuddhe sector 5 er odhine kon kon onchol chilo?
+    - kon kon elaka nie sector 5 gothito hoyechilo?
+    - Sector 5 kon kon jela nie gothon kora hoechilo?
+    - 
+
+- intent: liberation_war_sector_25
+  examples: |
+    - Muktijuddhe sector 6 er odhine kon kon onchol chilo?
+    - kon kon elaka nie sector 6 gothito hoyechilo?
+    - Sector 6 kon kon jela nie gothon kora hoechilo?
+    - 
+
+- intent: liberation_war_sector_26
+  examples: |
+    - Muktijuddhe sector 7 er odhine kon kon onchol chilo?
+    - kon kon elaka nie sector 7 gothito hoyechilo?
+    - Sector 7 kon kon jela nie gothon kora hoechilo?
+    - 
+
+- intent: liberation_war_sector_27
+  examples: |
+    - Muktijuddhe sector 8 er odhine kon kon onchol chilo?
+    - kon kon elaka nie sector 8 gothito hoyechilo?
+    - Sector 8 kon kon jela nie gothon kora hoechilo?
+    - 
+
+- intent: liberation_war_sector_28
+  examples: |
+    - Muktijuddhe sector 9 er odhine kon kon onchol chilo?
+    - kon kon elaka nie sector 9 gothito hoyechilo?
+    - Sector 9 kon kon jela nie gothon kora hoechilo?
+    - 
+
+- intent: liberation_war_sector_29
+  examples: |
+    - Muktijuddher somoy habiganj jelar sector commandar k chilen?
+    - Muktijuddho cholakalin somoy habiganj jelar sector commandar k chilen?
+    - Habiganj jelar sector commandar k chilen muktijuddher somoy?
+    - Habiganj jelar sector commandar k chilen muktijuddho cholakalin?
+    - 
+
+- intent: liberation_war_sector_30
+  examples: |
+    - Sector commader der sommelon kobe theke shuru hoy?
+    - Kobe theke sector commader der sommelon shuru hoy?
+    - Sector commader der sommelon kokhon theke shuru hoy?
+    - Kokhon theke sector commader der sommelon shuru hoy?
+    - Sector commader der sommelon kobe shuru hoy?
+    - Sector commader der sommelon kokhon shuru hoy?
+    - 
+
+- intent: liberation_war_victory_01
+  examples: |
+    - Pakistan bahinir pokkho theke k kar kache attosomorponer dolile kara sakkhor koren?
+    - Pakistani bahinir pokkho theke attosomorponer somoy k kar kache dolile kara sakkhor koren?
+    - 
+
+- intent: liberation_war_victory_03
+  examples: |
+    - Pakistani bahini attosomorpon kore kothae?
+    - Kothae pakistani bahini attosomorpon kore?
+    - Pakistani bahini kothae porajoy mene nae?
+    - Kothae pakistani bahini porajoy mene nae?
+    - Pakistani bahini kon jaegae attosomorpon kore?
+
+- intent: liberation_war_victory_04
+  examples: |
+    - Bangladesh er prothom sadhin jela konti?
+    - Prothom sadhin jela konti bangladesh er?
+    - Bangladesh er prothom kon jela sadhin hoy?
+    - Prothom kon jela sadhin hoy bangladesh er?
+    - Bangladesh er prothom sadhin jelar nam ki ?
+
+- intent: mujib politics
+  examples: |
+    - Baṅgabandhur 7 e march bhaṣhaner mul boktobbo ki chil0
+    - 7 e march  bhaṣhoner mul boktobb ki chilo
+    - baṅgabandhur 7 e march  bhaṣhoner mul kotha ki chilo
+    - mul boktobbo ki chilo baṅgabandhur 7 e march bhaṣhoner
+    - mul kotha ki chilo baṅgabandhur 7 e march bhashoner
+    - mul boktobbo ki chilo baṅgabandhur 7 e march bhaṣhoner
+
+- intent: mujib_birth
+  examples: |
+    - Bangabandhu sheikh mujibur rahaman koto tarikhe jonmograhaṇ koren ebong kothaẏ?
+    - Baṅgabandhu kothaẏ jonmo grahaṇ koren?
+    - Sheikh mujibur rahaman er jonmo sal koto?
+    - Sheikh mujiber jonmosal?
+    - Sheikh mujib er jonmosthan?
+    - 
+
+- intent: mujib_death
+  examples: |
+    - Koto sale ebong koto tarikh e bangabandhu soh-poribare sahid hon?
+    - Koto tarikh e baṅgabandhu soh-paribare sahid hon?
+    - Koto sale ebong koto tarikhe bangabandhu soaparibare nihoto hon?
+    - Koto tarikhe bangabondhu soparibare nihoto hon?
+    - Bangabondhu koto tarikhe soparibare sahid hon?
+    - 
+
+- intent: mujib_politics_01
+  examples: |
+    - Bangabondhur prothom karabaraṇ koto sale ebong keno?
+    - Bangabandhu prothom jele jan keno?
+    - Bangabandhu prothom jele jan kobbe? , Sheikh mujib koto sale jele jan?
+    - Sheikh mujib prothom bar keno jele jan?
+    - Jatir pita prothom jele jaowar karon ki?
+
+- intent: mujib_politics_02
+  examples: |
+    - Sheikh mujibur rahaman ke koto tarikh ebong kothay 'baṅgabandhu' upadhite bhuṣito kara hoẏ?
+    - Baṅgabandhu kothay bangabandhu upadhite bhuṣito hon?
+    - Sheikh mujibur rahaman  kobe bangabandhu upadhite bhuṣito hon?
+
+- intent: mujib_politics_03
+  examples: |
+    - Bangabondhu rescouse moyadane koto tarikhe ghoṣoṇa diyechilen, bhaṣhonṭi ki chilo?
+    - Baṅgabandhu kabe shadinotar bhaṣhon diyehilen?
+    - Bangabandhur  bhaṣhonṭi ki chilo?
+    - Racecourse moyadane bangabandhu ki bhashon diyechilen?
+
+- intent: mujib_politics_04
+  examples: |
+    - Kobe bangabondhu karamukti labh koren?
+    - Sanbad sammelone bangabondhu ki ghoṣaṇa koren?
+    - Bangabandhu kabe jel theke chaṛa pan?
+    - Sheikh mujibur rahaman kobe karamukti labh koren?
+    - Karamuktir por bangabandhu sangbad sommenlone ki ghoṣhona den?
+
+- intent: mujib_politics_05
+  examples: |
+    - Bangabondhu prothom koto sale rajaniti te abhishikto hon?
+    - Bangabandhu rajanitite ashen kobe?
+    - Jatir pita rajaniti suru koren kobe?
+    - Sheikh Mujib prothom kobe rajniti te ashen?
+    - Koto sale sheikh mujib prothom rajniti teh jukto hon?
+
+- intent: mujib_politics_06
+  examples: |
+    - Desh bijoyer por bangabandhu kobe sodeshe phire ashen ebong ratropotir dayitto grohon koren
+    - bangabondhur swadesh prottaborton dibos kobe?
+    - sheikh mujib kobe deshe fire ashen?
+    - jhuddher por kobe mujib deshe fire ashen?
+
+- intent: mujib_politics_07
+  examples: |
+    - Bangabondhu prothom kon dole jogdaner maddhome rajniti teh obhishikto hon?
+    - Bangabandhu rajnitite ashen kon doler maddhome?
+    - sheikh mujib rajnitite prothom kon dole probesh koren?
+    - Kon doler maddhome jatir  pita rajnitite ashen?
+
+- intent: mujib_politics_08
+  examples: |
+    - Bangabandhu koto tarikhe pradhanmontri hisabe shopoth grohon koren?
+    - Bangabandhu kokkhon pradhanmantri hisabe sapath grahaṇ karen?
+    - Bangabandhu muktijuddher por koto tarikhe pradhanmantri hisabe sapath grohoṇ karen?
+    - Koto tarikhe bangabandhu pradhanmantri hisabe sapath grohoṇ koren?
+    - Kakhhon bangabondhu pradhanmantri hisabe sapath grohon koren?
+    - Muktijuddher por koto tarikhe bangabandhu pradhanmantri hisabe sapoth grahaṇ karen?
+
+- intent: mujib_politics_09
+  examples: |
+    - Bagabandhu bangali neta hisebe jatisaṅgher 29 tomo sadharaṇ pariṣadhe kobe banglaẏ baktr̥ita den?
+    - sheikh mujibur rahaman kobe jatisangher  pariṣadhe banglaẏ baktr̥ta den?
+    - Jatisangher sadharan pariṣade sheikh mujib kobe banlay baktr̥ita den?
+
+- intent: mujib_primary_school_01
+  examples: |
+    - Jatir janoker prathiṣṭhanik chatrajibon suru hoy koto bochor boyose?
+    - Jatir pita koto bochor boyose poṛahona suru koren?
+    - sheikh mujibur rahaman prothom  school e jan koto bochor bohose?
+    - sheikh mujib prothom school bharti hon koto bochor bohyose?
+    - mujiber shikkha jibon shuru hoy koto sale?
+    - Mujibe koto bochor boẏose school e bharti hon?
+
+- intent: mujib_primary_school_02
+  examples: |
+    - Jatir janok er pratiṣṭhanik chatrajibon kothaẏ suru koren?
+    - Jatir janaker prothom school er  nam ki?
+    - sheikh mujiber prothom school er nam ki ebong kothay?
+    - sheikh mujib kona school prothom bharti hon?
+
+- intent: pakistan_politics_01
+  examples: |
+    - Koto tarikh e purba pakistan  awami musalim league gaṭhito hoy ebong bangabandhu sheikh mujibur rahaman kon pode  nirbachito hon?
+    - Purba pakistane awami muslim league gaṭhito hoy koto tarikhe?
+    - Purbo pakistan awami muslim league kobe gaṭhito ha?
+    - Kobe purba pakistan awami league gothito hoy?
+    - Purba pakistan awami muslim league e sheikh mujiber pod ki  chilo?
+    - sheikh  mujib rahaman purba pakistan awami muslim league er kon pod e niyojito  chilen?
+
+- intent: pakistan_politics_02
+  examples: |
+    - 1954 sale koto tarikhe jukto frount bijoyi hon ebong koto ti asone bijoyi hon?
+    - Jukto front koto tarikhe bijoyi hoy?
+    - Kaẏaṭi asone bijoy labh kore?
+    - Juktofront bijoy e hon kobe ebong koyṭi asone ?
+    - Jukto front bijoy e  hoy koyṭi asonē kar  bipakhe?
+
+- intent: pakistan_politics_03
+  examples: |
+    - Koto sale bangabandhu sorbo prothom purbo pakistaner  swayttoshason dabi koren?
+    - Purba pakistana er jonno koto sale Sheikh mujib swayotto-shashito hisebe dabi koren?
+    - sheikh mujib koto sale purba pakistan er swayotto-sahito hisebe dabi koren?
+
+- intent: pakistan_politics_04
+  examples: |
+    - Kothay bangabandhu sarba prothom purbo pakistaner sywatto-shason dabi koren?
+    - Purbo pakistaner sywatto-shason sheikh mujib dabi koren kothaẏ?
+    - Kon jayagay mujibur rahman purbo pakistaner  sywatto-shason dabi koren?
+
+- intent: pakistan_politics_05
+  examples: |
+    - Bangabandhu kortrik goṣhito bangali jatir muktir sanad koy dopha dabir pokkhe desh beapi tibro goṇo andoloner suchuna hoy ebong kobe?
+
+- intent: pakistan_politics_06
+  examples: |
+    - Baṅgabandhuke kon mamlay ek number ashami kore pakistan sarakar ebong kabe?
+    - Bangabandhu kon mamlay ek number asami kora hoy?
+    - sheikh mujib ke kon mamlay pakistani sarakar ek number asami kore?
+    - Pakistani sarakar sheikh mujiber biruddhe kon mamala deya ebong kobe?
+    - Sheikh mujib ke pakistani sarakarake kobe mamala dey?
+
+- intent: pakistan_politics_07
+  examples: |
+    - Pakistani sarakar koto salw mithha mamla somuho prattahar kore ney ebong mamla gulir nam ki?
+    - Pakistani sarakar seikh mujib biruddhe kora mithha mamala kobe prottaha koren?
+    - Mujib er upor theke kobe pakistani sarakar mamla prottahar kore?
+    - Pakistani sarakar seikh mujiber upor ki ki mithha mamla kore?
+    - Sheikh mujib er upor ki ki mithha mamala deẏ pakistani sarakar?
+
+- intent: pakistan_politics_08
+  examples: |
+    - Purbo banlay voyaboho jhaṛ ebong jollochhash koto sale hoyechilo ebong koto manush mara jay?
+    - Purbo banlay voyaboho jhaṛ ebong jollochhash koto sale hoyechilo ?
+    - Purbo banglay jollochhash e koto manush mara jay?
+    - Kokhon purbo banlay jhoṛ ebong jollochash hoyechilo?
+
+- intent: pakistan_politics_10
+  examples: |
+    - Jatiẏa pariṣhad nirbacone awami league koyti ashon pay, pakistan people's party koyti ashon pay?
+    - Jatiẏa pariṣhad nirbacone awami league koyti ashon peye joyi hoy?
+    - Jatiyo  pariṣad nirbacone pakistan people's party koyti ashon peye porajito hoy?
+
+- intent: pakistan_politics_11
+  examples: |
+    - 25 she March ke pr̥ithibir itihase joghonnotomo kalo rat bola hoy keno?
+    - 25 March ke  kalo rat bola hoẏ keno?
+    - Pr̥thibir itihase joghonnotomo kalo rat bola hoẏ keno 25 march ke?
+
+- intent: pre_war_incident_01
+  examples: |
+    - operation searchlight kobe suru hoy?
+    - operation searchlight kokhon suru hoy?
+    - operation searchlight koto tarikhe suru hoy ?
+    - kobe operation searchlight suru hoy?
+    - koto tarikh e operation searchlight suru hoy?
+    - 
+
+- intent: pre_war_incident_02
+  examples: |
+    - Iyahiya-Mujib koto tarikhe ruddhodar baithakk koren?
+    - Iyahia -Mujib kokhon ruddhodar baithak koren?
+    - Koto tarikhe Iyahiya-Mujib ruddhodar baithak koren?
+    - Kokhon Iyahiya-Mujib ruddhodar baithak koren?
+    - Iyahiya-Mujib ruddhodar baithak koto tarikhe hoy?
+    - Iyahiya-Mujib ruddhodar baithak kokhon hoy?
+
+- intent: pre_war_incident_03
+  examples: |
+    - Iyahiya-Mujib ruddhodar baithake ke kke chilen?
+    - Iyahiya-Mujib ruddhodar baithake ke ke chilen?
+    - Iyahiya-Mujib ruddhodar baithake ke ke uposthit chilen?
+    - Ke ke Iyahiya-Mujib ruddhodar baithake chilen?
+    - Ke ke Iyahiya-Mujib ruddhodar baithake uposthit chilen?
+
+- intent: pre_war_incident_04
+  examples: |
+    - Ekattore koy tarikhe Iyahiya Khan Dhakay ashen?
+    - 1971 saler koy tarikhe Iyahiya Khan Dhakay ashen?
+    - Iyahiya Khan 1971 sale kokhon Dhakay ashen?
+    - Iyahiya Khan 19771 saler koy tarikhe Dhakay ashen?
+
+- intent: pre_war_incident_05
+  examples: |
+    - 1971 sale Rakibul somporkito ghotona ta ki?
+    - 1971 sale rakibul somporkito ki ghotona ghote?
+    - Muktijuddher age rakibul somporkito ghotona ta ki?
+    - Muktijuddher age rakibul somporkito ki ghotona ghote?
+    - 1971 sale rakibul niye ghotona ta ki?
+
+- intent: pre_war_incident_06
+  examples: |
+    - Muktiyuddho cholakalin somoye seikh mujibur rahmanke kobe pakistani komando unit greftar koreche?
+    - Muktiyuddho cholar somoye seikh mujibur rahmanke kobe pakistani komanndo unit greftar kore?
+    - Muktiyuddho chlakalin somoye seikh mujibur rahmanke kokhon pakistani komando unit greftar kore?
+    - Muktiyuddho cholar somoye seikh mujibur rahmanke kokhon pakistani komando unit greftar kore?
+    - Muktiyuddho cholakalin somoye pakistani komando unit kobe seikh mujibur rahmanke greftar kore?
+
+- intent: speech_of_liberation_01
+  examples: |
+    - 07I marcher bhashon koto somoy sthayi hoy?
+    - 07I marcher bhason koto somoy cole?
+    - Koto somoy  07i marcher bhason sthayi hoy?
+    - Koto somoy  07i marher bhason cole?
+    - 07I marcher bhason koyta poryonto sthayi hoy?
+
+- intent: speech_of_liberation_02
+  examples: |
+    - 07I marcher bhason koytay shuru hoy?
+    - 07I marcher bhason kokhon shuru hoy?
+    - Kokhon 07i marcher bhason shuru hoy?
+    - koytay 07i marcher bhason shuru hoy?
+
+- intent: speech_of_liberation_03
+  examples: |
+    - 07I marcher bhason kothay hoy?
+    - 07I marcher bhason kothay deya hoy?
+    - Kothay 07i marcher bhason hoy?
+    - Kothay 07i marcher bhason deya hoy?
+
+- intent: speech_of_liberation_04
+  examples: |
+    - 07I marcher bhasoner koyti dik niye alochona hoy?
+    - 07i marcher  bhasoner ki ki dik niye alocona hoy?
+    - 07i march bhasoner koyti dik niye alocona hoy?
+    - 07i march bhasoner ki ki dik niye alocona hoy?
+
+- intent: speech_of_liberation_05
+  examples: |
+    - 07 I marcher bhasoner potobhumi ki chilo?
+    - 07  marcher bhasoner potobhumi ki chilo?
+    - 07 e marcher bhasoner potobhumi ki chilo?
+
+- intent: speech_of_liberation_06
+  examples: |
+    - 07I marcher bhasoner bokta ke chilen?
+    - 07I marche ke bhason diyechilen?
+    - 07I march bhasoner bokta ke chilen?
+
+- intent: speech_of_liberation_07
+  examples: |
+    - Mujibur rahmaner pokkhr abaro major jiyaur rahman kobe bangladesher swadhinota ghosona koren?
+    - Mujibur rahmaner pokkhe abaro major jiyaur rahman kokhon bangladesher swadhinota ghosona koren?
+    - Mujibur rahmaner pokkhe abaro major jiyaur rahman koto tarikje bangladesher swadhinota ghosona koren?
+    - Mujibur rahmaner pokkhe abaro major jiyaur rahman bangladesher swadhinota ghosona koren?
+    - Mujibur rahmaner pokkho theke abaro major jiyaur rahman kobe bangladesher swadhinota ghosona koren?
+    - Mujibur rahmaner pokkho theke abaro major jiyaur rahman kokhon bangladesher swadhinota ghosona koren?
+    - Mujibur rahmaner pokkhe abaro major jiyaur rahman kobe bangladesher swadhinota ghosona den?
+

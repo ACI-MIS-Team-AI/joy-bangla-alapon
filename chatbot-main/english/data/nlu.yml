@@ -1,0 +1,1128 @@
+nlu:
+- intent: bangladesh_politics
+  examples: |
+    - When the first parliament elections in Bangladesh are elected?
+    - Who is the winner?
+    - When the first parliamentary elections were held?
+    - When is the first election of Bangladesh?
+    - How many parliament is the first election?
+    - 
+
+- intent: language_politics_01
+  examples: |
+    - Khwaja Nazim Uddin declared Urddu as a state language of Pakistan?
+    - How long did you declare Pakistan as the state language of Pakistan?
+    - When was Urddu declared as the state language of Pakistan?
+    - What date is the state language of Pakistan?
+    - 
+
+- intent: language_politics_02
+  examples: |
+    - What is the date of the new state language struggle council in the proposal of Bangabandhu, demanding state language Bengali?
+    - When state language Bengal demands the state language movement?
+    - When the state language movement started?
+    - How long is the United States of State in the United States of Bengal?
+    - 
+
+- intent: liberation_war_01
+  examples: |
+    - Bangabandhu's independence declaration of Bangladesh's independence, who sent him to Chittagong?
+    - What does Sheikh Mujib send to the freedom of independence?
+    - Is Sheikh Mujibur Rahman message freedom through?
+    - Bangabandhu Who gives the first message of independence through Orarles?
+    - 
+
+- intent: liberation_war_02
+  examples: |
+    - Bangabandhu declared Bangladesh independence?
+    - When Bangabandhu announced freedom?
+    - When the announcement of independence, Sheikh Mujibur Rahman?
+    - When Sheikh Mujib gave the message of freedom?
+    - 
+
+- intent: liberation_war_03
+  examples: |
+    - How much date Bangabandhu rejected the compromise of Yahya Khan's compromise?
+    - When Bangabandhu gave the proposal for Yahya Khan's compromise?
+    - How long does Sheikh Mujib reject the government's negotiation proposal?
+    - 
+
+- intent: liberation_war_04
+  examples: |
+    - How many were Bangladesh victory?
+    - When is the Victory Day of Bangladesh?
+    - When the victory of Bangladesh comes?
+    - When Bangladesh won the victory?
+    - When Bangladesh is victory?
+    - 
+
+- intent: liberation_war_05
+  examples: |
+    - Who came to the final victory?
+    - How many martyrs were killed in the liberation war?
+    - How many women came to me in exchange for this freedom?
+    - How many million lakhs are martyred in war?
+    - How many women were raped?
+    - How many million people were independent in exchange for life?
+    - How many women were independent in exchange for me?
+    - 
+
+- intent: liberation_war_06
+  examples: |
+    - On March 27, who was officially announced the independence of Bangladesh from Bangabandhu to Kalurghat Betland of Chittagong?
+    - Who declared independence of Bangladesh from the side of Bangladesh?
+    - Who is the declaration of God's Father from the Father of the Father?
+    - 
+
+- intent: liberation_war_flag_01
+  examples: |
+    - Who first lift the flag of Bangladesh?
+    - Who was the flag of Bangladesh first?
+    - Who led the flag of our country first?
+    - Who led the flag of the country before?
+    - Who did the flag lifted earlier?
+    - 
+
+- intent: liberation_war_flag_02
+  examples: |
+    - On some day, the national flag is hoisted?
+    - Any day of the flag of Bangladesh, the national flag is hoisted?
+    - What are the flags of our country are hoisting the national flag?
+    - Any day of the flag of this country is hoisting the national flag?
+    - On some day, the flag of this country is hoisted?
+    - On some day, the national flag of Bangladesh is hoisted?
+    - 
+
+- intent: liberation_war_flag_03
+  examples: |
+    - The first flag of the national flag is formally lift?
+    - The flag is the first when the formal lift?
+    - When the national flag is formally lift?
+    - When is everyone officially hoisted the national flag?
+    - 
+
+- intent: liberation_war_flag_04
+  examples: |
+    - Who is the first of the national flag design?
+    - Where does the national flag design?
+    - Where did the flag design first?
+    - Where does the national flag design?
+    - Where does the flag design first?
+    - 
+
+- intent: liberation_war_flag_05
+  examples: |
+    - What is the significance of the colors of the national flag and circle?
+    - What is the significance of the colors and circles?
+    - What is the significance of the national flag color and circle?
+    - What is the significance of the colors and goals of the national flag?
+    - What is the importance of national flag color and circle?
+    - 
+
+- intent: liberation_war_flag_06
+  examples: |
+    - Initially, what is the symbol of the flag of Bangladesh?
+    - What is the symbol in the red circle of the flag?
+    - What is the symbol of the flag of Bangladesh in the flag of Bangladesh?
+    - What is the symbol in the red circle of the flag of this country?
+    - 
+
+- intent: liberation_war_flag_07
+  examples: |
+    - When the national flag of Bangladesh is first lifted?
+    - When was the flag of Bangladesh first?
+    - When was the flag of our country before?
+    - When was the flag of this country before?
+    - When did the flag lift?
+    - 
+
+- intent: liberation_war_flag_08
+  examples: |
+    - Which country's flag is with the flag of Bangladesh?
+    - Which country is similar to the flag of this country?
+    - 
+
+- intent: liberation_war_flag_09
+  examples: |
+    - Where is the first Bangladeshi national flag with Bangladesh?
+    - Where is the first Bangladesh national flag with the country?
+    - Where is the first part of Bangladesh withdrawn?
+    - 
+
+- intent: liberation_war_flag_10
+  examples: |
+    - Who draws the map of Bangladesh?
+    - Who earlier draws the map of this country?
+    - Which person draws the first map of Bangladesh?
+    - Which person first paints the map of this country?
+    - 
+
+- intent: liberation_war_flag_11
+  examples: |
+    - Who was the first national flag designer in the map?
+    - Who was the first national flag designer (mapped)?
+    - Who was the first national flag designer in this country?
+    - 
+
+- intent: liberation_war_flag_12
+  examples: |
+    - Where did Sheikh Mujibur Rahman hoist the flag of the first Bangladesh?
+    - Where does the father of the nation lift the flag of the first Bangladesh?
+    - Where did Sheikh Mujibur Rahman of the nation hoist the first Bangladesh flag?
+    - 
+
+- intent: liberation_war_flag_13
+  examples: |
+    - Who led the flag on 2?
+    - Who lift the flag on two?
+    - Who did the flag of this country withdraw?
+    - 
+
+- intent: liberation_war_flag_14
+  examples: |
+    - Where is the national flag of Bangladesh first lift?
+    - Where is the first flag of the country?
+    - Where is the flag of Bangladesh withdrawal?
+    - 
+
+- intent: liberation_war_flag_15
+  examples: |
+    - When is the national flag of Bangladesh?
+    - When the national flag day?
+    - 
+
+- intent: liberation_war_flag_16
+  examples: |
+    - What is the color of the national flag of Bangladesh?
+    - What is the color of the national flag of Bangladesh?
+    - What is the color of the national flag of this country?
+    - What is the color of the national flag of this country?
+    - 
+
+- intent: liberation_war_flag_17
+  examples: |
+    - The national flag of Bangladesh was officially accepted?
+    - The national flag of this country was officially accepted?
+    - What time was the flag of Bangladesh was officially accepted?
+    - The flag of this country was officially accepted?
+    - 
+
+- intent: liberation_war_flag_18
+  examples: |
+    - When is the national flag with the first singer "my gold Bangla"?
+    - When is the flag with the first singer "my gold Bengali"?
+    - 
+
+- intent: liberation_war_flag_19
+  examples: |
+    - What is the ratio of the national flag of Bangladesh?
+    - What is the ratio of the national flag of Edash?
+    - What is the national flag of Bangladesh?
+    - What is the ratio of the national flag of Bangladesh?
+    - What is the national flag of Bangladesh?
+    - 
+
+- intent: liberation_war_flag_20
+  examples: |
+    - What is the design of national flag of Bangladesh?
+    - What is the design of the national flag of Bangladesh?
+    - What is the design of the flag of Bangladesh?
+    - What is the design of the flag of Bangladesh?
+    - 
+
+- intent: liberation_war_flag_21
+  examples: |
+    - Design the national flag of Bangladesh?
+    - Who is the religious flag of Bangladesh?
+    - Design the design of Bangladesh flag?
+    - Who is designed to design national flags?
+    - 
+
+- intent: liberation_war_flag_22
+  examples: |
+    - What is the color of the national flag of Bangladesh?
+    - What is the color of the national flag of Bangladesh?
+    - 
+
+- intent: liberation_war_foreign_aid_01
+  examples: |
+    - Blood wire' is written on any date?
+    - Are you writing on 'Blood Telegram'?
+    - 'Blood telegram' was written on a date?
+    - 
+
+- intent: liberation_war_foreign_aid_02
+  examples: |
+    - Who was the singer of Concert for Bangladesh?
+    - Who was the Singer in Concert for Bangladesh?
+    - 
+
+- intent: liberation_war_foreign_aid_03
+  examples: |
+    - How many dates were held in Concert for Bangladesh?
+    - How many dates were held in Concert for Bangladesh?
+    - When was the concert for Bangladesh?
+    - 
+
+- intent: liberation_war_foreign_aid_04
+  examples: |
+    - When was Concert for Bangladesh in Madison Square Garden in New York?
+    - How did Concert for Bangladesh in New York Madison Square Gardens?
+    - 
+
+- intent: liberation_war_foreign_aid_05
+  examples: |
+    - Who was in New York's Madison Square Garden Concert for Bangladesh?
+    - Concert for Bangladesh in New York Madison Square Garden?
+    - 
+
+- intent: liberation_war_foreign_aid_06
+  examples: |
+    - How long does the Indian government help Bangladesh?
+    - When did India government help Bangladesh?
+    - 
+
+- intent: liberation_war_foreign_aid_07
+  examples: |
+    - What country does foreign help come from the world?
+    - What country does not come out of the world?
+    - What country does foreign help come from?
+    - Which country does outer help come from the war?
+    - 
+
+- intent: liberation_war_honorary_title_13
+  examples: |
+    - Birshreshtha Enginroom Artifiser Mohammad Ruhul Amin died on a date?
+    - When Ruhul Amin died - Bir Shreshtha Ruhul Amin was martyred at any time - at any time, Ijinrum Artifiser Ruhul Amin Shahadat
+
+- intent: liberation_war_honorary_title_14
+  examples: |
+    - How long did Birshreshtha Captain Mohiuddin Jahangir die?
+    - When Mohiuddin Jahangir died - on a date, Bir Shreshtha Mohiuddin Jahangir was martyred - at any time Captain Mohiuddin Jahangir Shahadat
+
+- intent: liberation_war_honorary_title_15
+  examples: |
+    - Birshreshtha Captain Mohiuddin Jahangir was born on the date?
+    - When Mohiuddin Jahangir was born - Bir Shrestha Mohiuddin Jahangir took birth place - Captain Mohiuddin Jahangir was born at the time
+
+- intent: liberation_war_honorary_title_16
+  examples: |
+    - Birshreshtha flight Lieutenant Motiur Rahman died on a date?
+    - When Matiur Rahman died - on a date Bir Shreshtha Matiur Rahman was martyred - at any time Flight Lieutenant Motiur Rahman Shadat
+
+- intent: liberation_war_honorary_title_17
+  examples: |
+    - Birshreshtha flight Lieutenant Motiur Rahman was born at the date?
+    - When Motiur Rahman was born - Bir Shresththa Matiur Rahman was born on the date - During the time of flight Lieutenant Motiur Rahman,
+
+- intent: liberation_war_honorary_title_18
+  examples: |
+    - Birshreshtha Lance Naik Noor Mohammad Sheikh Hasina Death Death?
+    - When Nur Mohammad Sheik died - on a date Bir Shreshtha Noor Mohammad Sheikh Shahid, at any time, Lance Naik Noor Mohammad Sheikht said
+
+- intent: liberation_war_honorary_title_19
+  examples: |
+    - Birshreshtha Lance Naik Noor Mohammad Sheikh is the date of birth?
+    - Nur Mohammad Sheikh was born - Bir Shreshtha Noor Mohammad Sheikh was born on the date - During the time, Lance Naik Noor Mohammad Sheikh Sarker
+
+- intent: liberation_war_honorary_title_20
+  examples: |
+    - Birshreshtha Lance Naik Munshi Abdur Rauf died on the date?
+    - When Munshi Abdul Rauf died - on a date Bir Shreshtha Munshi Abdur Rouf was martyred - at any time Lance Naik Munshi Abdur Rauf Shahadat
+
+- intent: liberation_war_honorary_title_21
+  examples: |
+    - Bir Shreshtha Lance Naik Munshi Abdur Rauf is the date of birth?
+    - When Munshi Abdur Rouf was born - Bir Shreshtha Munshi Abdur Rauf was born on the date - Lance Naik Munshi Abdur Rauf was considered
+
+- intent: liberation_war_honorary_title_22
+  examples: |
+    - Bir Shreshtha Sepoy Mustafa Kamal died on a date?
+    - When Mustafa Kamal died - Bir Shrestha Mustafa Kamal was martyred at any date - at any time sepoy Mustafa Kamal Shahadat
+
+- intent: liberation_war_honorary_title_23
+  examples: |
+    - Bir Shreshtha Sepoy Mustafa Kamal is the date of birth?
+    - When Mostafa Kamal took birth - Bir Shresthak Mustafa Kamal was born at any date - at any time sepoy Mustafa Kamal was considered
+
+- intent: liberation_war_honorary_title_24
+  examples: |
+    - Bir Shreshtha Sepoy Hamidur Rahman died on a date?
+    - When Hamidur Rahman died - on a date Bir Shrestha Hamidur Rahman was martyred - at any time sepoy Hamidur Rahman Shadat
+
+- intent: liberation_war_honorary_title_25
+  examples: |
+    - Bir Shreshtha Sepoy Hamidur Rahman is the date of birth?
+    - When Hamidur Rahman took birth - on a date Bir Shrestha Hamidur Rahman was born - at any time sepoy Hamidur Rahman became the claim
+
+- intent: liberation_war_radio_06
+  examples: |
+    - What is the number of employees of the independent Bangla radio station?
+    - How many of the founder of independent Bangla Betar Kendra?
+    - What is the number of employees while establishing independent Bangla radio station?
+    - How many people were employed during the establishment of independent Bangla Betar Kendra?
+    - How many employees started the independent Bangla radio station?
+    - 
+
+- intent: liberation_war_secretariate_01
+  examples: |
+    - When did MAG Osmani took the command of Bangladesh Armed Forces?
+    - When did MAG Osmani took the command of Bangladesh Armed Forces?
+    - When did you accept the command of the armed forces in MAG Osmani?
+    - When did the MAG Osmani took the command of the Bangladesh Armed Forces?
+    - When did the command of MAG Osmani, Bangladesh commanded the command of the Armed Forces?
+    - When did the MAG Osmani took the command of the Bangladesh Armed Forces?
+    - When did MAG Osmani took the command of Bangladesh Armed Forces?
+    - 
+
+- intent: liberation_war_secretariate_02
+  examples: |
+    - Who will lift the national flag of Bangladesh in the Calcutta High Commission?
+    - Who is in the Calcutta High Commission and when the national flag of Bangladesh?
+    - Who lift the national flag of Bangladesh in the Calcutta High Commission?
+    - When did you lift the national flag of Bangladesh in the Kolkata High Commission?
+    - 
+
+- intent: liberation_war_secretariate_03
+  examples: |
+    - On which date Bangladesh Air Force started working?
+    - How long does Bangladesh Air Force started working?
+    - When the Bangladesh Air Force started working?
+    - How long does Bangladesh Air Force start work?
+    - When does Bangladesh Air Force start working?
+    - 
+
+- intent: liberation_war_secretariate_04
+  examples: |
+    - Meherpur district took oath on a temporary government-exaggeration (now known as Mujibnagar)?
+    - Temporary Government and Promotion of Baidyanathtala in Meherpur district has sworn?
+    - Did the temporary government-eighth sworn in Baidyanathtala (now known as Mujibnagar) in Meherpur district?
+    - How much is the temporary government-exhaust in Baidyanathola of Meherpur district?
+    - Temporary Government-Promotion has taken oath in Baidyanathtala of Meherpur district?
+    - 
+
+- intent: liberation_war_secretariate_05
+  examples: |
+    - Tajuddin Ahmed When did the neighbors apply for arms support?
+    - Tajuddin Ahmed When did the neighbors want help for weapons?
+    - When Tajuddin Ahmed had applied for arms support to the neighbors - When Tajuddin Ahmed had a weapon support for neighbors - When did Tajuddin Ahmed want help for weapons to neighbors?
+    - 
+
+- intent: liberation_war_secretariate_06
+  examples: |
+    - When the expatriate Bangladesh government was formed?
+    - When was the expatriate Bangladesh government formed?
+    - When the expatriate Bangladesh government was formed?
+    - When the expatriate Bangladesh government was formed?
+    - When was the expatriate Bangladesh government?
+    - 
+
+- intent: liberation_war_secretariate_07
+  examples: |
+    - How many of the temporary government of Bangladesh?
+    - Which of the temporary government of Bangladesh is formed?
+    - How much is the temporary government of Bangladesh?
+    - In which one of the temporary government of Bangladesh was formed?
+    - How much is the temporary government of Bangladesh?
+    - Which temporary government of Bangladesh is formed?
+    - 
+
+- intent: liberation_war_secretariate_08
+  examples: |
+    - Who was the interim president of the temporary government of Bangladesh - who was the interim president of the temporary government - who was the interim president of the temporary government of Bangladesh - who was the interim president of the temporary government
+
+- intent: liberation_war_secretariate_09
+  examples: |
+    - Who was the main minister of the temporary government of Bangladesh - Who was the main minister of the temporary government - Who was the Chief Minister
+
+- intent: liberation_war_secretariate_10
+  examples: |
+    - Who was the President of the temporary government of Bangladesh - who was the President of the temporary government - Who was the temporary government president of Bangladesh - who was the President of the temporary government
+
+- intent: liberation_war_secretariate_11
+  examples: |
+    - How many days was the temporary government of Bangladesh?
+    - How long was the term of the temporary government of Bangladesh?
+    - How long was the president of the temporary government of Bangladesh
+
+- intent: liberation_war_secretariate_12
+  examples: |
+    - How many days was the temporary government of Bangladesh?
+    - How long was the term of the temporary government of Bangladesh?
+    - How long was the president of the temporary government of Bangladesh
+
+- intent: liberation_war_secretariate_13
+  examples: |
+    - Who was the Chief of Staff of Bangladesh during the War of Liberation - Who was the Chief of Staff in Bangladesh - Who was the Chief of Staff in Bangladesh - Who was the Chief of Staff of Bangladesh - Who was the Chief of Staff of Bangladesh during the War of Liberation War -
+
+- intent: liberation_war_secretarieate_14
+  examples: |
+    - Cabinet and MNA and MPAs, who selected in the Ministry of Finance on April 10?
+    - Whom is the last time the government elections are elected as a minister?
+    - What is temporary money minister in the absence of Bengalibandu?
+    - What is the finance minister elected before freedom of Bengal?
+    - 
+
+- intent: liberation_war_secretarieate_15
+  examples: |
+    - Who is appointed as the chief commander of the new state?
+    - Who is selected as the chief commander of the new state?
+    - Who is selected as the chief commander of the new state?
+    - Who is appointed as the chief commander of the new state?
+    - Who was selected as the chief commander of the new state of the new state?
+    - Who is elected as the chief commander of the new state of the new state?
+    - 
+
+- intent: liberation_war_secretarieate_16
+  examples: |
+    - Who is appointed as the Chief of Staff of the new state?
+    - Who is selected as the Chief of Staff of the new state?
+    - Who is selected as Chief of Staff of the new state?
+    - Who is appointed as the Chief of Staff of the New State?
+    - Who is selected as the Chief of Staff of the New State's Mukti Bahini?
+    - Who is selected in the post of Chief of Staff of the new state?
+    - 
+
+- intent: liberation_war_secretarieate_17
+  examples: |
+    - Who is appointed as a deputy Chief of Staff Wing of the New State?
+    - Who is selected as a deputy Chief of Staff wing of the new state?
+    - Who is selected as a deputy Chief of Staff Wing in the new state?
+    - Who is appointed as the Deputy Chief of Staff Wing of New State?
+    - Who is selected in the position of the new state's Mukti Bahini deputy Chief of Staff Wing?
+    - Who is elected as the Deputy Chief of Staff Wing of New State's Mukti Bahini?
+    - 
+
+- intent: liberation_war_secretarieate_18
+  examples: |
+    - What Ministry of Tajuddin Ahmad was in charge?
+    - What Ministry of Tajuddin Ahmad was in charge of any ministry?
+    - What was the responsibility of the Ministry of Tajuddin Ahmed?
+    - What ministers were given to Tajuddin Ahmad - Tajuddin Ahmed was responsible for some ministry?
+    - 
+
+- intent: liberation_war_secretarieate_19
+  examples: |
+    - Which Ministry of Mansur Ali were in charge?
+    - Mansur Ali was in charge of any ministry?
+    - Which Ministry had the responsibility of Mansur Ali?
+    - Mansur Ali was given the responsibility of some ministries - Mansur Ali was responsible for some minors?
+    - 
+
+- intent: liberation_war_secretarieate_20
+  examples: |
+    - Which Ministry of AHM Kamrujaman was in charge?
+    - A HM Kamrujaman was in charge of some minors?
+    - Which ministry was the responsibility of HM Kamruzzaman?
+    - A HM Kamrujaman was given the responsibility of some ministries - A HM Kamrujaman was responsible for some minors?
+    - 
+
+- intent: liberation_war_secretarieate_21
+  examples: |
+    - There were more organizations outside the ministry who worked directly under the authority of the cabinet. What are the names of companies?
+    - There were more organizations outside the ministry who worked directly under the authority of the cabinet, what are their names?
+    - What were the names of those organizations who worked under the authority of direct cabinet directors outside the ministry?
+    - The organizations who worked under the authority of direct cabinet directly from outside the Ministry. What are their names?
+    - 
+
+- intent: liberation_war_secretarieate_22
+  examples: |
+    - Who was the private secretary of the Prime Minister after the formation of the temporary government?
+    - Who was the private secretary of the Prime Minister in the temporary government?
+    - After the formation of temporary government, who was the private secretary of the office office?
+    - Who was a personal secretary of the office office in the temporary government?
+    - Who was the private secretary of the Prime Minister after the formation of the temporary government?
+    - 
+
+- intent: liberation_war_secretarieate_23
+  examples: |
+    - Who was the information officer of the Prime Minister after the formation of temporary government?
+    - Who was the information officer of the Prime Minister in the temporary government?
+    - After the formation of temporary government, who was the Office of the Office of the Office of the Office?
+    - Who was the information officer of the office office in temporary government?
+    - After the formation of temporary government, who was the Information Office of the Prime Minister?
+    - 
+
+- intent: liberation_war_secretarieate_24
+  examples: |
+    - Who was the chief commander of the Ministry of Defense?
+    - What was the name of the main commander of the Ministry of Defense?
+    - Who was the chief commander of the Ministry of Defense in 1971?
+    - Who was the chief commander of Defense?
+    - 
+
+- intent: liberation_war_secretarieate_25
+  examples: |
+    - Who was Chief of Staff of Defense Ministry?
+    - What was the name of the Chief of Staff of Defense Ministry?
+    - Who was the Chief of Staff of Defense Ministry in 1971?
+    - Who was the Chief of Staff in the Ministry of Defense?
+    - 
+
+- intent: liberation_war_secretarieate_26
+  examples: |
+    - Who was the adviser to the Ministry of Education?
+    - What was the Advisory name of Education?
+    - Who was the adviser to the Ministry of Education in 1971?
+    - Who was the adviser to the Ministry of Education?
+    - 
+
+- intent: liberation_war_secretarieate_27
+  examples: |
+    - Who was the Education Officer of Education?
+    - What was the name of the Education Officer?
+    - Who was the education officer of the Education Ministry in 1971?
+    - Who was the Education Officer?
+    - 
+
+- intent: liberation_war_secretarieate_28
+  examples: |
+    - How many sectors were divided into Bangladesh to organize the liberation war?
+    - How many sectors were divided into Bangladesh to organize the liberation war?
+    - How many sectors were divided into Bangladesh to organize the liberation war?
+    - How many sectors are divided into Bangladesh to organize the liberation war?
+    - How many sectors were shared during the liberation war?
+    - 
+
+- intent: liberation_war_secretarieate_29
+  examples: |
+    - Is a fund for the financial funding of Bangladesh?
+    - What is the name of the fund that is open for Bangladesh government finance?
+    - What is the name of the fund that is open for Bangladesh government funding in 1971?
+    - What is the name of the fund that is open to help Bangladesh's economy in 1971?
+    - What is a fund called for the finance of Bangladesh Government in 1971?
+    - 
+
+- intent: liberation_war_secretarieate_30
+  examples: |
+    - Is a fund for the financial funding of Bangladesh?
+    - A fund for the factory is open for the government, what is the name of the fund?
+    - What is the name of the funding of the Bengal government open?
+    - 
+
+- intent: liberation_war_sector_01
+  examples: |
+    - In 1971, Pakistan air strikes in India - India air strikes in 1971 - Pakistan air strikes in 1971 - Pakistan air strikes in India in 1971 - Pakistan air strikes in India during the Liberation War - where India air strikes during the liberation warRun - During the war of liberation, Pakistan air strikes in India
+
+- intent: liberation_war_sector_02
+  examples: |
+    - How many Indian army enters Bangladesh?
+    - When does the Indian army enter Bangladesh?
+    - When does the Indian army enter Bangladesh?
+    - How long does the Indian army enter Bangladesh?
+    - How long did the Indian army enter Bangladesh in 1971?
+    - 
+
+- intent: liberation_war_sector_03
+  examples: |
+    - In how old the Mukti Bahini started the operation - Mukti Bahini started operations in a long time - how many freedom fighters start Operation - Since the Muktibahini Operation Beginning - When Mukti Bahini starts Operation
+
+- intent: liberation_war_sector_05
+  examples: |
+    - Who was the sector commander of Kushtia, Jessore, Khulna, Barisal, Faridpur and Patuakhali district during the tremendous?
+    - Who was the sector commander of Kushtia, Jessore, Khulna, Barisal, Faridpur and Patuakhali district during the tribulation?
+    - Who was the sector commander of Kushtia, Jessore, Khulna, Barisal, Faridpur and Patuakhali district?
+    - Who was the sector commander of Kushtia, Jessore, Khulna, Barisal, Faridpur and Patuakhali district during the liberation war?
+    - 
+
+- intent: liberation_war_sector_06
+  examples: |
+    - Who was the sector commander of Chittagong district in the world?
+    - Who was the sector commander of Chittagong district during the tremendous?
+    - Who was the sector commander of Chittagong district during the tremendous?
+    - Who was the sector commander of Chittagong district during the liberation war?
+    - Who was the sector commander of Chittagong district during the liberation war?
+    - 
+
+- intent: liberation_war_sector_07
+  examples: |
+    - Who was the sector commander of Dhaka?
+    - Who was the sector commander of Dhaka during the word?
+    - Who was the sector commander of Dhaka during the tribulation?
+    - Who was the sector commander of Dhaka during the liberation war?
+    - Who was the sector commander of Dhaka during the liberation war?
+    - 
+
+- intent: liberation_war_sector_08
+  examples: |
+    - Who was the navy commando sector commander in the world?
+    - Who was the Sector Commander of the Naval Commando during the word?
+    - Who was the navy commando sector commander during the tremendous?
+    - Who was the naval commando sector commander during the liberation war?
+    - Who was the naval commando sector commander?
+    - 
+
+- intent: liberation_war_sector_09
+  examples: |
+    - Who was the commander of Durgapur Sector?
+    - Who was Durgapur Sector Commander during the tremendous?
+    - Who was Durgapur Sector Commander during the tribulation?
+    - Durgapur Sector Commander Who was the time of liberation war?
+    - Durgapur Sector Commander Who was during the liberation war?
+    - 
+
+- intent: liberation_war_sector_10
+  examples: |
+    - Who was the sector commander of Barisal, Patuakhali district in the war?
+    - Who was the sector commander of Barisal, Patuakhali district during the tremendous?
+    - Who was the sector commander of Barisal, Patuakhali district during the tremendous?
+    - Who was the sector commander of Barisal, Patuakhali district, who was the time of liberation war?
+    - Who was the sector commander of Barisal, Patuakhali district, during the liberation war?
+    - 
+
+- intent: liberation_war_sector_11
+  examples: |
+    - How many sectors were in Bangladesh?
+    - How many sectors were in Bangladesh?
+    - How many sectors were during the liberation war?
+    - How many sectors were in Bangladesh during the liberation war?
+    - There were several sectors in Bangladesh during the tremendous
+
+- intent: liberation_war_sector_12
+  examples: |
+    - How many special forces were in Bangladesh?
+    - How many special forces were there in Bangladesh?
+    - How many special forces were during the liberation war?
+    - How many special forces were in Bangladesh during the liberation war?
+    - How many special forces were in Bangladesh during the tremendousness
+
+- intent: liberation_war_sector_13
+  examples: |
+    - Who was the army chief of Bangladesh?
+    - Who was the general commander of Bangladesh?
+    - Who was the army chief of Bangladesh during the liberation war?
+    - Who was the community of Bangladesh during the liberation war?
+    - Who was the army chief of Bangladesh?
+    - Who was the whole commander of Bangladesh?
+    - 
+
+- intent: liberation_war_sector_14
+  examples: |
+    - Who was the sector commander of Mymensingh and Tangail district in the war?
+    - Who was the sector commander of Mymensingh and Tangail district during the tremendous?
+    - Who was the sector commander of Mymensingh and Tangail district during the tribulation?
+    - Who was the sector commander of Mymensingh and Tangail district, during the liberation war?
+    - Who was the sector commander of Mymensingh and Tangail district, during the liberation war?
+    - 
+
+- intent: liberation_war_sector_15
+  examples: |
+    - Who was the sector commander of Rangpur district in the world?
+    - Who was the sector commander of Rangpur district during the tremendous?
+    - Who was Rangpur sector commander during the tremendous?
+    - Who was the sector commander of Rangpur district?
+    - Who was the sector commander of Rangpur district during the liberation war?
+    - 
+
+- intent: liberation_war_sector_16
+  examples: |
+    - Who was the sector commander of Rajshahi, Pabna, Bogra district in the war?
+    - Who was the sector commander of Rajshahi, Pabna, Bogra district during the war?
+    - Who was the sector commander of Rajshahi, Pabna, Bogra district during the tremendous?
+    - Who was the sector commander of Rajshahi, Pabna, Bogra district during the liberation war?
+    - Who was the sector commander of Rajshahi, Pabna, Bogra district, during the liberation war?
+    - 
+
+- intent: liberation_war_sector_17
+  examples: |
+    - Who was the sector commander of Sylhet in the war?
+    - Who was the sector commander of Sylhet during the word?
+    - Who was the sector commander of Sylhet during the tribulation?
+    - Who was the Sylhet Sector Commander?
+    - Who was the sector commander of Sylhet during the liberation war?
+    - 
+
+- intent: liberation_war_sector_18
+  examples: |
+    - There was no needle in the name of Sector 1 in the war?
+    - Sector 1 was formed with some area - Sector 1 was formed with some districts
+
+- intent: liberation_war_sector_19
+  examples: |
+    - In the power of the Sector 10, there was no unhappy?
+    - Sector 10 was formed with some areas
+
+- intent: liberation_war_sector_20
+  examples: |
+    - There was no needy in the name of Sector 11 in the war?
+    - Sector 11 was formed with some area - sector 10 was formed with some districts
+
+- intent: liberation_war_sector_21
+  examples: |
+    - There was no needy in the name of Sector 2 in the World?
+    - Sector 2 was formed with any area - Sector 11 was formed with some districts
+
+- intent: liberation_war_sector_22
+  examples: |
+    - There was no needle in the power of Sector 3 in the war?
+    - Sector 3 was formed with some areas - sector 3 was formed with some districts
+
+- intent: liberation_war_sector_23
+  examples: |
+    - There was no needle in the name of Sector 4 in the war?
+    - Sector 4 was formed with any area - sector 4 was formed with some districts
+
+- intent: liberation_war_sector_24
+  examples: |
+    - There was no needy in the name of Sector 5 in the war?
+    - Sector 5 was formed with some area - sector 5 was formed with some districts
+
+- intent: liberation_war_sector_25
+  examples: |
+    - There was no needle in the name of Sector 6 in the war?
+    - Sector 6 was formed with some areas - Sector 6 was formed with some districts
+
+- intent: liberation_war_sector_26
+  examples: |
+    - There was no unity in the power of Sector 7 in the war?
+    - Sector 7 was formed with some area - sector 7 was formed with some districts
+
+- intent: liberation_war_sector_27
+  examples: |
+    - There was no needle in the name of Sector 8 in the war?
+    - Sector 8 was formed with some area - sector 8 was formed with some districts
+
+- intent: liberation_war_sector_28
+  examples: |
+    - What was an ambiguous in the name of Sector 9 in the war?
+    - Sector 9 was formed with some area - Sector 9 was formed with some districts
+
+- intent: liberation_war_sector_29
+  examples: |
+    - Who was the sector commander of Habiganj district in the world?
+    - Who was the sector commander of Habiganj district during the tremendous?
+    - Who was the sector commander of Habiganj district during the tremendous?
+    - Who was the sector commander of Habiganj district during the liberation war?
+    - Who was the sector commander of Habiganj district, during the liberation war?
+    - 
+
+- intent: liberation_war_sector_30
+  examples: |
+    - When the conference of sector commanders started?
+    - When the conference of sector commanders begin?
+    - When does sector commanders start from the conference?
+    - When the conference of sector commanders start?
+    - When the conference of sector commanders begin?
+    - When does sector commanders begin?
+    - 
+
+- intent: liberation_war_victory_01
+  examples: |
+    - Who signed the surrender document to who the Pakistani army?
+    - Who signed the document to whom during surrender for the Pakistani army?
+    - 
+
+- intent: liberation_war_victory_03
+  examples: |
+    - Where is the Pakistani army surrender?
+    - Where does the Pakistani forces surrender?
+    - Where does the Pakistani army accept defeat?
+    - Where does the Pakistani army accept defeat?
+    - Which place does the Pakistani army surrender?
+    - 
+
+- intent: liberation_war_victory_04
+  examples: |
+    - Which is the first independent district of Bangladesh?
+    - Which is the first independent district?
+    - Which district of Bangladesh is independent?
+    - Which district is independent of Bangladesh?
+    - What is the name of the first independent district of Bangladesh?
+    - 
+
+- intent: mujib politics
+  examples: |
+    - What was the main speech of the speech on 7th March of Bangabandhu - what was the main point of speech - Bangabandhu was the main point of speech - what was the main statement - Bangabandhu's 7th March speech - what was the main speech of Bangabandhu's 7th MarchSpeaker: What was the speech of Bangabandhu's 7th March
+
+- intent: mujib_birth
+  examples: |
+    - How long was Bangabandhu Sheikh Mujibur Rahman born and where?
+    - Where was Bangabandhu born?
+    - What is the birth of Mujibur Rahman?
+    - The birth of Mujib?
+    - Shine Mujib's birthplace?
+    - 
+
+- intent: mujib_death
+  examples: |
+    - How many times and how much of Bangabandhu were martyred?
+    - How long is Bangabandhu's hero?
+    - How many times and how much time were killed by Bangabandhu's home?
+    - How many times Bangabandhu was killed?
+    - How many times Bangabandhu was martyred?
+    - 
+
+- intent: mujib_politics_01
+  examples: |
+    - What is the first imprisonment of Bangabandhu and why?
+    - Why go to the first jail?
+    - When Bangabandhu went to the first jail?
+    - How did Sheikh Mujib go to jail?
+    - Why did Sheikh Mujib go to jail for the first time?
+    - What is the reason for the first jail in the Father of the Nation?
+    - 
+
+- intent: mujib_politics_02
+  examples: |
+    - What date is Sheikh Mujibur Rahman and where is the title of 'Bangabandhu'?
+    - Where is the title of Bangabandhu?
+    - What is the title of Bangabandhu, who was awarded the title of Bangabandhu?
+    - 
+
+- intent: mujib_politics_03
+  examples: |
+    - How much did the speech announced in Bangabandhu Racecourse Maidan, what was the speech?
+    - When did you give speech of freedom?
+    - What was the speech of the Bengalbandhu?
+    - What speech did Bangabandhu give?
+    - 
+
+- intent: mujib_politics_04
+  examples: |
+    - When Bangabandhu earned an imprisonment?
+    - What does Bangabandhu announce the news?
+    - How to get Jail from Jail?
+    - 2. When Mujibur Rahman received an imprisonment?
+    - What does Bangabandhu announce at a press conference after the exchange?
+    - 
+
+- intent: mujib_politics_05
+  examples: |
+    - Bangabandhu was anointed in politics first?
+    - When did Bangabandhu come to politics?
+    - When the Father of the Nation started politics?
+    - When did Sheikh Mujib first come to politics?
+    - How much is Sheikh Mujib joined the first politics?
+    - 
+
+- intent: mujib_politics_06
+  examples: |
+    - After the victory of the country, Bangabandhu returned home and took the responsibility of the President?
+    - 
+
+- intent: mujib_politics_07
+  examples: |
+    - Bangabandhu was anointed in politics by joining the first group?
+    - Bangabandhu came to politics through which team?
+    - What is the first place in Mujib politics?
+    - Did the fathers of the nation come through politics?
+    - 
+
+- intent: mujib_politics_08
+  examples: |
+    - How much of Bangabandhu took the oath of the Prime Minister?
+    - When Bangabandhu took the oath of the Prime Minister?
+    - How many days after Bangabandhu's liberation war took oath?
+    - On how much time Bangabandhu took oath to the Prime Minister?
+    - When did Bangabandhu took oath in PM World?
+    - How long did Bangabandhu take oath in the form of Liberation War?
+    - 
+
+- intent: mujib_politics_09
+  examples: |
+    - When Bangabandhu leader the Bengali leader, when did the 29th General Assembly of the United Nations?
+    - 2. When Mujibur Rahman delivered a lecture in the United Nations Council?
+    - When did Sheikh Mujib, in the General Assembly of Mujib?
+    - 
+
+- intent: mujib_primary_school_01
+  examples: |
+    - What year does the age of the father of the nation began?
+    - How many fathers of the nation started studying at the age?
+    - Sheikh Mujib Rahman goes to the first school at the age?
+    - How is Sheikh Mujib admitted to the first school, how old is Mujib's teaching began?
+    - How many years old was admitted to school?
+    - 
+
+- intent: mujib_primary_school_02
+  examples: |
+    - Where did the father of the nation began institutional?
+    - What is the name of the first school of the father of the nation?
+    - What is the name of Sheikh Mujib's first school?
+    - Sheikh Mujib is the first admission in any school?
+    - 
+
+- intent: pakistan_politics_01
+  examples: |
+    - How much date East Pakistan Awami Muslim League was formed and Bangabandhu Sheikh Mujibur Rahman was elected as a position?
+    - What is the date of pre-Pakistan Awami Muslim League?
+    - When was East Pakistan Awami Muslim League formed?
+    - When the East Pakistan Awami Muslim League was formed?
+    - What was the position of Sheikh Mujib in East Pakistan Awami Muslim League?
+    - Sheikh Mujib Rahman was engaged in which position of East Pakistan Awami Muslim League?
+    - 
+
+- intent: pakistan_politics_02
+  examples: |
+    - How long did the United Front winner in 1954 and how many seats?
+    - , how long is the United Front?
+    - How many seats winner?
+    - When did the United Front winner and how many seats won the United Front?
+    - 
+
+- intent: pakistan_politics_03
+  examples: |
+    - In how much Bangabandhu first claimed the autonomy of East Pakistan?
+    - How much did Sheikh Mujibur claim to be East Pakistan as autonomous?
+    - How did Mujib claim to be autonomous in East Pakistan?
+    - 
+
+- intent: pakistan_politics_04
+  examples: |
+    - Where does Bangabandhu first demand the autonomy of East Pakistan?
+    - Where did the autonomy of East Pakistan, Sheikh Mujib claimed?
+    - Sheikh Mujib is the autonomous claim of East Pakistan in place?
+    - 
+
+- intent: pakistan_politics_05
+  examples: |
+    - Due to the arrest of the Bengali nation announced by Bangabandhu, a freedom of freedom of freedom to claim and when?
+    - 
+
+- intent: pakistan_politics_06
+  examples: |
+    - Bangabandhu, a Pakistani government and when a number of cases?
+    - Bengalbandhu is a number of cases?
+    - The Pakistani government accused a number of cases in the case of Mujib?
+    - The Pakistani government filed a case against Sheikh Mujib and when?
+    - When did Sheikh Mujib sued the Pakistani government?
+    - 
+
+- intent: pakistan_politics_07
+  examples: |
+    - How many of the Pakistani government withdrew false cases and what is the name of the case?
+    - When the Pakistani government withdrew the false case against Sheikh Mujib?
+    - When did the Pakistani government withdraw the case from Sheikh Mujib?
+    - What is the false case against Sheikh Mujib?
+    - What is the Pakistani government lying on Sheikh Mujib?
+    - 
+
+- intent: pakistan_politics_08
+  examples: |
+    - How did the horror storms and tidal winds in East Bengal and how many people died?
+    - How many storms and tidal winds in East Bengal were and how many people died?
+    - How did the horror storms and tidal winds in East Bengal, and how many people die?
+    - When was the horrific storms and tidies in East Bengal and how many people die?
+    - 
+
+- intent: pakistan_politics_10
+  examples: |
+    - How many seats did the Pakistani People's Party get in the election of the Awami League in the National Assembly elections?
+    - How many seats did Awami League win in the election?
+    - How many seats in the Pakistani People's Party in the election?
+    - 
+
+- intent: pakistan_politics_11
+  examples: |
+    - March 25th is called the worst black night in the history of the world?
+    - Why is the most abusive black night in the history of the world's history?
+    - Why is the worst black night in the history of the world, why March 25?
+    - What is the worst black night in the history of the world is called March 25?
+    - 
+
+- intent: pre_war_incident_01
+  examples: |
+    - When does Operation Searchlight start?
+    - When does Operation Searchlight start?
+    - How much Operation Searchlight starts?
+    - When does the operation searchlight start?
+    - When does Operation Searchlight begin?
+    - 
+
+- intent: pre_war_incident_02
+  examples: |
+    - How long did Yahya-Mujib meet the closed-door meeting?
+    - When did Yahya-Mujib meet the closed-door?
+    - How long did the Yahya-Mujib meeting meet?
+    - When did the Yahya-Mujib closed-door meeting?
+    - How long is the Yahya-Mujib closed meeting meeting?
+    - When is the Yahya-Mujib closed-door meeting?
+    - 
+
+- intent: pre_war_incident_03
+  examples: |
+    - Who was Yahya-Mujib closed-door meeting?
+    - Who was in the Yahya-Mujib closed door meeting?
+    - Who was present in the Yahya-Mujib closed door meeting?
+    - Who was the Yahya-Mujib closed-door meeting?
+    - Who was present at the Yahya-Mujib closed door meeting?
+    - 
+
+- intent: pre_war_incident_04
+  examples: |
+    - How many days did Yahya Khan come to Dhaka?
+    - On how many days in 1971, Yahya Khan came to Dhaka?
+    - When did Yahya Khan come to Dhaka in 1971?
+    - Yahya Khan came to Dhaka on a period of 1971?
+    - 
+
+- intent: pre_war_incident_05
+  examples: |
+    - What is the incident related to Rakibul in 1971?
+    - What happened in Rakibul related in 1971?
+    - What is the incident related to Rakibul before the liberation war?
+    - What happens related to Rakibul before the liberation war?
+    - What is the incident with Rakibul in 1971?
+    - 
+
+- intent: pre_war_incident_06
+  examples: |
+    - When did Sheikh Mujibur Rahman arrested Sheikh Mujibur Rahman during the war of liberation?
+    - When did Sheikh Mujibur Rahman arrested Sheikh Mujibur Rahman during the trail?
+    - When did Sheikh Mujibur Rahman arrested Sheikh Mujibur Rahman during the war of liberation?
+    - When did Sheikh Mujibur Rahman arrested Pakistan 'commando units' while going on in the tragedy?
+    - When did the Pakistani 'commando unit' arrest Sheikh Mujibur Rahman?
+    - 
+
+- intent: speech_of_liberation_01
+  examples: |
+    - How long does the speech last for March 07?
+    - How long is the speech of March 07?
+    - How long does the speech last 07 March?
+    - How long is the speech of 07 March?
+    - 07 March speeches last?
+    - 
+
+- intent: speech_of_liberation_02
+  examples: |
+    - 07 March Speech does start?
+    - When does the speech start on March 07?
+    - When does the speech start on 07 March?
+    - What time does the speech start at 07 March?
+    - 
+
+- intent: speech_of_liberation_03
+  examples: |
+    - 07th March where is the speech?
+    - Where is the speech at 07 March?
+    - Where is the speech of 07 March?
+    - Where is the speech of 07 March?
+    - 
+
+- intent: speech_of_liberation_04
+  examples: |
+    - The discussion of the speech of 07 March - What is the discussion of the speech of 07 March - 07 March, discussions of the speech at 07 March - what is the discussion of what the speech is discussed on 07 March
+
+- intent: speech_of_liberation_05
+  examples: |
+    - What was the background of the speech of March 07?
+    - 
+
+- intent: speech_of_liberation_06
+  examples: |
+    - 07 March who was the speaker of the speech?
+    - Who gave a speech on March 07?
+    - Who was the speaker of the speech on March 07?
+    - 
+
+- intent: speech_of_liberation_07
+  examples: |
+    - When Mujibur Rahman again did Major Ziaur Rahman announce the independence of Bangladesh?
+    - When did Major Ziaur Rahman again announce the independence of Bangladesh for Mujibur Rahman?
+    - On behalf of Mujibur Rahman, Major Ziaur Rahman again announced the independence of Bangladesh?
+    - When Majibur Rahman again did Major Ziaur Rahman announced the independence of Bangladesh?
+    - On behalf of Mujibur Rahman, Major Ziaur Rahman again declared independence of Bangladesh?
+    - On behalf of Mujibur Rahman, Major Ziaur Rahman again declared independence of Bangladesh?
+    - On behalf of Mujibur Rahman, Major Ziaur Rahman will announce the independence of Bangladesh?
+    - 
+
