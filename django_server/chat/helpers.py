@@ -4,27 +4,6 @@ import requests
 from . import config
 
 
-custom_en_dict = [
-    'savlon',
-    'aci',
-    'handsanitizer',
-    'handwash',
-    'corona',
-    'covid',
-    'covid19',
-    'coronavirus',
-    'handrub',
-    'shinex',
-    'tfm',
-    'mrp',
-    'taka',
-    'cant',
-    'dont',
-    'whats',
-    'im'
-]
-
-
 def get_rasa_path(in_text):
     option = get_language(in_text)
     if option == 'BNL':
@@ -53,7 +32,7 @@ def is_banglish(text):
     dict_en = enchant.Dict("en_US")
     words = text.split()
     for word in words:
-        if word in custom_en_dict:
+        if word in config.CUSTOM_EN_DICT:
             continue
         if not dict_en.check(word):
             return True

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Joy Bangla BOT</title>
+    <link rel="stylesheet" type="text/css" href="../media/css/style.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Bootstrap core CSS -->
+    <!--
+    <link href="../media/css/bootstrap.min.css" rel="stylesheet">
+    -->
+
+    <!-- Custom styles for this template -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <img src="../media/css/images/flag.png" alt="" >
+            <div class="logo">
+            <img src="../media/css/images/mujib_borsho_logo.jpg" alt="">
+            </div>
+        </header>
+
+        <nav>
+            <a href="#">প্রথম পাতা</a>
+            <a href="#">টিম</a>
+            <a href="#">কার্য বিবরণী </a>
+            <a href="#">যোগাযোগ</a>
+        </nav>
+
+        <main>
+            <h1>জয় বাংলা আলাপন</h1>
+            <h3>Presented by MIS Department<br> Advanced Chemical Industries Limited (ACI)</h3>
+        </main>
+
+        <footer>
+            <p> <h5>All rights reserved by MIS Department, ACI Limited</h5></p>
+        </footer>
+    </div>
+    <div class="floating-chat">
+        <i class="fa fa-comments fa-2x" aria-hidden="true"></i>
+        <div class="chat">
+            <div class="header">
+                <span class="title">
+                    জয় বাংলা-আলাপন
+                </span>
+                <button>
+                    <i class="fa fa-times" aria-hidden="true"></i>
+                </button>
+
+            </div>
+            <ul class="messages">
+                <li class="other">জয় বাংলা-আলাপন এ আপনাকে স্বাগতম! আপনি যদি বাংলাদেশের মুক্তিযুদ্ধ কিংবা বঙ্গবন্ধু শেখ মুজিবুর রহমান সম্পর্কে জানতে চান তাহলে প্রশ্ন করুন। </li>
+            </ul>
+            <div id="chat_bubble" class="chat-bubble" style="display: none;">
+                <div class="typing">
+                    <div class="dot"></div>
+                    <div class="dot"></div>
+                    <div class="dot"></div>
+                </div>
+                <div></div>
+            </div>
+            <div class="footer">
+                <div id="chat_text_in" class="text-box" contenteditable="true" disabled="true"></div>
+                <button id="sendMessage">send</button>
+            </div>
+        </div>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="../media/js/chatbot.js"></script>
+
+    </div>
+</body>
+
+</html>

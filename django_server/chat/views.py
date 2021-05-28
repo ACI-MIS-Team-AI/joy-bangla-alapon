@@ -14,7 +14,7 @@ from .models import ChatHistory
 class ChatPage(View):
 
     def get(self, request, format=None):
-        return render(request, 'chathead.html', {}, 200)
+        return render(request, 'homepage.html', {}, 200)
 
 
 class SendMessage(APIView):
