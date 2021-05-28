@@ -11,7 +11,7 @@ WorkingDirectory=/home/aci-mis-ai/joy-bangla-alapon/
 ExecStart=/home/aci-mis-ai/joy-bangla-alapon/venv/bin/python -m rasa run \
     --enable-api \
     --cors '*' \
-    --port 6003 \
+    --port 7003 \
     --model /home/aci-mis-ai/joy-bangla-alapon/chatbot-main/english/models/ \
     --endpoints /home/aci-mis-ai/joy-bangla-alapon/chatbot-main/english/endpoints.yml \
     --credentials /home/aci-mis-ai/joy-bangla-alapon/chatbot-main/english/credentials.yml

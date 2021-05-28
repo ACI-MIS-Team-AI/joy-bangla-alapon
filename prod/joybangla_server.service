@@ -10,7 +10,7 @@ WorkingDirectory=/home/aci-mis-ai/joy-bangla-alapon/django_server/
 ExecStart=/home/aci-mis-ai/joy-bangla-alapon/venv/bin/gunicorn \
           --access-logfile - \
           --workers 2 \
-          --bind 0.0.0.0:6000 \
+          --bind 0.0.0.0:7000 \
           conf.wsgi:application
 
 [Install]
