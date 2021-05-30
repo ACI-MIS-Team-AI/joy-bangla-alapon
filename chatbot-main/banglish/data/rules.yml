@@ -756,4 +756,3 @@ rules:
   steps:
   - intent: speech_of_liberation_07
   - action: utter_speech_of_liberation_07
-

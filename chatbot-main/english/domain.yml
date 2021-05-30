@@ -1,5 +1,13 @@
 version: "2.0"
 intents:
+  - greet
+  - wassup
+  - goodbye
+  - affirm
+  - deny
+  - mood_great
+  - mood_unhappy
+  - bot_challenge
   - bangladesh_politics
   - language_politics_01
   - language_politics_02
@@ -151,460 +159,464 @@ intents:
   - speech_of_liberation_05
   - speech_of_liberation_06
   - speech_of_liberation_07
+  - bangabondhu
 
 responses:
   utter_bangladesh_politics:
-  - text: The first parliamentary election in Bangladesh was established on 7 March 1972, Bangladesh Awami League won 292 seats in 300 seats under the leadership of Bangabandhu.
+  - text: The first parliamentary elections were held in Bangladesh on 7 March 1972. The Bangladesh Awami League led by Bangabandhu won 292 out of 300 seats.
 
   utter_language_politics_01:
-  - text: Khwaja Nazim Uddin declared Urddu as the state language of Pakistan on 23 February 1948
+  - text: Khwaja Nazim Uddin declared Urdu as the state language of Pakistan on 23 February 1948.
 
   utter_language_politics_02:
-  - text: In the proposal of Bangabandhu, the state language Bengal, the All-party state language struggle council was formed on 2 March
+  - text: The all-party Rashtrabhasha protest council was formed on 2 March on the proposal of Bangabandhu to demand the state language Bengal
 
   utter_liberation_war_01:
-  - text: Bangabandhu sent the declaration of independence of Bangladesh in Chittagong, Jahurul Ahmed Chowdhury sent to Chittagong
+  - text: Bangabandhu sent the message of declaration of independence of Bangladesh to Chittagong via wireless to Zahurul Ahmed Chowdhury
 
   utter_liberation_war_02:
-  - text: On 26 March 1971, Bangabandhu gave the announcement of independence of Bangladesh.
+  - text: On 26 March 1971, Bangabandhu declared the independence of Bangladesh.
 
   utter_liberation_war_03:
-  - text: On December 2, 1971, Bangabandhu rejected the compromise of Yahya Khan's resistance to the hatred
+  - text: On 2 December 1971, Bangabandhu rejected Yahya Khan's offer of compromise with disgust
 
   utter_liberation_war_04:
-  - text: Bangladesh received victory in December 16, 1971.
+  - text: Bangladesh won on 16 December 1971.
 
   utter_liberation_war_05:
-  - text: Thirty lakh martyrs and three lakh mother came to exchange for the sister's empirical victory.
+  - text: The final victory comes in exchange for the honor of three lakh martyrs and three lakh mothers and sisters.
 
   utter_liberation_war_06:
-  - text: Major Ziaur Rahman officially declared independence of Bangladesh from Bangabandhu Sheikh Mujibur Rahman.
+  - text: On behalf of Bangabandhu Sheikh Mujibur Rahman, Major Ziaur Rahman officially declared the independence of Bangladesh.
 
   utter_liberation_war_flag_01:
-  - text: Dakshu VP ASM Abdul Rob was first withdrawn in the flag of Bangladesh.
+  - text: The flag of Bangladesh was first hoisted by Daksu VP ASM Abdul Rob.
 
   utter_liberation_war_flag_02:
-  - text: The national flag is hoisted in Independence Day, Victory Day, Revolution and Credit Day, on any other day of the government in Bangladesh.
+  - text: The national flag is hoisted on Independence Day, Victory Day, Revolution and Consolidation Day, any other day declared by the government in the People's Republic of Bangladesh.
 
   utter_liberation_war_flag_03:
-  - text: The national flag was first formally lift on March 23, 1971.
+  - text: The national flag was first officially hoisted on March 23, 1971.
 
   utter_liberation_war_flag_04:
-  - text: The national flag design created the design of Yusuf Salauddi and Sanaul Haque Inu in 3122 of Shiv Narayan Das and Engineering University of Engineering (now Titumir Hall)
+  - text: The national flag was first designed by Shiv Narayan Das, Yusuf Salauddin and Sanaul Haque Inu in Room 312 of the Quaid-e-Azam Hall (now Titumir Hall) of the University of Engineering.
 
   utter_liberation_war_flag_05:
-  - text: The red-colored circle is a symbol of the new sun of freedom to snatch through bloody struggle.The stimulation of the bright green youth is the symbol of the rural rural Bengal.
+  - text: The red circle symbolizes the new sun of freedom snatched away through bloody struggle. The bright dense green is a symbol of youthful vigor and vast rural Bengal.
 
   utter_liberation_war_flag_06:
-  - text: Initially, in the red circle of the flag of Bangladesh, the map of Bangladesh Coloral Colors.
+  - text: At first, the map of Bangladesh was painted in the red circle of the flag of Bangladesh.
 
   utter_liberation_war_flag_07:
-  - text: The national flag of Bangladesh was first lifted on March 2, 1971.
+  - text: The national flag of Bangladesh was first hoisted on March 2, 1971.
 
   utter_liberation_war_flag_08:
-  - text: Japan's flag is similar to Japan and Palau.
+  - text: The flags of Bangladesh are similar to those of Japan and Palau.
 
   utter_liberation_war_flag_09:
-  - text: The first flag of Bangladesh outside Bangladesh was hoisted in Kolkata's deputy high commission.
+  - text: The first flag of Bangladesh was hoisted outside Bangladesh at the Deputy High Commission of Calcutta, Pakistan.
 
   utter_liberation_war_flag_10:
-  - text: Major James Rennell first draws Bangladesh's map.
+  - text: The first map of Bangladesh was drawn by Major James Rennell.
 
   utter_liberation_war_flag_11:
-  - text: Shiv Narayan Das, the first national flag designed by the map.
+  - text: Shiv Narayan Das designed the first national flag of Bangladesh with a map.
 
   utter_liberation_war_flag_12:
-  - text: On 23 March, in 1971, Sheikh Mujibur Rahman led the national flag of Bangladesh in Dhanmondi's own bus building.
+  - text: On March 23, 1971, Sheikh Mujibur Rahman hoisted the national flag of Bangladesh at his residence in Dhanmondi.
 
   utter_liberation_war_flag_13:
-  - text: Dakshur Vice-President A SM Abdur Rob
+  - text: The flag was hoisted by ASM Abdur Rob, Vice President of Daksh
 
   utter_liberation_war_flag_14:
-  - text: The national flag of Bangladesh was first withdrawn in a student of Battala of Dhaka University.
+  - text: The national flag of Bangladesh was first hoisted at a student meeting at Battala of Dhaka University.
 
   utter_liberation_war_flag_15:
-  - text: The National Flag Day of Bangladesh on March 2
+  - text: March 2 is the National Flag Day of Bangladesh
 
   utter_liberation_war_flag_16:
-  - text: The color of the national flag of Bangladesh is a red circle between dark green.
+  - text: The color of the national flag of Bangladesh is red circle in the middle of dark green.
 
   utter_liberation_war_flag_17:
-  - text: The national flag of Bangladesh was officially accepted on 17 January 1972.
+  - text: The national flag of Bangladesh was officially adopted on 16 January 1972.
 
   utter_liberation_war_flag_18:
-  - text: The national flag was hoisted with my gold Bangla song first singing 3th March 1971 and Paltan.
+  - text: The national flag was hoisted on 3rd March 1971 and in Paltan with the first singing of my Sonar Bangla song.
 
   utter_liberation_war_flag_19:
-  - text: The ratio of national flags of Bangladesh is 10 6.
+  - text: The ratio of the national flag of Bangladesh is 10:7
 
   utter_liberation_war_flag_20:
-  - text: The national flag of Bangladesh is red circle in the green rectangle.Green color is the symbol of green nature and youth, the red color of the circle emerging sun, the symbol of blood of self-employees in the liberation war.
+  - text: The national flag of Bangladesh is a red circle in a green rectangle. The green color symbolizes the green nature and youth of Bangladesh, the red color of the circle symbolizes the rising sun, the blood of those who sacrificed themselves in the war of independence.
 
   utter_liberation_war_flag_21:
   - text: Patua Kamrul Hasan designed the national flag of Bangladesh
 
   utter_liberation_war_flag_22:
-  - text: The color of the national flag of Bangladesh is red and green
+  - text: The colors of the national flag of Bangladesh are red and green
 
   utter_liberation_war_foreign_aid_01:
-  - text: The 'Blood Wire' was written on April 6, 1971
+  - text: The Blood Telegram was written on April 7, 1971
 
   utter_liberation_war_foreign_aid_02:
-  - text: George Harrison was the singer in Concert for Bangladesh
+  - text: The singer of Concert for Bangladesh was George Harrison
 
   utter_liberation_war_foreign_aid_03:
-  - text: Concert for Bangladesh was held in Bangladesh on August 2, 1971, on Sunday, New York City Madison Square Garden
+  - text: Concert for Bangladesh was held on Sunday, August 2, 1971 at Madison Square Garden, New York City.
 
   utter_liberation_war_foreign_aid_04:
-  - text: Concert for Bangladesh in Madison Square Garden in New York was 1 August 1971
+  - text: Concert for Bangladesh was held on August 1, 1971 at Madison Square Garden, New York.
 
   utter_liberation_war_foreign_aid_05:
-  - text: Robi Shankar, George Harrison and Friends in Concert for Bangladesh in Madison Square Garden in New York? --
+  - text: Ravi Shankar, George Harrison were at the Concert for Bangladesh in Madison Square Garden, New York? -
 
   utter_liberation_war_foreign_aid_06:
-  - text: On 27 March of 1971, Indian Prime Minister Indira Gandhi expressed his full support to the government of Bangladesh in the struggle of independence.
+  - text: On March 26, 1971, the Prime Minister of India, Indira Gandhi expressed her full support to the Government of Bangladesh in its struggle for independence.
 
   utter_liberation_war_foreign_aid_07:
-  - text: Foreign help in the tragedy comes from India and the Soviet Union (current Russia).
+  - text: Foreign aid for the war of liberation came from India and the then Soviet Union (now Russia).
 
   utter_liberation_war_honorary_title_13:
-  - text: Bir Shrest Engineer Artifiser Mohammad Ruhul Amin died on 10 December 1971
+  - text: Birshreshthashreshtha Engineroomroom Artifier Mohammad Ruhul Amin died on 10 December 1971.
 
   utter_liberation_war_honorary_title_14:
-  - text: Bir Shresthak Captain Mohiuddin Jahangir died in December 14, 1971
+  - text: Captain Mohiuddin Jahangir died on December 14, 1971
 
   utter_liberation_war_honorary_title_15:
-  - text: Birshreshtha Captain Mohiuddin Jahangir was born in 7 March 1949
+  - text: Captain Mohiuddin Jahangir was born on 7 March 1949
 
   utter_liberation_war_honorary_title_16:
-  - text: Bir Shrest Flight Lieutenant Motiur Rahman died on August 20 in 1971
+  - text: Birshreshtha Shrestha Flight Lieutenant Matiur Rahman died on 20 August 1971.
 
   utter_liberation_war_honorary_title_17:
-  - text: Birshashtha flight Lieutenant Motiur Rahman's birth in October 29 in 1941
+  - text: Birshreshtha Shrestha Flight Lieutenant Matiur Rahman was born on 29 October 1941
 
   utter_liberation_war_honorary_title_18:
-  - text: Birshreshtha Lance Naik Noor Mohammad Death won September 5, 1971
+  - text: Birshreshtha Shrestha Lance Naik Nur Mohammad Sheikh died on September 5, 1971
 
   utter_liberation_war_honorary_title_19:
-  - text: Birshreshtha Lance Naik Noor Mohammad Sheikh was born in February 26, 1936
+  - text: Birshreshtha Shrestha Lance Naik Nur Mohammad Sheikh was born on February 26, 1936
 
   utter_liberation_war_honorary_title_20:
-  - text: Birshreshtha Lance Naik Munshi Abdur Rauf died on 8 April 1971
+  - text: Birshreshtha Shrestha Lance Naik Munshi Abdur Rauf died on 7 April 1971.
 
   utter_liberation_war_honorary_title_21:
-  - text: Birshreshtha Lance Naik Munshi Abdur Rauf's Born in 1 May 1943
+  - text: Birshreshtha Shrestha Lance Naik Munshi Abdur Rauf was born on 1 May 1943
 
   utter_liberation_war_honorary_title_22:
-  - text: Bir Shreshtha Sepoy Mustafa Kamal died on 18 April 1971
+  - text: Mostafa Kamal, the greatest sepoy, died on 16 April 1971
 
   utter_liberation_war_honorary_title_23:
-  - text: Bir Shreshtha Sepoy Mustafa Kamal's birth in 16 December 1947
+  - text: Mostafa Kamal, the greatest sepoy, was born on 16 December 1947
 
   utter_liberation_war_honorary_title_24:
-  - text: Bir Shreshtha Sepoy Hamidur Rahman died on 28 October 1971
+  - text: Hamidur Rahman, the greatest sepoy, died on 26 October 1971
 
   utter_liberation_war_honorary_title_25:
-  - text: Bir Shreshtha Sepoy Hamidur Rahman was born on 2 February 1953
+  - text: Hamidur Rahman, the greatest sepoy, was born on 2 February 1953
 
   utter_liberation_war_radio_06:
-  - text: The number of workers in the founder of independent Bangla Betar Kendra was 10
+  - text: The number of employees of Swadhin Bangla Betar Kendra at the time of its establishment was 10
 
   utter_liberation_war_secretariate_01:
-  - text: On April 12, 1971, MAG Osmani took the command of the Bangladesh Armed Forces.
+  - text: On 12 April 1971, MAG Osmani took command of the Bangladesh Armed Forces.
 
   utter_liberation_war_secretariate_02:
-  - text: On 18th April 1971, Mr. M. Hossain Ali, Chief of the Deputy High Commissioner of Kolkata, Hoisted the national flag of Bangladesh.
+  - text: On 17 April 1971, Mr. M. Hossain Ali, Chief Deputy Commissioner of Pakistan in Kolkata hoisted the National Flag of Bangladesh.
 
   utter_liberation_war_secretariate_03:
-  - text: Bangladesh Air Force was formed on 28 September 1971.
+  - text: The Bangladesh Air Force was formed on 26 September 1971.
 
   utter_liberation_war_secretariate_04:
-  - text: On April 17, 1971, Temporary Government-Extra Out of Temporary Government - Currently known as Mujibnagar
+  - text: On 17 April 1971, the Provisional Government-Expatriate was sworn in at Baidyanathtala (now known as Mujibnagar) in Meherpur District.
 
   utter_liberation_war_secretariate_05:
-  - text: Tajuddin Ahmed appealed for arms assistance to neighbors on April 28, 1971
+  - text: Tajuddin Ahmed appealed to the neighbors for arms assistance on 26 April 1971
 
   utter_liberation_war_secretariate_06:
-  - text: The expatriate Bangladesh government was formed on April 10, 1971.
+  - text: The expatriate government of Bangladesh was formed on 10 April 1971.
 
   utter_liberation_war_secretariate_07:
-  - text: The temporary government of Bangladesh was formed on 10 April 1971.The other name was the Mujibnagar government.
+  - text: The Provisional Government of Bangladesh was formed on 10 April 1971. Its other name was Mujibnagar government.
 
   utter_liberation_war_secretariate_08:
-  - text: Syed Nazrul Islam was the interim president of Bangladesh's temporary government.
+  - text: Syed Nazrul Islam was the interim president of the caretaker government of Bangladesh.
 
   utter_liberation_war_secretariate_09:
-  - text: Tajuddin Ahmad was the Prime Minister of Bangladesh's temporary government.
+  - text: Tajuddin Ahmed was the Prime Minister of the Provisional Government of Bangladesh.
 
   utter_liberation_war_secretariate_10:
-  - text: Bangabandhu Sheikh Mujibur Rahman was the President of Bangladesh's temporary government.
+  - text: Bangofndhu Sheikh Mujibur Rahman was the President of the Provisional Government of Bangladesh.
 
   utter_liberation_war_secretariate_11:
-  - text: The President of the temporary government of Bangladesh was 1 year
+  - text: The term of the President of the Provisional Government of Bangladesh was 1 year
 
   utter_liberation_war_secretariate_12:
-  - text: The President of Bangladesh's temporary government was 1 year.
+  - text: The term of the President of the Provisional Government of Bangladesh was 1 year.
 
   utter_liberation_war_secretariate_13:
-  - text: Colonel Mohammad Abdur Rab was the Chief of Staff of Bangladesh in the War of Liberation.
+  - text: Colonel Mohammad Abdur Rob was the Chief of Staff of Bangladesh in the War of Liberation.
 
   utter_liberation_war_secretarieate_14:
-  - text: Captain M Mansur Ali selected the Ministry of Finance.
+  - text: Captain M Mansur Ali was elected to the Ministry of Finance.
 
   utter_liberation_war_secretarieate_15:
-  - text: Colonel MAG Osmanik was appointed as the main commander of the new state of the new state
+  - text: Colonel M. A. G. Osmani was appointed commander-in-chief of the new states liberation forces
 
   utter_liberation_war_secretarieate_16:
-  - text: Colonel Mohammad Abdur Rob was appointed as the Chief of Staff of the Mukti Bahini of the new state
+  - text: Colonel Mohammad Abdur Rab was appointed Chief of Staff of the new state Liberation Army
 
   utter_liberation_war_secretarieate_17:
-  - text: Commander Abdul Karim Khandaker was appointed as the Deputy Chief of Staff Wing of the new state of the new state
+  - text: Commander Abdul Karim Khandaker appointed Deputy Chief of Staff Wing of the new state Liberation Army
 
   utter_liberation_war_secretarieate_18:
-  - text: Prime Minister, Defense, Information and Wireless and Telecommunications, Economic Subject, Planning and Development, Education, Local Autonomous Government, Health, Labor and Social Welfare, Establishment and Administration, which is not given to any other members of the cabinet.
+  - text: The Prime Minister, Defense, Information and Radio and Telecommunications, Economic Affairs, Planning and Development, Education, Local Self-Government, Health, Labor and Social Welfare, Establishment and Administration, all of which have not been assigned to any other member of the Cabinet.
 
   utter_liberation_war_secretarieate_19:
-  - text: Among the money and national revenue, trade and industrial transport were in charge.
+  - text: He was in charge of finance and national revenue, trade and industrial transport.
 
   utter_liberation_war_secretarieate_20:
-  - text: AHM Kamaruzzaman was responsible for home affairs, supplies, relief and rehabilitation and agricultural ministry.
+  - text: AHM Kamaruzzaman was in charge of the Ministry of Home Affairs, Supply, Relief and Rehabilitation and the Ministry of Agriculture.
 
   utter_liberation_war_secretarieate_21:
-  - text: Planning Commission, Industry and Trade, Board Registration Board, Youth and Reception Committee, Relief and Rehabilitation Committee, Refugee Welfare Board.
+  - text: Planning Commission, Industry and Commerce, Board Control Board, Youth and Reception Camps, Relief and Rehabilitation Committee, Refugee Welfare Board.
 
   utter_liberation_war_secretarieate_22:
-  - text: Dr. Faruk Aziz was a private secretary of the Prime Minister.
+  - text: Dr. Farooq Aziz was the Private Secretary to the Prime Minister's Office.
 
   utter_liberation_war_secretarieate_23:
-  - text: After the formation of the temporary government, Ali Tareq was the information officer of the Prime Minister of Prime Minister
+  - text: Ali Tareq was the Information Officer of the Prime Minister's Office after the formation of the Provisional Government
 
   utter_liberation_war_secretarieate_24:
-  - text: Colonel MAG Osmank was appointed as the chief commander of the new state of the new state.
+  - text: Colonel M. A. G. Osmani was appointed commander-in-chief of the new states liberation forces.
 
   utter_liberation_war_secretarieate_25:
-  - text: Colonel MA Rob Defense Ministry was Chief of Staff.
+  - text: Colonel MA Robb was Chief of Staff of the Ministry of Defense.
 
   utter_liberation_war_secretarieate_26:
-  - text: Kamruzzaman (MNA) was adviser to the Ministry of Education.
+  - text: Kamruzzaman (MNA) was an advisor to the Ministry of Education.
 
   utter_liberation_war_secretarieate_27:
-  - text: Ahmed Hossain was the Education Officer of Education Ministry.
+  - text: Ahmed Hossain was the Education Officer of the Ministry of Education.
 
   utter_liberation_war_secretarieate_28:
-  - text: The whole Bangladesh was divided into 11 sectors in order to organize liberation war.
+  - text: In order to organize the war of liberation, the whole of Bangladesh was divided into 11 sectors.
 
   utter_liberation_war_secretarieate_29:
-  - text: A fund called Bangladesh Fund for the finance of Bangladesh government is open.
+  - text: A fund called Bangladesh Fund was opened to finance the Government of Bangladesh.
 
   utter_liberation_war_secretarieate_30:
-  - text: A fund called Bangladesh Fund for the finance of Bangladesh government is open.
+  - text: A fund called Bangladesh Fund was opened to finance the Government of Bangladesh.
 
   utter_liberation_war_sector_01:
-  - text: On 3 December 1971, Pakistan carried out air strikes in North India.
+  - text: On December 3, 1971, Pakistan launched an air strike in northern India.
 
   utter_liberation_war_sector_02:
-  - text: On November 21, 1971, the Indian army entered the aircraft and land in Bangladesh
+  - text: On 21 November 1971, the Indian Army entered Bangladesh by air and land
 
   utter_liberation_war_sector_03:
-  - text: Mukti Bahini Operates from March 1971 to December 1971
+  - text: The Mukti Bahini conducted operations from March 1971 to December 1971
 
   utter_liberation_war_sector_05:
-  - text: Two Sector Commander of Kushtia, Jessore, Khulna, Barisal, Faridpur and Patuakhali district were two people in the war.First Major Abu Osman Chowdhury and later Major Abul Manzur
+  - text: There were two sector commanders of Kushtia, Jessore, Khulna, Barisal, Faridpur and Patuakhali districts in the war of liberation. First Major Abu Osman Chowdhury and later Major Abul Manzur.
 
   utter_liberation_war_sector_06:
-  - text: Two of the two sector commanders of Chittagong district were two people.First Major Ziaur Rahman and later Captain Rafiqul Islam
+  - text: There were two sector commanders of Chittagong district in the war of liberation. First Major Ziaur Rahman and later Captain Rafiqul Islam.
 
   utter_liberation_war_sector_07:
-  - text: Major Khaled Mosharraf was later Major Khaled Mosharraf, Major ATM Haider was later.
+  - text: Major Khaled Musharraf was the Sector Commander of Dhaka in the War of Liberation, later Major ATM Haider.
 
   utter_liberation_war_sector_08:
-  - text: Major Mir Shawkat Ali Major Mir Shawkat Ali was the commander of Durgapur Sector
+  - text: Major Mir Shawkat Ali was the Durgapur Sector Commander in the War of Liberation
 
   utter_liberation_war_sector_09:
-  - text: Navy commando was under the Sector 10 in the war.This sector was conducted under the headquarters of the Bangladesh Armed Forces.
+  - text: In the War of Liberation, Naval Commando was under Sector 10. This sector was managed under the headquarters of the Bangladesh Armed Forces.
 
   utter_liberation_war_sector_10:
-  - text: Three of the Sector Commander of Barisal, Patuakhali district in the war.First Major MA Jalil and later Major MA Manzur and Major Joynal Abedin.
+  - text: There were three sector commanders of Barisal and Patuakhali districts in the war of liberation. First Major MA Jalil and later Major MA Manzur and Major Joynal Abedin.
 
   utter_liberation_war_sector_11:
-  - text: There were 11 sectors in Bangladesh in the war of liberation
+  - text: In the war of liberation there were 11 sectors in Bangladesh
 
   utter_liberation_war_sector_12:
-  - text: Three special Fours Chile in BangladeshThey are JD Force, K Force, S Force.
+  - text: In the war of liberation 3 special forces were killed in Bangladesh. Those are Z Force, K Force, S Force.
 
   utter_liberation_war_sector_13:
-  - text: General Muhammad Ataul Gani Osmani was the congestion in the World War of Bangladesh.
+  - text: General Muhammad Ataul Gani Osmani was the supreme commander in the liberation war of Bangladesh.
 
   utter_liberation_war_sector_14:
-  - text: Three people were the sector commander of Mymensingh and Tangail district in the war.First Major Ziaur Rahman and later Major Abu Taher and M Hamidullah Khan.
+  - text: There were three sector commanders of Mymensingh and Tangail districts in the war of liberation. First Major Ziaur Rahman and later Major Abu Taher and M Hamidullah Khan.
 
   utter_liberation_war_sector_15:
-  - text: Wing Commander M Khademul Bashar was the Sector Commander of Rangpur district in the war.
+  - text: Wing Commander M Khademul Bashar was the Sector Commander of Rangpur District in the War of Liberation.
 
   utter_liberation_war_sector_16:
-  - text: Two sector commanders of Rajshahi, Pabna, Bogra district were two people in the tragedy.First Sector Commander was Major Nazmul Haque and later Major Kazi Nuruzzaman was later.
+  - text: There were two sector commanders of Rajshahi, Pabna and Bogra districts in the war of liberation. At first the Sector Commander was Major Nazmul Haque and later Major Kazi Nuruzzaman.
 
   utter_liberation_war_sector_17:
-  - text: During the tremendous, Sylhet was under three sectors (3,4 and 5).Major KM Shafiullah, Major A Nuruzzaman [3], Major Chittaranjan Dutta and Captain Abdur Rob [4] and Major Mir Shawkat Ali respectively.
+  - text: During the War of Liberation, Sylhet was under three sectors (3, 4 and 5). Their Sector Commanders were Major KM Shafiullah, Major ANM Nuruzzaman [3], Major Chittaranjan Dutt and Captain Abdur Rob [4] and Major Mir Shawkat Ali respectively.
 
   utter_liberation_war_sector_18:
-  - text: In the power of Sector 1, in the bank of Chittagong district, Chittagong Hill Tracts and Noakhali districts, on the banks of the eastern region of Naakhali.
+  - text: During the war of liberation, the entire eastern region of Chittagong district, Chittagong Hill Tracts and Noakhali district under Sector 1 was on the banks of Muhuri river.
 
   utter_liberation_war_sector_19:
-  - text: Sector 10 sector was formed with the naval commando in the war.
+  - text: In the war of liberation, Sector 10 was made up of naval commandos.
 
   utter_liberation_war_sector_20:
-  - text: In the power of Sector 11, some parts of Rangpur with Mymensingh, Tangail - Gaibandha, Ulipur, Kamalpur and Chilmari.
+  - text: Mymensingh, Tangail and some parts of Rangpur under Sector 11 in the war of liberation - Gaibandha, Ulipur, Kamalpur and Chilmari.
 
   utter_liberation_war_sector_21:
-  - text: Dhaka, Comilla, Faridpur and some parts of Noakhali districts under the Sector 2 in the war.
+  - text: In the war of liberation, some parts of Dhaka, Comilla, Faridpur and Noakhali districts were under Sector II.
 
   utter_liberation_war_sector_22:
-  - text: In the north of Sector 3, in the north of Sector 3, the area between Sylhet and Singerbul in Brahmanbaria on the south of Sylhet.
+  - text: The area between Churman Kathi (near Srimangal) in the north, Sylhet and Singerbil in Brahmanbaria in the south under Sector 3 in the War of Liberation.
 
   utter_liberation_war_sector_23:
-  - text: Habiganj district under Sector 4 of the War of Liberation
+  - text: Habiganj district under Sector 4 in the war of liberation.
 
   utter_liberation_war_sector_24:
-  - text: Under Sector 5, the whole region till the eastern boundary of the region from Durgapur (Tamabil) from Durgapur in Sylhet district.
+  - text: The area from Durgapur to Daoki (Tamabil) in Sylhet district and the entire area up to the eastern boundary of the district under Sector 5 in the War of Liberation.
 
   utter_liberation_war_sector_25:
-  - text: Under the Liberation War Sector 6, part of Rangpur district and Dinajpur district.
+  - text: Rangpur district and part of Dinajpur district under Sector 7 in the war of liberation.
 
   utter_liberation_war_sector_26:
-  - text: In the power of Sector 7, part of Rajshahi, Pabna, Bogra and Dinajpur district is part of Sector 7.
+  - text: Rajshahi, Pabna, Bogra and Dinajpur districts under Sector 7 in the War of Liberation.
 
   utter_liberation_war_sector_27:
-  - text: Kushtia, Jessore, Khulna, Barisal, Faridpur and Patuakhali under sector 8.
+  - text: Kushtia, Jessore, Khulna, Barisal, Faridpur and Patuakhali under Sector 7 in the War of Liberation.
 
   utter_liberation_war_sector_28:
-  - text: In the power of Sector 9, some parts of Barisal, Patuakhali and Khulna and Faridpur districts.
+  - text: Barisal, Patuakhali and some parts of Khulna and Faridpur districts under Sector 9 in the war of liberation.
 
   utter_liberation_war_sector_29:
-  - text: Major Meet Ranjan Dutta was the sector commander of Habiganj district in the war of liberation
+  - text: Major Chitta Ranjan Dutta was the sector commander of Habiganj district in the war of liberation
 
   utter_liberation_war_sector_30:
-  - text: Sector Commander Conference begins 11 - 17 July 1971
+  - text: The Conference of Sector Commanders began on 11-16 July 1971
 
   utter_liberation_war_victory_01:
-  - text: On behalf of the Pakistani army, Lieutenant General, AK Niazi, Bangladesh-India joint command surrendered to Lieutenant General Jagjit Singh Arorah.
+  - text: On behalf of the Pakistani forces, Lieutenant General AK Niazi surrendered to the Commander-in-Chief of the Bangladesh-India Joint Command, Lieutenant General Jagjit Singh Aurora.
 
   utter_liberation_war_victory_03:
-  - text: Surrender of Pakistani army in the racecourse ground.
+  - text: The Pakistani forces surrendered at the racecourse ground.
 
   utter_liberation_war_victory_04:
-  - text: Jessore's first independent district of Bangladesh.
+  - text: Jessore is the first independent district of Bangladesh.
 
   utter_mujib politics:
-  - text: The main statement of the speech of Bangabandhu's 7th March was independence
+  - text: The main point of Bangabandhu's speech on 7th March was independence.
 
   utter_mujib_birth:
-  - text: Bangabandhu Sheikh Mujibur Rahman was born on 17th March and Tungipara village of Gopalganj district.
+  - text: Bangabandhu Sheikh Mujibur Rahman was born on 17th March and in the village of Tungipara in Gopalganj district.
 
   utter_mujib_death:
-  - text: Bangabandhu was martyred in 15 August 1975.
+  - text: Bangabandhu was martyred with his own family on 15 August 1975.
 
   utter_mujib_politics_01:
-  - text: Bangabandhu Sheikh Mujibur Rahman first imprisoned in 1939, ignoring the government sanctions to meet the protest against the school authorities.
+  - text: Bangabandhu Sheikh Mujibur Rahman was first imprisoned in 1939 for holding a protest rally against the school authorities in defiance of government restrictions.
 
   utter_mujib_politics_02:
-  - text: Sheikh Mujibur Rahman was awarded the title of 'Bangabandhu' on February 23, Race Course Maid
+  - text: Sheikh Mujibur Rahman was adored with the title of 'Bangabandhu' on 23 February at the Racecourse Ground.
 
   utter_mujib_politics_03:
-  - text: 7 March 1971 Bangabandhu gave a speech at Racecourse Maiden, the speech was - "This struggle for our struggle is to struggle, this freedom struggle is our freedom struggle."
+  - text: On March 7, 1971, Bangabandhu gave a speech at the racecourse ground, the speech was - "This time the struggle is for our liberation, this time the struggle is for our freedom."
 
   utter_mujib_politics_04:
-  - text: On January 8, 1972, Bangabandhu got an imprisonment, the announcement was - "I want to return to my people"
+  - text: Bangabandhu was released from prison on January 8, 1972. The declaration was "I want to go back to my people."
 
   utter_mujib_politics_05:
-  - text: Bangabandhu Sheikh Mujibur Rahman was anointed in politics in 1944.
+  - text: Bangabandhu Sheikh Mujibur Rahman entered politics in 1944.
 
   utter_mujib_politics_06:
-  - text: After the victory of the country, Bangabandhu returned to Swadesh on January 10, 1972 and took charge of the state
+  - text: After the conquest of the country, Bangabandhu returned to his homeland on 10 January 1972 and assumed the office of President
 
   utter_mujib_politics_07:
-  - text: Bangabandhu Sheikh Mujibur Rahman was anointed in politics by joining the Nikhil Bengal Muslim BCL team
+  - text: Bangabandhu Sheikh Mujibur Rahman entered politics by joining the All Bengal Muslim Chhatra League
 
   utter_mujib_politics_08:
-  - text: Bangabandhu took oath as Prime Minister on January 12 1972
+  - text: Bangabandhu was sworn in as the Prime Minister on 12 January 1972
 
   utter_mujib_politics_09:
-  - text: Bangabandhu Bangali leader, the 29th General Assembly of the United Nations in the 29th General Assembly of 1974 September 1974
+  - text: Bangabandhu addressed the 29th General Assembly of the United Nations in Bengal on 25 September 1974 as a Bengali leader.
 
   utter_mujib_primary_school_01:
-  - text: Bangabandhu Sheikh Mujibur Rahman started a student life at the age.
+  - text: Bangabandhu Sheikh Mujibur Rahman started his student life at the age of seven.
 
   utter_mujib_primary_school_02:
   - text: Bangabandhu Sheikh Mujibur Rahman started his student life at Gimadanga Primary School.
 
   utter_pakistan_politics_01:
-  - text: East Pakistan Awami Muslim League was formed on 23 June 1949, Bangabandhu Sheikh Mujibur Rahman was elected to the post of Junk
+  - text: East Pakistan Awami Muslim League was formed on 23 June 1949. Bangabandhu Sheikh Mujibur Rahman was elected joint secretary.
 
   utter_pakistan_politics_02:
-  - text: In 1954, the United Front winner was winner on March 10, 223 seats.
+  - text: The United Front won on March 10, 1954, winning 223 seats.
 
   utter_pakistan_politics_03:
-  - text: Bangabandhu Sheikh Mujibur Rahman first claimed the autonomy of East Pakistan on June 17, 1955
+  - text: Bangabandhu Sheikh Mujibur Rahman was the first to demand autonomy for East Pakistan on 16 June 1955.
 
   utter_pakistan_politics_04:
-  - text: Bangabandhu Sheikh Mujibur Rahman was the first to demand the autonomy of East Pakistan, Dhaka's Paltan's public meeting
+  - text: Bangabandhu Sheikh Mujibur Rahman was the first to demand autonomy for East Pakistan at a public meeting in Dhaka platoon.
 
   utter_pakistan_politics_05:
-  - text: On March 7, 1966, the freedom of the release of the Bengali nation announced by Bangabandhu.
+  - text: Intense mass agitation started on March 7, 1976 in favor of the six-point demand for the Charter of Liberation of the Bengali Nation declared by Bangabandhu.
 
   utter_pakistan_politics_06:
-  - text: Bangabandhu, a Pakistani government and when a number of cases? --Tech Mujib
+  - text: The government of Pakistan made Bangabandhu the number one accused in which case and when? --Sheikh Mujib
 
   utter_pakistan_politics_07:
-  - text: On February 22, 1969, the Pakistani government withdrew false cases, "The state vs Sheikh Mujibur Rahman and other false cases gave against Bangabandhu
+  - text: On 22 February 1969, the Pakistani government withdrew the false charges, "The State v. Sheikh Mujibur Rahman and other false charges against Bangabandhu.
 
   utter_pakistan_politics_08:
-  - text: The horrific storms and tidal waves in East Bengal are in November 12, 1970 and about 10 million people died
+  - text: Terrible storms and tidal waves hit East Bengal on 12 November 1970 and killed about one million people
 
   utter_pakistan_politics_10:
-  - text: 167 seats Awami League achieves absolute numbers in the Awami League, the Pakistani People's Party gets 88 seats
+  - text: The Awami League won an absolute majority of 17 seats, while the Pakistan People's Party won 6 seats.
 
   utter_pakistan_politics_11:
-  - text: The operation operated by the Pakistani army "searchlight" starts that night.
+  - text: Operation Search Light, launched by the Pakistan Army, began that night.
 
   utter_pre_war_incident_01:
-  - text: Operation Searchlight starts from March 25, 1971
+  - text: Operation Searchlight began on March 25, 1971
 
   utter_pre_war_incident_02:
-  - text: Yahya-Mujib held a meeting meeting on 16th March 1971.
+  - text: Yahya and Mujib held a closed-door meeting on March 16, 1971.
 
   utter_pre_war_incident_03:
-  - text: There was no one else in the Yahya-Mujib closed door meeting.Only two of them were in the meeting.
+  - text: The closed-door meeting between Yahya and Mujib was none other than that. Only two were in that meeting.
 
   utter_pre_war_incident_04:
-  - text: John Khan came to Dhaka on 15th March.
+  - text: Yahya Khan came to Dhaka on 15 March 1971.
 
   utter_pre_war_incident_05:
-  - text: On February 26, 1971, Rakibul, who played a match against the International XI against the Pakistan national team with 'Joy Bangla Sticker' sticker.
+  - text: Rakibul played a match for the then Pakistan national team against the International XI on 26 February 1971 with a bat with the 'Joy Bangla' sticker.
 
   utter_pre_war_incident_06:
-  - text: During the Worthern War, Sheikh Mujibur Rahman was arrested on 26 March 1917, Pakistani 'Commando Unit' at 1.15 pm.
+  - text: During the War of Liberation, Sheikh Mujibur Rahman was arrested by the Pakistani Commando Unit on March 26, 1917 at 1.15 pm.
 
   utter_speech_of_liberation_01:
-  - text: The speech of March 07 is 18 minutes lasting
+  - text: The March 7 speech lasted 16 minutes
 
   utter_speech_of_liberation_02:
-  - text: The speech of 07 March 2:45 pm to 3:03 pm
+  - text: Speech on March 07 from 2:45 pm to 3:03 pm
 
   utter_speech_of_liberation_03:
-  - text: A historic speech given by Sheikh Mujibur Rahman in a public meeting held in Racecourse Maidan (current Suhrawardy Udyan) in Rajcourse Maidan (present Suhrawardy Udyan) in 1971 March in 1971 AD,
+  - text: Speech on March 7, 1971 A historic speech given by Sheikh Mujibur Rahman at a public meeting held on March 7, 1971 at Racecourse Maidan (now Suhrawardy Udyan) in Ramna, Dhaka.
 
   utter_speech_of_liberation_04:
-  - text: The 6th part of the speech of 07 March is discussed, they are - 1) Review of the overall situation, 2) Lightning on the role of West Pakistani politicians, 3) demanding the withdrawal of military law, 4) Calling Bengalis to counter torture and military aggression, 5) Decision to continue overall strike in East Pakistan until it is deciding, 6) Calling for resistance and attack resistance and to promote Bengalis in freedom mantra.
+  - text: The 7th March speech discussed eight aspects, namely 1) Review of the overall situation, 2) Highlighting the role of West Pakistani politicians, 3) Demanding repeal of martial law, 4) Calling Bengalis to deal with oppression and military aggression, 5) Demands Deciding to continue the general strike in East Pakistan until it is realized, 6) Calling for resistance to oppression and aggression and invigorating the Bengalis with the mantra of independence.
 
   utter_speech_of_liberation_05:
-  - text: The background of the speech of 07 March was the freedom of Bangladesh
+  - text: The background of the speech on March 07 was the independence of Bangladesh
 
   utter_speech_of_liberation_06:
-  - text: The main speaker of the speech of 07 March was Bangabandhu Sheikh Mujibur Rahman
+  - text: The keynote speaker of the March 7 speech was Bangabandhu Sheikh Mujibur Rahman
 
   utter_speech_of_liberation_07:
-  - text: Major Ziaur Rahman again on behalf of Mujibur Rahman announced the independence of Bangladesh on 27 March 1971? --
+  - text: On behalf of Mujibur Rahman, Major Ziaur Rahman again declared the independence of Bangladesh on 26 March 1971.
+
+  utter_bangabondhu:
+  - text: Sheikh Mujibur Rahman (17 March 1920–15 August 1975), abbreviated as Sheikh Mujib or Bangabandhu, was the first President of Bangladesh and one of the most influential political figures in South Asia.
 
 session_config:
   session_expiration_time: 60

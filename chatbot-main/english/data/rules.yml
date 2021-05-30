@@ -757,3 +757,7 @@ rules:
   - intent: speech_of_liberation_07
   - action: utter_speech_of_liberation_07
 
+- rule: respond to FAQs
+  steps:
+  - intent: bangabondhu
+  - action: utter_bangabondhu

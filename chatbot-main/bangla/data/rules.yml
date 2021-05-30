@@ -1,16 +1,30 @@
 version: "2.0"
 
 rules:
+- rule: Say goodbye anytime the user says goodbye
+  steps:
+  - intent: goodbye
+  - action: utter_goodbye
+
+- rule: Provide greetings when user greets
+  steps:
+  - intent: greet
+  - action: utter_greet
+
+- rule: Respond to wassups
+  steps:
+  - intent: wassup
+  - action: utter_wassup
+
+- rule: Say 'I am a bot' anytime the user challenges
+  steps:
+  - intent: bot_challenge
+  - action: utter_iamabot
 
 - rule: respond to FAQs
   steps:
   - intent: bangladesh_politics
   - action: utter_bangladesh_politics
-
-- rule: respond to FAQs
-  steps:
-  - intent: language_politics
-  - action: utter_language_politics
 
 - rule: respond to FAQs
   steps:
@@ -46,6 +60,11 @@ rules:
   steps:
   - intent: liberation_war_05
   - action: utter_liberation_war_05
+
+- rule: respond to FAQs
+  steps:
+  - intent: liberation_war_06
+  - action: utter_liberation_war_06
 
 - rule: respond to FAQs
   steps:
@@ -154,63 +173,43 @@ rules:
 
 - rule: respond to FAQs
   steps:
-  - intent: liberation_war_honorary_title_01
-  - action: utter_liberation_war_honorary_title_01
+  - intent: liberation_war_flag_22
+  - action: utter_liberation_war_flag_22
 
 - rule: respond to FAQs
   steps:
-  - intent: liberation_war_honorary_title_02
-  - action: utter_liberation_war_honorary_title_02
+  - intent: liberation_war_foreign_aid_01
+  - action: utter_liberation_war_foreign_aid_01
 
 - rule: respond to FAQs
   steps:
-  - intent: liberation_war_honorary_title_03
-  - action: utter_liberation_war_honorary_title_03
+  - intent: liberation_war_foreign_aid_02
+  - action: utter_liberation_war_foreign_aid_02
 
 - rule: respond to FAQs
   steps:
-  - intent: liberation_war_honorary_title_04
-  - action: utter_liberation_war_honorary_title_04
+  - intent: liberation_war_foreign_aid_03
+  - action: utter_liberation_war_foreign_aid_03
 
 - rule: respond to FAQs
   steps:
-  - intent: liberation_war_honorary_title_05
-  - action: utter_liberation_war_honorary_title_05
+  - intent: liberation_war_foreign_aid_04
+  - action: utter_liberation_war_foreign_aid_04
 
 - rule: respond to FAQs
   steps:
-  - intent: liberation_war_honorary_title_06
-  - action: utter_liberation_war_honorary_title_06
+  - intent: liberation_war_foreign_aid_05
+  - action: utter_liberation_war_foreign_aid_05
 
 - rule: respond to FAQs
   steps:
-  - intent: liberation_war_honorary_title_07
-  - action: utter_liberation_war_honorary_title_07
+  - intent: liberation_war_foreign_aid_06
+  - action: utter_liberation_war_foreign_aid_06
 
 - rule: respond to FAQs
   steps:
-  - intent: liberation_war_honorary_title_08
-  - action: utter_liberation_war_honorary_title_08
-
-- rule: respond to FAQs
-  steps:
-  - intent: liberation_war_honorary_title_09
-  - action: utter_liberation_war_honorary_title_09
-
-- rule: respond to FAQs
-  steps:
-  - intent: liberation_war_honorary_title_10
-  - action: utter_liberation_war_honorary_title_10
-
-- rule: respond to FAQs
-  steps:
-  - intent: liberation_war_honorary_title_11
-  - action: utter_liberation_war_honorary_title_11
-
-- rule: respond to FAQs
-  steps:
-  - intent: liberation_war_honorary_title_12
-  - action: utter_liberation_war_honorary_title_12
+  - intent: liberation_war_foreign_aid_07
+  - action: utter_liberation_war_foreign_aid_07
 
 - rule: respond to FAQs
   steps:
@@ -279,78 +278,8 @@ rules:
 
 - rule: respond to FAQs
   steps:
-  - intent: liberation_war_missions_01
-  - action: utter_liberation_war_missions_01
-
-- rule: respond to FAQs
-  steps:
-  - intent: liberation_war_missions_02
-  - action: utter_liberation_war_missions_02
-
-- rule: respond to FAQs
-  steps:
-  - intent: liberation_war_missions_03
-  - action: utter_liberation_war_missions_03
-
-- rule: respond to FAQs
-  steps:
-  - intent: liberation_war_missions_04
-  - action: utter_liberation_war_missions_04
-
-- rule: respond to FAQs
-  steps:
-  - intent: liberation_war_missions_05
-  - action: utter_liberation_war_missions_05
-
-- rule: respond to FAQs
-  steps:
-  - intent: liberation_war_missions_06
-  - action: utter_liberation_war_missions_06
-
-- rule: respond to FAQs
-  steps:
-  - intent: liberation_war_missions_07
-  - action: utter_liberation_war_missions_07
-
-- rule: respond to FAQs
-  steps:
-  - intent: liberation_war_missions_08
-  - action: utter_liberation_war_missions_08
-
-- rule: respond to FAQs
-  steps:
-  - intent: liberation_war_missions_09
-  - action: utter_liberation_war_missions_09
-
-- rule: respond to FAQs
-  steps:
-  - intent: liberation_war_missions_10
-  - action: utter_liberation_war_missions_10
-
-- rule: respond to FAQs
-  steps:
-  - intent: liberation_war_missions_11
-  - action: utter_liberation_war_missions_11
-
-- rule: respond to FAQs
-  steps:
-  - intent: liberation_war_missions_12
-  - action: utter_liberation_war_missions_12
-
-- rule: respond to FAQs
-  steps:
-  - intent: liberation_war_missions_13
-  - action: utter_liberation_war_missions_13
-
-- rule: respond to FAQs
-  steps:
-  - intent: liberation_war_missions_14
-  - action: utter_liberation_war_missions_14
-
-- rule: respond to FAQs
-  steps:
-  - intent: liberation_war_missions_15
-  - action: utter_liberation_war_missions_15
+  - intent: liberation_war_radio_06
+  - action: utter_liberation_war_radio_06
 
 - rule: respond to FAQs
   steps:
@@ -419,148 +348,88 @@ rules:
 
 - rule: respond to FAQs
   steps:
-  - intent: liberation_war_secretariate_14
-  - action: utter_liberation_war_secretariate_14
+  - intent: liberation_war_secretarieate_14
+  - action: utter_liberation_war_secretarieate_14
 
 - rule: respond to FAQs
   steps:
-  - intent: liberation_war_secretariate_15
-  - action: utter_liberation_war_secretariate_15
+  - intent: liberation_war_secretarieate_15
+  - action: utter_liberation_war_secretarieate_15
 
 - rule: respond to FAQs
   steps:
-  - intent: liberation_war_secretariate_16
-  - action: utter_liberation_war_secretariate_16
+  - intent: liberation_war_secretarieate_16
+  - action: utter_liberation_war_secretarieate_16
 
 - rule: respond to FAQs
   steps:
-  - intent: liberation_war_secretariate_17
-  - action: utter_liberation_war_secretariate_17
+  - intent: liberation_war_secretarieate_17
+  - action: utter_liberation_war_secretarieate_17
 
 - rule: respond to FAQs
   steps:
-  - intent: liberation_war_secretariate_18
-  - action: utter_liberation_war_secretariate_18
+  - intent: liberation_war_secretarieate_18
+  - action: utter_liberation_war_secretarieate_18
 
 - rule: respond to FAQs
   steps:
-  - intent: liberation_war_secretariate_19
-  - action: utter_liberation_war_secretariate_19
+  - intent: liberation_war_secretarieate_19
+  - action: utter_liberation_war_secretarieate_19
 
 - rule: respond to FAQs
   steps:
-  - intent: liberation_war_secretariate_20
-  - action: utter_liberation_war_secretariate_20
+  - intent: liberation_war_secretarieate_20
+  - action: utter_liberation_war_secretarieate_20
 
 - rule: respond to FAQs
   steps:
-  - intent: liberation_war_secretariate_21
-  - action: utter_liberation_war_secretariate_21
+  - intent: liberation_war_secretarieate_21
+  - action: utter_liberation_war_secretarieate_21
 
 - rule: respond to FAQs
   steps:
-  - intent: liberation_war_secretariate_22
-  - action: utter_liberation_war_secretariate_22
+  - intent: liberation_war_secretarieate_22
+  - action: utter_liberation_war_secretarieate_22
 
 - rule: respond to FAQs
   steps:
-  - intent: liberation_war_secretariate_23
-  - action: utter_liberation_war_secretariate_23
+  - intent: liberation_war_secretarieate_23
+  - action: utter_liberation_war_secretarieate_23
 
 - rule: respond to FAQs
   steps:
-  - intent: liberation_war_secretariate_24
-  - action: utter_liberation_war_secretariate_24
+  - intent: liberation_war_secretarieate_24
+  - action: utter_liberation_war_secretarieate_24
 
 - rule: respond to FAQs
   steps:
-  - intent: liberation_war_secretariate_25
-  - action: utter_liberation_war_secretariate_25
+  - intent: liberation_war_secretarieate_25
+  - action: utter_liberation_war_secretarieate_25
 
 - rule: respond to FAQs
   steps:
-  - intent: liberation_war_secretariate_26
-  - action: utter_liberation_war_secretariate_26
+  - intent: liberation_war_secretarieate_26
+  - action: utter_liberation_war_secretarieate_26
 
 - rule: respond to FAQs
   steps:
-  - intent: liberation_war_secretariate_27
-  - action: utter_liberation_war_secretariate_27
+  - intent: liberation_war_secretarieate_27
+  - action: utter_liberation_war_secretarieate_27
 
 - rule: respond to FAQs
   steps:
-  - intent: liberation_war_secretariate_28
-  - action: utter_liberation_war_secretariate_28
+  - intent: liberation_war_secretarieate_28
+  - action: utter_liberation_war_secretarieate_28
 
 - rule: respond to FAQs
   steps:
-  - intent: liberation_war_secretariate_29
-  - action: utter_liberation_war_secretariate_29
+  - intent: liberation_war_secretarieate_29
+  - action: utter_liberation_war_secretarieate_29
 
 - rule: respond to FAQs
   steps:
-  - intent: liberation_war_secretariate_30
-  - action: utter_liberation_war_secretariate_30
-
-- rule: respond to FAQs
-  steps:
-  - intent: liberation_war_secretariate_31
-  - action: utter_liberation_war_secretariate_31
-
-- rule: respond to FAQs
-  steps:
-  - intent: liberation_war_secretariate_32
-  - action: utter_liberation_war_secretariate_32
-
-- rule: respond to FAQs
-  steps:
-  - intent: liberation_war_secretariate_33
-  - action: utter_liberation_war_secretariate_33
-
-- rule: respond to FAQs
-  steps:
-  - intent: liberation_war_secretariate_34
-  - action: utter_liberation_war_secretariate_34
-
-- rule: respond to FAQs
-  steps:
-  - intent: liberation_war_secretariate_35
-  - action: utter_liberation_war_secretariate_35
-
-- rule: respond to FAQs
-  steps:
-  - intent: liberation_war_secretariate_36
-  - action: utter_liberation_war_secretariate_36
-
-- rule: respond to FAQs
-  steps:
-  - intent: liberation_war_secretariate_37
-  - action: utter_liberation_war_secretariate_37
-
-- rule: respond to FAQs
-  steps:
-  - intent: liberation_war_secretariate_38
-  - action: utter_liberation_war_secretariate_38
-
-- rule: respond to FAQs
-  steps:
-  - intent: liberation_war_secretariate_39
-  - action: utter_liberation_war_secretariate_39
-
-- rule: respond to FAQs
-  steps:
-  - intent: liberation_war_secretariate_40
-  - action: utter_liberation_war_secretariate_40
-
-- rule: respond to FAQs
-  steps:
-  - intent: liberation_war_secretariate_41
-  - action: utter_liberation_war_secretariate_41
-
-- rule: respond to FAQs
-  steps:
-  - intent: liberation_war_secretariate_42
-  - action: utter_liberation_war_secretariate_42
+  - intent: liberation_war_secretarieate_30
+  - action: utter_liberation_war_secretarieate_30
 
 - rule: respond to FAQs
   steps:
@@ -576,11 +445,6 @@ rules:
   steps:
   - intent: liberation_war_sector_03
   - action: utter_liberation_war_sector_03
-
-- rule: respond to FAQs
-  steps:
-  - intent: liberation_war_sector_04
-  - action: utter_liberation_war_sector_04
 
 - rule: respond to FAQs
   steps:
@@ -699,28 +563,38 @@ rules:
 
 - rule: respond to FAQs
   steps:
-  - intent: liberation_war_victory_05
-  - action: utter_liberation_war_victory_05
+  - intent: liberation_war_sector_28
+  - action: utter_liberation_war_sector_28
 
 - rule: respond to FAQs
   steps:
-  - intent: liberation_war_victory_06
-  - action: utter_liberation_war_victory_06
+  - intent: liberation_war_sector_29
+  - action: utter_liberation_war_sector_29
 
 - rule: respond to FAQs
   steps:
-  - intent: liberation_war_victory_07
-  - action: utter_liberation_war_victory_07
+  - intent: liberation_war_sector_30
+  - action: utter_liberation_war_sector_30
 
 - rule: respond to FAQs
   steps:
-  - intent: liberation_war_victory_08
-  - action: utter_liberation_war_victory_08
+  - intent: liberation_war_victory_01
+  - action: utter_liberation_war_victory_01
 
 - rule: respond to FAQs
   steps:
-  - intent: liberation_war_victory_09
-  - action: utter_liberation_war_victory_09
+  - intent: liberation_war_victory_03
+  - action: utter_liberation_war_victory_03
+
+- rule: respond to FAQs
+  steps:
+  - intent: liberation_war_victory_04
+  - action: utter_liberation_war_victory_04
+
+- rule: respond to FAQs
+  steps:
+  - intent: mujib politics
+  - action: utter_mujib politics
 
 - rule: respond to FAQs
   steps:
@@ -779,11 +653,6 @@ rules:
 
 - rule: respond to FAQs
   steps:
-  - intent: mujib_politics_10
-  - action: utter_mujib_politics_10
-
-- rule: respond to FAQs
-  steps:
   - intent: mujib_primary_school_01
   - action: utter_mujib_primary_school_01
 
@@ -834,11 +703,6 @@ rules:
 
 - rule: respond to FAQs
   steps:
-  - intent: pakistan_politics_09
-  - action: utter_pakistan_politics_09
-
-- rule: respond to FAQs
-  steps:
   - intent: pakistan_politics_10
   - action: utter_pakistan_politics_10
 
@@ -847,3 +711,72 @@ rules:
   - intent: pakistan_politics_11
   - action: utter_pakistan_politics_11
 
+- rule: respond to FAQs
+  steps:
+  - intent: pre_war_incident_01
+  - action: utter_pre_war_incident_01
+
+- rule: respond to FAQs
+  steps:
+  - intent: pre_war_incident_02
+  - action: utter_pre_war_incident_02
+
+- rule: respond to FAQs
+  steps:
+  - intent: pre_war_incident_03
+  - action: utter_pre_war_incident_03
+
+- rule: respond to FAQs
+  steps:
+  - intent: pre_war_incident_04
+  - action: utter_pre_war_incident_04
+
+- rule: respond to FAQs
+  steps:
+  - intent: pre_war_incident_05
+  - action: utter_pre_war_incident_05
+
+- rule: respond to FAQs
+  steps:
+  - intent: pre_war_incident_06
+  - action: utter_pre_war_incident_06
+
+- rule: respond to FAQs
+  steps:
+  - intent: speech_of_liberation_01
+  - action: utter_speech_of_liberation_01
+
+- rule: respond to FAQs
+  steps:
+  - intent: speech_of_liberation_02
+  - action: utter_speech_of_liberation_02
+
+- rule: respond to FAQs
+  steps:
+  - intent: speech_of_liberation_03
+  - action: utter_speech_of_liberation_03
+
+- rule: respond to FAQs
+  steps:
+  - intent: speech_of_liberation_04
+  - action: utter_speech_of_liberation_04
+
+- rule: respond to FAQs
+  steps:
+  - intent: speech_of_liberation_05
+  - action: utter_speech_of_liberation_05
+
+- rule: respond to FAQs
+  steps:
+  - intent: speech_of_liberation_06
+  - action: utter_speech_of_liberation_06
+
+- rule: respond to FAQs
+  steps:
+  - intent: speech_of_liberation_07
+  - action: utter_speech_of_liberation_07
+
+- rule: respond to FAQs
+  steps:
+  - intent: bangabondhu
+  - action: utter_bangabondhu

@@ -1,5 +1,13 @@
 version: "2.0"
 intents:
+  - greet
+  - wassup
+  - goodbye
+  - affirm
+  - deny
+  - mood_great
+  - mood_unhappy
+  - bot_challenge
   - bangladesh_politics
   - language_politics_01
   - language_politics_02
