@@ -1,4 +1,118 @@
 nlu:
+- intent: greet
+  examples: |
+    - o bhai
+    - hello vi
+    - bhai asen
+    - hi bhaiya
+    - hello bhai
+    - shuvo shokal
+    - assalamu alaikum
+    - salam bhai
+    - asen keu?
+    - arreh mama
+    - oi miya
+    - e mama
+    - oih
+    - hi
+- intent: wassup
+  examples: |
+    - kemon aso
+    - ki khobor bhai
+    - kmn aco
+    - asen kemon
+    - valo achen
+    - ki khobor
+    - ki khbr
+    - asish kemon
+    - kemon asos
+    - kmn asos
+    - khobor ki
+    - goodmorning
+    - goodafternoon
+    - whats up
+- intent: goodbye
+  examples: |
+    - bi
+    - adios
+    - sayonara
+    - by
+    - vag
+    - dur ho
+    - dure giya mor
+    - c u later
+    - tata
+    - ta ta
+    - tc
+    - g2g
+    - thaken jai
+    - valo thakben
+    - c u
+    - thako jai
+    - c you
+    - goodnight
+    - goodbye
+    - gelam bhai
+    - aslam ajke
+- intent: affirm
+  examples: |
+    - ho
+    - ji
+    - eitai
+    - ekdom thik
+    - ha
+    - okies
+    - thikase
+    - hmm
+- intent: deny
+  examples: |
+    - areh na
+    - na na na
+    - uhu
+    - hoilo na
+    - no
+    - nope
+    - np
+    - never
+    - nah
+    - dhur
+- intent: mood_great
+  examples: |
+    - ekdom
+    - sherah
+    - shei vai
+    - true eta
+    - chorom to
+    - thik thik
+    - aissala
+    - vallagse bhai
+    - oreh sherah
+    - valoi to
+    - tai naki
+    - joss
+- intent: mood_unhappy
+  examples: |
+    - foul ekta din gese
+    - foul
+    - dhyat
+    - mon kharap
+    - vallage na mara jabo
+    - khubi kharap
+- intent: bot_challenge
+  examples: |
+    - apni ki ekta bot?
+    - robot naki?
+    - bot naki manush?
+    - bari koi
+    - kothay thako
+    - ke re
+    - ke eta
+    - k eita
+    - halum
+    - ai naki
+    - chatbot naki
+    - tumi ke
+    - k tmi
 - intent: bangladesh_politics
   examples: |
     - Bangladeshe prothom jatiyo shongshod nirbachon kobe onushthito hoy? Kara bijoyi hon?
@@ -16,8 +130,11 @@ nlu:
 - intent: language_politics_02
   examples: |
     - Rashtrobhasha Banglar dabite Bangabandhur prostabe shorbodoliyo rashtrobhasha shongram porishod gothito hoy koto tarikhe?
-    - Rashtrobhasha banglar dabite rashtrobhasha andolon shuru hoy kobe? Rashtrobhasha andolon shuru hoy kobe?
+    - Rashtrobhasha banglar dabite rashtrobhasha andolon shuru hoy kobe?
+    - Rashtrobhasha andolon shuru hoy kobe?
     - Rashtrobhasha Banglar dabite shongram porishod hoy koto tarikhe?
+    - banglar dabite songram porishod hoy kobe
+    - banglar dabite songram porishod kobe gothito hoy
 
 - intent: liberation_war_01
   examples: |
@@ -25,12 +142,11 @@ nlu:
     - Śheikh mujib shadhinotar ghoshona barta prothom kake pathay?
     - Sheikh mujibur rahman kar maddhome shadhinota ghoshona den?
     - Bangabandhu prothom kake wireless maddhome shadhinotar barta den?
-
-- intent: liberation_war_02
-  examples: |
+    - bangabondhu sadhinotar ghoshona kake pathan
     - Bangabandhu Bangladeshe shadhinotar ghoshona den kobe?
     - Bangabandhu kobe shadhinotar ghoshona den?
-    - Shadhinotar ghoshona kobe den sheikh mujibur rahman? Sheikh mujib shadhinotar barta den kobe?
+    - Shadhinotar ghoshona kobe den sheikh mujibur rahman?
+    - Sheikh mujib shadhinotar barta den kobe?
 
 - intent: liberation_war_03
   examples: |
@@ -55,12 +171,7 @@ nlu:
     - Koto jon naaree dhorshito hoyechilo?
     - koto lakh manusher jiboner binimoye desh shadhin hoyechilo?
     - Kotojon naareer ijjoter binimoye desh shadhin hoyechilo?
-
-- intent: liberation_war_06
-  examples: |
-    - 27 March Chattogramer kalurghat betarkendro hote anushthanikbhabe bangabandhur pokkhe hote Bangladesher shadhinota ghoshona den ke?
-    - Bangabondhur pokkho theke Bangladesher shadhinotar ghoshona den ke?
-    - Shadhinotar ghoshona sheikh jatir pitar pokkho theke ke den?
+    - Juddhe shahid hon koto lakh bangali?
 
 - intent: liberation_war_flag_01
   examples: |
@@ -69,6 +180,7 @@ nlu:
     - amader desher potaka Ke prothom uttolon korechilo?
     - ei desher potaka Ke prothom uttolon korechilo?
     - Potaka Ke prothom uttolon korechilo?
+    - K prothom Bangladesher potaka uttolon korechilen?
 
 - intent: liberation_war_flag_02
   examples: |
@@ -83,8 +195,9 @@ nlu:
   examples: |
     - Jatiyo potaka shorbo prothom kobe anushthanikbhabe uttolon kora hoy?
     - Potaka shorbo prothom kobe anushthanikbhabe uttolon kora hoy?
-    - anushthanikbhabe kobe potaka uttolon kora hoy?
+    - anushthanik bhabe kobe potaka uttolon kora hoy?
     - shobar aage kobe anushthanikbhabe jatiyo potaka uttolon kora hoy?
+    - anushthanik vabe kobe potaka uttolon kora hoy?
 
 - intent: liberation_war_flag_04
   examples: |
@@ -93,6 +206,8 @@ nlu:
     - Potakar noksha prothom ke kothay toiri koren?
     - Jatiyo potakar noksha prothom ke kothay banay?
     - Potakar noksha prothom ke kothay toiri koren?
+    - Potakar noksha k koren?
+    - Potakar noksha kothae koren?
 
 - intent: liberation_war_flag_05
   examples: |
@@ -108,6 +223,7 @@ nlu:
     - Prothom dike  potakar laal britter moddhe kisher proteek?
     - Shurur dike Bangladesher  potakar laal britter moddhe kisher proteek?
     - Shurur dike edesher  potakar laal britter moddhe kisher proteek?
+    - Shurur dike edesher  potakar laal britter moddhe kisher protik?
 
 - intent: liberation_war_flag_07
   examples: |
@@ -116,11 +232,18 @@ nlu:
     - Amader desher jatiyo potaka shobar aage kobe uttolon kora hoyechilo?
     - Amader desher potaka shobar aage kobe uttolon kora hoyechilo
     - Potaka shobar aage kobe uttolon kora hoyechilo?
+    - Bangladesher Jatiyo potaka prothom kothay uttolon kora hoy?
+    - Edesher Jatiyo potaka prothom kothay uttolon kora hoy?
+    - Bangladesher Jatiyo potaka shobar aage kothay uttolon kora hoy?
+    - 2 tarikhe ke potaka uttolon koren?
+    - Dui tarikhe ke potaka uttolon koren?
+    - 2 tarikhe ke edesher potaka uttolon koren?
 
 - intent: liberation_war_flag_08
   examples: |
     - Bangladesher potakar shathe kon desher potakar mil royeche?
     - kon desher sathe edesher potakar mil ache?
+    - Bangladesh er potakar shathe kon desher potakar mil ache?
 
 - intent: liberation_war_flag_09
   examples: |
@@ -138,8 +261,9 @@ nlu:
 - intent: liberation_war_flag_11
   examples: |
     - Manchitro khochito Bangladesher prothom jaityo potakar designer ke chilen?
-    - Prothom jaityo potakar designer(Manchitro khochito) ke chilen?
+    - Prothom jaityo potakar designer ke chilen?
     - Manchitro khochito edesher prothom jaityo potakar designer ke chilen?
+    - edesher prothom jaityo potakar design k korechen ?
 
 - intent: liberation_war_flag_12
   examples: |
@@ -147,41 +271,28 @@ nlu:
     - Jatir pita prothom kothay bangladesher potaka uttolon koren?
     - Jatir pita Sheikh mujibur rahman prothom kothay bangladesher potaka uttolon koren?
 
-- intent: liberation_war_flag_13
-  examples: |
-    - 2 tarikhe ke potaka uttolon koren?
-    - Dui tarikhe ke potaka uttolon koren?
-    - 2 tarikhe ke edesher potaka uttolon koren?
-
-- intent: liberation_war_flag_14
-  examples: |
-    - Bangladesher Jatiyo potaka prothom kothay uttolon kora hoy?
-    - Edesher Jatiyo potaka prothom kothay uttolon kora hoy?
-    - Bangladesher Jatiyo potaka shobar aage kothay uttolon kora hoy?
-
 - intent: liberation_war_flag_15
   examples: |
     - Bangladesher Jatiyo potaka dibosh kobe?
     - Edesher Jatiyo potaka dibosh kobe?
+    - kobe jatiyo potaka dibosh?
+    - jatio potaka dibosh kobe?
+    - kobe jatio potaka dibosh palon kora hoy?
 
 - intent: liberation_war_flag_16
   examples: |
     - Bangladesher jatiyo potakar rong ki?
     - Bangladesher jatiyo potakar color ki?
-    - Edesher jatiyo potakar rong ki?
+    - Edesher jatio potakar rong ki?
     - Edesher jatiyo potakar color ki?
+    - Edesher jatio potakar color ki?
 
 - intent: liberation_war_flag_17
   examples: |
     - Bangladesher jatiyo potaka shorkari bhabe grihito hoyechilo koto tarikhe?
     - Edesher jatiyo potaka shorkari bhabe grihito hoyechilo koto tarikhe?
-    - Bangladesher potaka shorkari bhabe grihito hoyechilo koto tarikhe?
-    - Edesher jatiyo potaka shorkari bhabe grihito hoyechilo koto tarikhe?
-
-- intent: liberation_war_flag_18
-  examples: |
-    - "Amar shonar Bangla" prothom gawar sathe jaityo potaka kothay o kobe uttolon kora hoy?
-    - "Amar shonar Bangla" prothom gawar sathe potaka kobe o kothay uttolon kora hoy?
+    - Bangladesher potaka shorkari bhabe grihito hoyechilo kobe?
+    - Edesher jatiyo potaka shorkari bhabe grihito hoyechilo kobe?
 
 - intent: liberation_war_flag_19
   examples: |
@@ -206,11 +317,6 @@ nlu:
     - Bangladesher potakar noksha ke design koren?
     - Edesher jatiyo potakar noksha ke design koren
 
-- intent: liberation_war_flag_22
-  examples: |
-    - Bangladesher jatiyo potakar rong ki?
-    - Bangladesher jatiyo potakar color ki?
-
 - intent: liberation_war_foreign_aid_01
   examples: |
     - Blood Telegram' kon tarikhe lekha hoy?
@@ -225,23 +331,25 @@ nlu:
 - intent: liberation_war_foreign_aid_03
   examples: |
     - Concert for Bangladesh koto tarikhe onushthito hoy?
-    - Concert for Bangladesh koy tarikhe onushthito hoy?
+    - Concert for Bangladesh koy tarikhe hoy?
     - Concert for Bangladesh kobe onushthito hoy?
+    - Concert for Bangladesh kobe hoy?
+    - Concert for Bangladesh kobe hoechilo?
 
 - intent: liberation_war_foreign_aid_04
   examples: |
-    - New York er Madison Square Garden e Concert For Bangladesh kobe hoye chilo?
-    - New York er Madison Square Garden e Concert For Bangladesh koto tarikhe hoyechilo?
-
-- intent: liberation_war_foreign_aid_05
-  examples: |
-    - New York er Madison Square Garden e Concert For Bangladeshe kara kara chilen?
-    - New York er Madison Square Garden e Concert For Bangladesh e kon kon gayok chilen?
+    - Concert For Bangladesh kobe hoye chilo?
+    - Concert For Bangladesh koto tarikhe hoyechilo?
+    - Concert For Bangladesh kobe hoyechilo?
+    - Concert For Bangladeshe kara kara chilen?
+    - Concert For Bangladesh e kon kon gayok chilen?
 
 - intent: liberation_war_foreign_aid_06
   examples: |
     - Bharot shorkar koto tarikhe bangladesh k help koren?
     - Bharot shorkar koto tarikhe bangladesh k shahajjo koren?
+    - Indian government koto tarikhe bangladesh k shahajjo koren?
+    - Indian sorkar koto tarikhe bangladesh k shahajjo koren?
 
 - intent: liberation_war_foreign_aid_07
   examples: |
@@ -252,94 +360,65 @@ nlu:
 
 - intent: liberation_war_honorary_title_13
   examples: |
-    - Birshreshthashreshtha Engineroom Room Artificer Mohammad Ruhul Amin koto tarikhe mr̥ittu baraṇ koren?
-    - Kobe Ruhul Amin mara jan?
-    - Kon tarikhe Birshreshthashreshtha Ruhul Amin shahid hon?
-    - kon somoye Engineroom Room Artificer Mohammad Ruhul Amin shahadat boroṇ koren?
+    - [Birshreshthashreshtha Engineroom Room Artificer Mohammad Ruhul Amin](bs_death) koto tarikhe mrittu boron koren?
+    - Kobe [Ruhul Amin](bs_death) mara jan?
+    - Kon tarikhe [Birshreshthashreshtha Ruhul Amin](bs_death) shahid hon?
+    - kon somoye [Engineroom Room Artificer Mohammad Ruhul Amin](bs_death) shahadat boron koren?
+    - [Birshreshthashreshtha Captain Mohiuddin Jahangir](bs_death) koto tarikhe mrittu boron koren?
+    - Kobe [Mohiuddin Jahangir](bs_death) mara jan?
+    - Kon tarikhe [Birshreshthashreshtha Mohiuddin Jahangir](bs_death) shahid hon?
+    - kon somoye [Captain Mohiuddin Jahangir](bs_death) shahadat boron koren?
+    - [Motiur Rahman](bs_death) koto tarikhe mrittu boron koren?
+    - Kobe [Motiur Rahman](bs_death) mara jan?
+    - Kon tarikhe [Motiur Rahman](bs_death) shahid hon?
+    - kon somoye [Motiur Rahman](bs_death) shahadat boron koren?
+    - [Nur Mohammad Sheikh](bs_death) koto tarikhe mrittu boron koren?
+    - Kobe [Nur Mohammad Sheikh](bs_death) mara jan?
+    - Kon tarikhe [Nur Mohammad Sheikh](bs_death) shahid hon?
+    - kon somoye [Nur Mohammad Sheikh](bs_death) shahadat boron koren?
+    - [Munshi Abdur Rouf](bs_death) koto tarikhe mrittu boron koren?
+    - Kobe [Munshi Abdur Rouf](bs_death) mara jan?
+    - Kon tarikhe [Munshi Abdur Rouf](bs_death) shahid hon?
+    - kon somoye [Munshi Abdur Rouf](bs_death) shahadat boron koren?
+    - [Mustafa Kamal](bs_death) koto tarikhe mrittu boron koren?
+    - Kobe [Mustafa Kamal](bs_death) mara jan?
+    - Kon tarikhe [Mustafa Kamal](bs_death) shahid hon?
+    - kon somoye [Mustafa Kamal](bs_death) shahadat boron koren?
+    - [Hamidur Rahman](bs_death) koto tarikhe mrittu boron koren?
+    - Kobe [Hamidur Rahman](bs_death) mara jan?
+    - Kon tarikhe [Hamidur Rahman](bs_death) shahid hon?
+    - kon somoye [Hamidur Rahman](bs_death) shahadat boron koren?
 
 - intent: liberation_war_honorary_title_14
   examples: |
-    - Birshreshthashreshtha Captain Mohiuddin Jahangir koto tarikhe mrittu boron koren?
-    - kobe Mohiuddin Jahangir mara jan?
-    - kon tarikhe Birshreshthashreshtha Mohiuddin Jahangir shahid hon?
-    - kon shomoye Captain Mohiuddin Jahangir shahadat boron koren?
-
-- intent: liberation_war_honorary_title_15
-  examples: |
-    - Birshreshthashreshtha Captain Mohiuddin Jahangir er jonmo koto tarikhe?
-    - kobe Mohiuddin Jahangir jonmo grohon koren?
-    - kon tarikhe Birshreshthashreshtha Mohiuddin Jahangir jonmo nen?
-    - kon shomoye Captain Mohiuddin Jahangir bhumistha hon?
-
-- intent: liberation_war_honorary_title_16
-  examples: |
-    - Birshreshthashreshtha Flight Lieutenant Motiur Rahman koto tarikhe mrittu boron koren?
-    - kobe Motiur Rahman mara jan?
-    - kon tarikhe Birshreshthashreshtha Motiur Rahman shahid hon?
-    - kon shomoye Flight Lieutenant Motiur Rahman shahadat boron koren?
-
-- intent: liberation_war_honorary_title_17
-  examples: |
-    - Birshreshthashreshtha Flight Lieutenant Motiur Rahman er jonmo koto tarikhe?
-    - kobe Motiur Rahman jonmo grohon koren?
-    - kon tarikhe Birshreshthashreshtha Motiur Rahman jonmo nen?
-    - kon shomoye Flight Lieutenant Motiur Rahman bhumistha hon?
-
-- intent: liberation_war_honorary_title_18
-  examples: |
-    - Birshreshthashreshtha Lance Naik Nur Mohammad Sheikh koto tarikhe mrittu boron koren?
-    - kobe Nur Mohammad Sheikh mara jan?
-    - kon tarikhe Birshreshthashreshtha Nur Mohammad Sheikh shahid hon?
-    - kon shomoye Lance Naik Nur Mohammad Sheikh shahadat boron koren?
-
-- intent: liberation_war_honorary_title_19
-  examples: |
-    - Birshreshthashreshtha Lance Naik Nur Mohammad Sheikh er jonmo koto tarikhe?
-    - kobe Nur Mohammad Sheikh jonmo grohon koren?
-    - kon tarikhe Birshreshthashreshtha Nur Mohammad Sheikh jonmo nen?
-    - kon shomoye Lance Naik Nur Mohammad Sheikh bhumistha hon?
-
-- intent: liberation_war_honorary_title_20
-  examples: |
-    - Birshreshthashreshtha Lance Naik Munshi Abdur Rouf koto tarikhe mrittu boron koren?
-    - kobe Munshi Abdur Rouf mara jan?
-    - kon tarikhe Birshreshthashreshtha Munshi Abdur Rouf shahid hon?
-    - kon shomoye Lance Naik Munshi Abdur Rouf shahadat boron koren?
-
-- intent: liberation_war_honorary_title_21
-  examples: |
-    - Birshreshthashreshtha Lance Naik Munshi Abdur Rouf er jonmo koto tarikhe?
-    - kobe Munshi Abdur Rouf jonmo grohon koren?
-    - kon tarikhe Birshreshthashreshtha Munshi Abdur Rouf jonmo nen?
-    - kon shomoye Lance Naik Munshi Abdur Rouf bhumistha hon?
-
-- intent: liberation_war_honorary_title_22
-  examples: |
-    - Birshreshthashreshtha Shipahi MuStaffa Kamal koto tarikhe mrittu boron koren?
-    - kobe MuStaffa Kamal mara jan?
-    - kon tarikhe Birshreshthashreshtha MuStaffa Kamal shahid hon?
-    - kon shomoye Shipahi MuStaffa Kamal shahadat boron koren?
-
-- intent: liberation_war_honorary_title_23
-  examples: |
-    - Birshreshthashreshtha Shipahi MuStaffa Kamal er jonmo koto tarikhe?
-    - kobe MuStaffa Kamal jonmo grohon koren?
-    - kon tarikhe Birshreshthashreshtha MuStaffa Kamal jonmo nen?
-    - kon shomoye Shipahi MuStaffa Kamal bhumistha hon?
-
-- intent: liberation_war_honorary_title_24
-  examples: |
-    - Birshreshthashreshtha Shipahi Hamidur Rahman koto tarikhe mrittu boron koren?
-    - kobe Hamidur Rahman mara jan?
-    - kon tarikhe Birshreshthashreshtha Hamidur Rahman shahid hon?
-    - kon shomoye Shipahi Hamidur Rahman shahadat boron koren?
-
-- intent: liberation_war_honorary_title_25
-  examples: |
-    - Birshreshthashreshtha Shipahi Hamidur Rahman er jonmo koto tarikhe?
-    - kobe Hamidur Rahman jonmo grohon koren?
-    - kon tarikhe Birshreshthashreshtha Hamidur Rahman jonmo nen?
-    - kon shomoye Shipahi Hamidur Rahman bhumistha hon?
+    - [Birshreshthashreshtha Engineroom Room Artificer Mohammad Ruhul Amin](bs_birth) koto tarikhe jonmo grohon koren?
+    - Kobe [Ruhul Amin](bs_birth) jonmo nen?
+    - Kon tarikhe [Birshreshthashreshtha Ruhul Amin](bs_birth) jonme chilen?
+    - kon somoye [Engineroom Room Artificer Mohammad Ruhul Amin](bs_birth) jonmo grohon korechilen?
+    - [Birshreshthashreshtha Captain Mohiuddin Jahangir](bs_birth) koto tarikhe jonmo grohon koren?
+    - Kobe [Mohiuddin Jahangir](bs_birth) jonmo nen?
+    - Kon tarikhe [Birshreshthashreshtha Mohiuddin Jahangir](bs_birth) jonme chilen?
+    - kon somoye [Captain Mohiuddin Jahangir](bs_birth) jonmo grohon korechilen?
+    - [Motiur Rahman](bs_birth) koto tarikhe jonmo grohon koren?
+    - Kobe [Motiur Rahman](bs_birth) jonmo nen?
+    - Kon tarikhe [Motiur Rahman](bs_birth) jonme chilen?
+    - kon somoye [Motiur Rahman](bs_birth) jonmo grohon korechilen?
+    - [Nur Mohammad Sheikh](bs_birth) koto tarikhe jonmo grohon koren?
+    - Kobe [Nur Mohammad Sheikh](bs_birth) jonmo nen?
+    - Kon tarikhe [Nur Mohammad Sheikh](bs_birth) jonme chilen?
+    - kon somoye [Nur Mohammad Sheikh](bs_birth) jonmo grohon korechilen?
+    - [Munshi Abdur Rouf](bs_birth) koto tarikhe jonmo grohon koren?
+    - Kobe [Munshi Abdur Rouf](bs_birth) jonmo nen?
+    - Kon tarikhe [Munshi Abdur Rouf](bs_birth) jonme chilen?
+    - kon somoye [Munshi Abdur Rouf](bs_birth) jonmo grohon korechilen?
+    - [Mustafa Kamal](bs_birth) koto tarikhe jonmo grohon koren?
+    - Kobe [Mustafa Kamal](bs_birth) jonmo nen?
+    - Kon tarikhe [Mustafa Kamal](bs_birth) jonme chilen?
+    - kon somoye [Mustafa Kamal](bs_birth) jonmo grohon korechilen?
+    - [Hamidur Rahman](bs_birth) koto tarikhe jonmo grohon koren?
+    - Kobe [Hamidur Rahman](bs_birth) jonmo nen?
+    - Kon tarikhe [Hamidur Rahman](bs_birth) jonme chilen?
+    - kon somoye [Hamidur Rahman](bs_birth) jonmo grohon korechilen?
 
 - intent: liberation_war_radio_06
   examples: |
@@ -351,20 +430,13 @@ nlu:
 
 - intent: liberation_war_secretariate_01
   examples: |
-    - M.A.G Osmani kobe Bangladesh shoshostro bahinir command grohon korechen?
+    - Ataul Gani Osmani kobe Bangladesh shoshostro bahinir command grohon korechen?
     - M.A.G Osmani kokhon Bangladesh shoshostro bahinir command grohon korechen?
     - M.A.G Osmani Bangladesh shoshostro bahinir command kokhon grohon korechen?
-    - M.A.G Osmani kobe Bangladesh shoshostro bahinir command grohon korechilen?
-    - M.A.G Osmani Bangladesh shoshostro bahinir command kobe grohon korechilen?
-    - M.A.G Osmani kobe Bangladesh shoshostro bahinir command grohon koren?
-    - M.A.G Osmani kokhon Bangladesh shoshostro bahinir command grohon koren?
-
-- intent: liberation_war_secretariate_02
-  examples: |
-    - Kolkata high commission e ke kobe Bangladesher jatiyo potaka uttolon koren?
-    - Kolkata high commission e ke ebong kobe Bangladesher jatiyo potaka uttolon koren?
-    - Kolkata high commissione Bangladesher jatiyo potaka ke ebong kobe uttolon koren?
-    - Ke kobe Kolkata high commissione Bangladesher jatiyo potaka uttolon koren?
+    - Osmani kobe Bangladesh shoshostro bahinir command grohon korechilen?
+    - General Osmani Bangladesh shoshostro bahinir command kobe grohon korechilen?
+    - Osmani kobe Bangladesh shoshostro bahinir command grohon koren?
+    - Ataul Gani Osmani kokhon Bangladesh shoshostro bahinir command grohon koren?
 
 - intent: liberation_war_secretariate_03
   examples: |
@@ -373,13 +445,14 @@ nlu:
     - kobe Bangladesh biman bahini kaj shuru kore?
     - Bangladesh biman bahini koto tarikhe kaj shuru kore?
     - Bangladesh biman bahini kokhon kaj shuru kore?
+    - biman bahini kobe jatra shuru koren
 
 - intent: liberation_war_secretariate_04
   examples: |
     - Meherapur jelar baidyanathtala (bortomane mujibanagar name porichito) osthayi shorkar-probas kon tarikhe shopoth niyeche?
-    - Meherapur jelar baidyanathtala osthayi shorkar-probas kon tarikhe shopoth niyeche?
-    - Meherapur jelar baidyanathtala (bortomane mujibanagar name porichito) osthayi shorkar-probas koto tarikhe shopoth niyeche?
-    - Meherapur jelar baidyanathtala osthayi shorkar-probas koto tarikhe shopoth niyeche?
+    - Meherapur jelar baiddonathtala osthayi shorkar-probas kon tarikhe shopoth niyeche?
+    - baidyanathtala (bortomane mujibanagar name porichito) osthayi shorkar-probas koto tarikhe shopoth niyeche?
+    - Meherapur er baidyanathtala osthayi shorkar-probas koto tarikhe shopoth niyeche?
     - osthayi shorkar-probas kon tarikhe Meherapur jelar baidyanathtalay shopoth niyeche?
 
 - intent: liberation_war_secretariate_05
@@ -397,10 +470,6 @@ nlu:
     - Probashi Bangladesh shorkar kobe gothon kora hoy?
     - kobe Probashi Bangladesh shorkar gothito hoy?
     - kobe Probashi Bangladesh shorkar gothon kora hoy?
-    -
-
-- intent: liberation_war_secretariate_07
-  examples: |
     - Bangladesher osthayi shorkar koto sale gothito hoy?
     - Bangladesher osthayi shorkar kon shale gothito hoy?
     - koto shale Bangladesher osthayi shorkar gothito hoy?
@@ -410,23 +479,13 @@ nlu:
 
 - intent: liberation_war_secretariate_08
   examples: |
-    - Bangladesher osthayi sorkarer ontorbartikAlin rastropoti ke chilen?
-    - osthayi sorkarer ontorbartikAlin rastropoti ke chilen?
-    - Bangladesher osthayi sorkarer ontorbartikAlin president ke chilen?
-    - osthayi sorkarer ontorbartikAlin president ke chilen?
-
-- intent: liberation_war_secretariate_09
-  examples: |
-    - Bangladesher osthayi sorkarer prodhan montri ke chilen?
-    - osthayi sorkarer prodhan montri ke chilen?
-    - prodhan montri ke chilen?
-
-- intent: liberation_war_secretariate_10
-  examples: |
-    - Bangladesher osthayi sorkarer rastropoti ke chilen?
-    - osthayi sorkarer rastropoti ke chilen?
-    - Bangladesher osthayi sorkarer president ke chilen?
-    - osthayi sorkarer president ke chilen?
+    - Bangladesher osthayi sorkarer ontorbartikAlin [rastropoti](post) ke chilen?
+    - osthayi sorkarer ontorbartikAlin [rastro poti](post) ke chilen?
+    - Bangladesher osthayi sorkarer ontorbartikAlin [president](post) ke chilen?
+    - osthayi sorkarer ontorbartikAlin [prime minister](post) ke chilen?
+    - Bangladesher osthayi sorkarer [prodhan montri](post) ke chilen?
+    - osthayi sorkarer [prodhanmontri](post) ke chilen?
+    - [prodhan montri](post) ke chilen?
 
 - intent: liberation_war_secretariate_11
   examples: |
@@ -434,26 +493,28 @@ nlu:
     - Meyad koto din chilo Bangladesher osthayi sorkarer rastropotir?
     - Bangladesher osthayi sorkarer rastropotir kotodin meyad chilo?
 
-- intent: liberation_war_secretariate_12
-  examples: |
-    - Bangladesher osthayi sorkarer rastropotir meyad koto din chilo?
-    - Meyad koto din chilo Bangladesher osthayi sorkarer rastropotir?
-    - Bangladesher osthayi sorkarer rastropotir kotodin meyad chilo?
-
 - intent: liberation_war_secretariate_13
   examples: |
-    - Muktijuddhe Bangladesher Chief of Staff ke chilen?
-    - Muktijuddher shomoy Bangladesher Chief of Staff ke chilen?
-    - Bangladesher Chief of Staff ke chilen muktijuddhe?
-    - Bangladesher Chief of Staff ke chilen muktijuddher shomoy?
-    - Muktijuddho cholakAlin shomoye Bangladesher Chief of Staff ke chilen?
+    - Muktijuddhe Bangladesher [Chief of Staff](post_1) ke chilen?
+    - Muktijuddher shomoy Bangladesher [Chief of Staff](post_1) ke chilen?
+    - Bangladesher [Chief of Staff](post_1) ke chilen muktijuddhe?
+    - Bangladesher [Chief of Staff](post_1) ke chilen muktijuddher shomoy?
+    - mukti bahinir [Chief of Staff](post_1) k chilen?
+    - Muktijuddho cholakAlin shomoye Bangladesher [Chief of Staff](post_1) ke chilen?
+    - Notun rastrer muktibahinir [deputi Chief of Staff](post_1) hisebe kake bachai kora hoy?
+    - Notun rastrer muktibahinir [deputi Chief of Staff](post_1) hisebe kake nirbachito kora hoy?
+    - Kake Notun rastrer mukti bahinir [deputi Chief of Staff](post_1) hisebe nijukto kora hoy?
+    - Kake Notun rastrer muktibahinir [deputi Chief of Staff](post_1) pode bachai kora hoy?
+    - mukti bahinir [deputi Chief of Staff](post_1) k chilen?
 
 - intent: liberation_war_secretarieate_14
   examples: |
     - montriparisade ebong MNA o MPA gon 10 April ortho montroṇalaye kake nirbachito koren?
     - Osthayi shorkar nirbachoner shomoy kake ortho montri hisebe nirbachito kora hoy?
-    - Bangofndhur onupostithite kake osthayi ortho montri banano hoy?
+    - Bangobondhur onupostithite kake osthayi ortho montri banano hoy?
     - Bangladesh Shadhin howar purbe osthayi ortho montri kake nirbachito koren?
+    - bangobondhur onuphsothitite kake osthayi ortho montri banano hoy?
+    - kake osthayi ortho montri banano hoy?
 
 - intent: liberation_war_secretarieate_15
   examples: |
@@ -461,27 +522,8 @@ nlu:
     - Notun rastrer muktibahinir prodhan shenapoti hisebe kake bachai kora hoy?
     - Notun rastrer muktibahinir prodhan shenapoti hisebe kake nirbachito kora hoy?
     - Kake Notun rastrer muktibahinir prodhan shenapoti hisebe nijukto kora hoy?
-    - Kake Notun rastrer muktibahinir prodhan shenapoti pode bachai kora hoy?
-    - Kake Notun rastrer muktibahinir prodhan shenapoti pode nirbachito kora hoy?
-
-- intent: liberation_war_secretarieate_16
-  examples: |
-    - Notun rastrer muktibahinir Chief of Staff hisebe kake nijukto kora hoy?
-    - Notun rastrer muktibahinir Chief of Staff hisebe kake bachai kora hoy?
-    - Notun rastrer muktibahinir Chief of Staff hisebe kake nirbachito kora hoy?
-    - Kake Notun rastrer muktibahinir Chief of Staff hisebe nijukto kora hoy?
-    - Kake Notun rastrer muktibahinir Chief of Staff pode bachai kora hoy?
-    - Kake Notun rastrer muktibahinir Chief of Staff pode nirbachito kora hoy?
-
-- intent: liberation_war_secretarieate_17
-  examples: |
-    - Notun rastrer muktibahinir deputi Chief of Staff u'iṁ hisebe kake nijukto kora hoy?
-    - Notun rastrer muktibahinir deputi Chief of Staff u'iṁ hisebe kake bachai kora hoy?
-    - Notun rastrer muktibahinir deputi Chief of Staff u'iṁ hisebe kake nirbachito kora hoy?
-    - Kake Notun rastrer muktibahinir deputi Chief of Staff u'iṁ hisebe nijukto kora hoy?
-    - Kake Notun rastrer muktibahinir deputi Chief of Staff u'iṁ pode bachai kora hoy?
-    - Kake Notun rastrer muktibahinir deputi Chief of Staff u'iṁ pode nirbachito kora hoy?
-    -
+    - Kake Notun rastrer muktibahinir prodhan shena poti pode bachai kora hoy?
+    - Kake Notun rastrer muktibahinir prodhan shena poti pode nirbachito kora hoy?
 
 - intent: liberation_war_secretarieate_18
   examples: |
@@ -504,8 +546,8 @@ nlu:
     - AHM Kamruzzaman kon kon montronalayer dayitte chilen?
     - AHM Kamruzzaman kon kon montronalayer dayitte niyojito chilen?
     - kon kon montronalayer dayitto AHM Kamruzzamaner chilo?
-    - AHM Kamruzzamanke kon kon montroṇalayer dayitto deya hoyechilo?
-    - AHM Kamruzzaman kon kon mantralaye dayittoprapta chilen?
+    - Kamruzzamanke kon kon montroṇalayer dayitto deya hoyechilo?
+    - Kamruzzaman kon kon mantralaye dayittoprapta chilen?
 
 - intent: liberation_war_secretarieate_21
   examples: |
@@ -516,7 +558,7 @@ nlu:
 
 - intent: liberation_war_secretarieate_22
   examples: |
-    - osthayi shorkar gothoner pore prodhanmontri doptorer ekanta sochib ke chilen?
+    - osthayi shorkar gothoner pore prodhanmontri karjaloy er ekanta sochib ke chilen?
     - osthayi sorkaree prodhanmontri doptorer ekanta sochib ke chilen?
     - osthayi shorkar gothoner pore prodhanmontri office er ekanta sochib ke chilen?
     - osthayi sorkare prodhanmontri office er ekanta sochib ke chilen?
@@ -568,7 +610,9 @@ nlu:
     - Muktijuddho k susongothito korte somogro bangladesh k kototi sector a bivokto kora hoy?
     - Muktijuddho k susongothito korar jonno somogro bangladesh k kototi sector a bivokto kora hoy?
     - Muktijuddho k susongothito korar lokkhe somogro bangladesh k kototi sector a vag kora hoy?
-    -
+    - bangaldesh k koyti sector a vag kora hoy
+    - muktijuddhe bangladesh koyti sector a vag kora hoy
+    - juddher shomoy bangladesh k koyti sector a vag kora hoy
 
 - intent: liberation_war_secretarieate_29
   examples: |
@@ -577,11 +621,6 @@ nlu:
     - Ekattore Bangladesh sorkarer ortho songsthaner jonno jei tohobil khola hoy tar nam ki?
     - Ekattore Bangladesh sorkarer orthonitite sahajjo korar jonno jei tohobil khola hoy tar nam ki?
     - Ekattore Bangladesh sorkarer orthosongsthaner jonno ki nam a tohobil khola hoy?
-    -
-
-- intent: liberation_war_secretarieate_30
-  examples: |
-    - nan
 
 - intent: liberation_war_sector_01
   examples: |
@@ -595,10 +634,11 @@ nlu:
 - intent: liberation_war_sector_02
   examples: |
     - koto tarikh a bharitio senabahini bangladesh a probesh kore?
-    - Kokhon bharitio senabahini bangladesh a probesh kore?
-    - Bharitio senabahini kokhon bangladesh a probesh kore?
+    - Kokhon bharitio shoinno bangladesh a probesh kore?
+    - Bharitio sena bahini kokhon bangladesh a probesh kore?
     - Bharitio senabahini koto tarikh a bangladesh a probesh kore?
     - 1971 saler koto tarikh a bharitio senabahini bangladesh a probesh kore?
+    - Indian army kokhon bangladesh a probesh kore?
 
 - intent: liberation_war_sector_03
   examples: |
@@ -611,60 +651,31 @@ nlu:
 
 - intent: liberation_war_sector_05
   examples: |
-    - Muktijuddher somoy kushtia, jessore, khulna, barisal, faridpur ebong potuakhali jelar sector commandar k chilen?
-    - Muktijuddho cholakalin somoy kushtia, jessore, khulna, barisal, faridpur ebong potuakhali jelar sector commandar k chilen?
-    - kushtia, jessore, khulna, barisal, faridpur ebong potuakhali jelar sector commandar k chilen muktijuddher somoy?
-    - kushtia, jessore, khulna, barisal, faridpur ebong potuakhali jelar sector commandar k chilen muktijuddho cholakalin?
-    -
-
-- intent: liberation_war_sector_06
-  examples: |
-    - Muktijuddher somoy chottogram jelar sector commandar k chilen?
-    - Muktijuddho cholakalin somoy chottogram jelar sector commandar k chilen?
-    - Chottogram jelar sector commandar k chilen muktijuddher somoy?
-    - Chottogram jelar sector commandar k chilen muktijuddho cholakalin?
-    -
-
-- intent: liberation_war_sector_07
-  examples: |
-    - Muktijuddher somoy dhakar sector commandar k chilen?
-    - Muktijuddho cholakalin somoy dhakar sector commandar k chilen?
-    - Dhakar sector commandar k chilen muktijuddher somoy?
-    - Dhakar sector commandar k chilen muktijuddho cholakalin?
-    -
-
-- intent: liberation_war_sector_08
-  examples: |
-    - Muktijuddher somoy nou commando sector commandar k chilen?
-    - Muktijuddho cholakalin somoy nou commando sector commandar k chilen?
-    - Nou commando sector commandar k chilen muktijuddher somoy?
-    - Nou commandor sector commandar k chilen muktijuddho cholakalin?
-    -
-
-- intent: liberation_war_sector_09
-  examples: |
-    - Muktijuddher somoy durgapurer sector commandar k chilen?
-    - Muktijuddho cholakalin somoy durgapur er sector commandar k chilen?
-    - Durgapur er sector commandar k chilen muktijuddher somoy?
-    - Durgapur jelar sector commandar k chilen muktijuddho cholakalin?
-    -
-
-- intent: liberation_war_sector_10
-  examples: |
-    - Muktijuddher somoy barisal, potuakhali jelar sector commandar k chilen?
-    - Muktijuddho cholakalin somoy barisal, potuakhali jelar sector commandar k chilen?
-    - Barisal, potuakhali jelar sector commandar k chilen muktijuddher somoy?
-    - Barisal, potuakhali jelar sector commandar k chilen muktijuddho cholakalin?
-    -
-
-- intent: liberation_war_sector_11
-  examples: |
-    - Muktijuddhe bangladesh a kototti sector chilo?
-    - Ekattore bangladesh a kototi sector chilo?
-    - Kototi sector chilo muktijuddher shomoy?
-    - Kototi sector chilo muktijuddher shomoy bangladesh a?
-    - Muktijuddher shomoy bangladesh a koyti sector chilo?
-    -
+    - Muktijuddher somoy [kushtia, jessore, khulna, barisal, faridpur ebong potuakhali](sector_area) jelar sector commandar k chilen?
+    - Muktijuddho cholakalin somoy [kushtia, jessore](sector_area) jelar sector commandar k chilen?
+    - [khulna, barisal](sector_area) jelar sector commandar k chilen muktijuddher somoy?
+    - [faridpur, potuakhali](sector_area) jelar sector commandar k chilen muktijuddho cholakalin?
+    - Muktijuddher somoy [chottogram](sector_area) jelar sector commandar k chilen?
+    - [Chittagong](sector_area) jelar sector commandar k chilen muktijuddho cholakalin?
+    - Muktijuddher somoy [dhakar](sector_area) sector commandar k chilen?
+    - Muktijuddho cholakalin somoy [dhaka](sector_area) sector commandar k chilen?
+    - Muktijuddher somoy [nou commando](sector_area) sector commandar k chilen?
+    - [Nou commandor](sector_area) sector commandar k chilen muktijuddho cholakalin?
+    - Muktijuddher somoy [durgapurer](sector_area) sector commandar k chilen?
+    - Muktijuddho cholakalin somoy [durgapur](sector_area) er sector commandar k chilen?
+    - [Durgapur](sector_area) er sector commandar k chilen muktijuddher somoy?
+    - Muktijuddher somoy [mymensingh, tangail](sector_area) jelar sector commandar k chilen?
+    - Muktijuddho cholakalin somoy [mymensingh](sector_area) jelar sector commandar k chilen?
+    - [tangail](sector_area) jelar sector commandar k chilen muktijuddher somoy?
+    - Muktijuddher somoy [rangpur](sector_area) jelar sector commandar k chilen?
+    - [Rangpur](sector_area) jelar sector commandar k chilen muktijuddho cholakalin?
+    - Muktijuddher somoy [rajshahi, pabna, bogura](sector_area) jelar sector commandar k chilen?
+    - Muktijuddho cholakalin somoy [pabna, bogura](sector_area) jelar sector commandar k chilen?
+    - [Rajshahi, pabna](sector_area) jelar sector commandar k chilen muktijuddher somoy?
+    - [Rajshahi, bogura](sector_area) jelar sector commandar k chilen muktijuddho cholakalin?
+    - Muktijuddher somoy [sylhet](sector_area) er sector commandar k chilen?
+    - [Sylhet](sector_area) er sector commandar k chilen muktijuddher somoy?
+    - Muktijuddho cholakalin somoy [habiganj](sector_area) jelar sector commandar k chilen?
 
 - intent: liberation_war_sector_12
   examples: |
@@ -679,133 +690,25 @@ nlu:
   examples: |
     - Muktijuddhe bangladesh er sena prodhan k chilen?
     - Muktijuddhe bangladesh er sorbadhinayok k chilen?
-    - Muktijuddher shomoy bangladesh er sena prodhan k chilen?
+    - Muktijuddher shomoy bangladesh er senaprodhan k chilen?
     - Muktijuddher shomoy bangladesh er sorbadhinayok k chilen?
-    - Bangladesh er sena prodhan k chilen muktijuddhe?
+    - Bangladesh er senaprodhan k chilen muktijuddhe?
     - Bangladesh er sorbadhinayok k chilen muktijuddhe?
-    -
-
-- intent: liberation_war_sector_14
-  examples: |
-    - Muktijuddher somoy mymensingh and tangail jelar sector commandar k chilen?
-    - Muktijuddho cholakalin somoy mymensingh and tangail jelar sector commandar k chilen?
-    - mymensingh and tangail jelar sector commandar k chilen muktijuddher somoy?
-    - mymensingh and tangail jelar sector commandar k chilen muktijuddho cholakalin?
-    -
-
-- intent: liberation_war_sector_15
-  examples: |
-    - Muktijuddher somoy rangpur jelar sector commandar k chilen?
-    - Muktijuddho cholakalin somoy rangpur jelar sector commandar k chilen?
-    - Rangpur jelar sector commandar k chilen muktijuddher somoy?
-    - Rangpur jelar sector commandar k chilen muktijuddho cholakalin?
-    -
-
-- intent: liberation_war_sector_16
-  examples: |
-    - Muktijuddher somoy rajshahi, pabna ebong bogura jelar sector commandar k chilen?
-    - Muktijuddho cholakalin somoy rajshahi, pabna ebong bogura jelar sector commandar k chilen?
-    - Rajshahi, pabna ebong bogura jelar sector commandar k chilen muktijuddher somoy?
-    - Rajshahi, pabna ebong bogura jelar sector commandar k chilen muktijuddho cholakalin?
-    -
-
-- intent: liberation_war_sector_17
-  examples: |
-    - Muktijuddher somoy sylhet er sector commandar k chilen?
-    - Muktijuddho cholakalin somoy sylhet er sector commandar k chilen?
-    - Sylhet er sector commandar k chilen muktijuddher somoy?
-    - Sylhet er sector commandar k chilen muktijuddho cholakalin?
-    -
-
-- intent: liberation_war_sector_18
-  examples: |
-    - Muktijuddhe sector one er odhine kon kon elaka chilo?
-    - kon kon elaka nie sector ek gothito hoyechilo?
-    - Sector one kon kon jela nie gothon kora hoechilo?
-    - sector one
-    - sector one er elaka
 
 - intent: liberation_war_sector_19
   examples: |
-    - Muktijuddhe sector ten er odhine kon onchol rakha hoyechilo?
-    - kon kon onchol nie sector 10 gothito hoyechilo?
-    - Sector dosh kon jela nie toiri kora hoechilo?
-    - sector 10
-    - sector 10 er onchol
-#
-#- intent: liberation_war_sector_20
-#  examples: |
-#    - Muktijuddhe sector 11 er odhine kon kon onchol chilo?
-#    - kon kon elaka nie sector 11 gothito hoyechilo?
-#    - Sector 11 kon kon jela nie gothon kora hoechilo?
-#    -
-#
-#- intent: liberation_war_sector_21
-#  examples: |
-#    - Muktijuddhe sector 2 er odhine kon kon onchol chilo?
-#    - kon kon elaka nie sector 2 gothito hoyechilo?
-#    - Sector 2 kon kon jela nie gothon kora hoechilo?
-#    - sector 2 er onchol
-#    - sector 2
-#
-#- intent: liberation_war_sector_22
-#  examples: |
-#    - Muktijuddhe sector 3 er odhine kon kon onchol chilo?
-#    - kon kon elaka nie sector 3 gothito hoyechilo?
-#    - Sector 3 kon kon jela nie gothon kora hoechilo?
-#    -
-#
-#- intent: liberation_war_sector_23
-#  examples: |
-#    - Muktijuddhe sector 4 er odhine kon kon onchol chilo?
-#    - kon kon elaka nie sector 4 gothito hoyechilo?
-#    - Sector 4 kon kon jela nie gothon kora hoechilo?
-#    -
-#
-#- intent: liberation_war_sector_24
-#  examples: |
-#    - Muktijuddhe sector 5 er odhine kon kon onchol chilo?
-#    - kon kon elaka nie sector 5 gothito hoyechilo?
-#    - Sector 5 kon kon jela nie gothon kora hoechilo?
-#    -
-#
-#- intent: liberation_war_sector_25
-#  examples: |
-#    - Muktijuddhe sector 6 er odhine kon kon onchol chilo?
-#    - kon kon elaka nie sector 6 gothito hoyechilo?
-#    - Sector 6 kon kon jela nie gothon kora hoechilo?
-#    -
-#
-#- intent: liberation_war_sector_26
-#  examples: |
-#    - Muktijuddhe sector 7 er odhine kon kon onchol chilo?
-#    - kon kon elaka nie sector 7 gothito hoyechilo?
-#    - Sector 7 kon kon jela nie gothon kora hoechilo?
-#    -
-#
-#- intent: liberation_war_sector_27
-#  examples: |
-#    - Muktijuddhe sector 8 er odhine kon kon onchol chilo?
-#    - kon kon elaka nie sector 8 gothito hoyechilo?
-#    - Sector 8 kon kon jela nie gothon kora hoechilo?
-#    - sector 8 er onchol
-#    - sector 8
-#
-#- intent: liberation_war_sector_28
-#  examples: |
-#    - Muktijuddhe sector 9 er odhine kon kon onchol chilo?
-#    - kon kon elaka nie sector 9 gothito hoyechilo?
-#    - Sector 9 kon kon jela nie gothon kora hoechilo?
-#    - sector 9 er onchol
-#    - sector 9
-
-- intent: liberation_war_sector_29
-  examples: |
-    - Muktijuddher somoy habiganj jelar sector commandar k chilen?
-    - Muktijuddho cholakalin somoy habiganj jelar sector commandar k chilen?
-    - Habiganj jelar sector commandar k chilen muktijuddher somoy?
-    - Habiganj jelar sector commandar k chilen muktijuddho cholakalin?
-    -
+    - Muktijuddhe sector [10](sector_no) er odhine kon onchol rakha hoyechilo?
+    - kon kon onchol nie sector [10](sector_no) gothito hoyechilo?
+    - Sector [9](sector_no) kon jela nie toiri kora hoechilo?
+    - sector [8](sector_no)
+    - sector [7](sector_no)
+    - sector [6](sector_no)
+    - sector [5](sector_no)
+    - sector [4](sector_no)
+    - sector [3](sector_no)
+    - sector [2](sector_no)
+    - sector [1](sector_no)
+    - sector [1](sector_no) er onchol
 
 - intent: liberation_war_sector_30
   examples: |
@@ -855,6 +758,8 @@ nlu:
     - Sheikh mujibur rahaman er jonmo sal koto?
     - Sheikh mujib er jonmosal konti ?
     - Sheikh mujib er jonmosthan kothay?
+    - bangabondhu kothay jonmo grohon kore
+
 
 - intent: mujib_death
   examples: |
@@ -863,10 +768,13 @@ nlu:
     - Koto sale ebong koto tarikhe bangabandhu soaparibare nihoto hon?
     - Koto tarikhe bangabondhu soparibare nihoto hon?
     - Bangabondhu koto tarikhe soparibare khun hoyechilen?
+    - bangabandhu koto tarikh a sahid hon
+    - bangabandhu koto tarikh a saheed hon
+    - bangabandhu koto tarikh a shahid hon
 
 - intent: mujib_politics_01
   examples: |
-    - Bangabondhur prothom kara boroṇ koto sale ebong keno?
+    - Bangabondhur prothom kara boron koto sale ebong keno?
     - Bangabandhu prothom jele jan keno?
     - Bangabandhu prothom jele jan kobe?
     - Sheikh mujib koto sale jele jan?
@@ -883,8 +791,8 @@ nlu:
 - intent: mujib_politics_03
   examples: |
     - Bangabondhu rescouse moyadan e koto tarikh e ghoṣoṇa diyechilen,  bhaṣhon ṭi ki chilo?
-    - Baṅgabandhu kobe shadinotar bhaṣhon diyehilen?
-    - Bangabandhur  bhaṣhonṭi ki chilo?
+    - Bangabandhu kobe shadinotar bhaṣhon diyehilen?
+    - Bangabandhur bhashonti ki chilo?
     - Race course moyadane bangabandhu ki bhashon diyechilen?
 
 - intent: mujib_politics_04
@@ -920,17 +828,17 @@ nlu:
 - intent: mujib_politics_08
   examples: |
     - Bangabandhu koto tarikhe pradhanmontri hisabe shopoth grohon koren?
-    - Bangabandhu kokhon pradhanmantri hisabe sopoth grohoṇ koren?
+    - Bangabandhu kokhon pradhan mantri hisabe sopoth grohoṇ koren?
     - Bangabandhu muktijuddher por koto tarikhe pradhanmantri hisabe sapath grohoṇ korechilen?
     - Koto tarikhe bangabandhu pradhanmantri hisabe sopoth grohoṇ korechilen?
-    - Kokhon bangabondhu pradhanmantri hisabe sapath grohon koren?
+    - Kokhon bangabondhu prodhan montri hisabe sapath grohon koren?
     - Muktijuddher por koto tarikhe bangabandhu pradhanmantri hisabe sapoth grohoṇ koren?
 
 - intent: mujib_politics_09
   examples: |
-    - Bagabandhu bangali neta hisebe jatisongher 29 tomo sadharoṇ pariṣadhe kobe banglay baktr̥ita den?
-    - sheikh mujibur rahaman kobe jatisongher  sadharon pariṣadhe banglaẏ boktobbo diyechilen?
-    - Jatisangher sadharon pariṣhode sheikh mujib kobe banglay baktr̥ita den?
+    - Bagabandhu bangali neta hisebe jatisongher 29 tomo sadharon parisadhe kobe banglay baktrita den?
+    - sheikh mujibur rahaman kobe jatisongher  sadharon parisadhe banglay boktobbo diyechilen?
+    - Jatisangher sadharon pariṣhode sheikh mujib kobe banglay baktrita den?
 
 - intent: mujib_primary_school_01
   examples: |
@@ -983,6 +891,8 @@ nlu:
     - Bangabandhu kortrik goṣhito bangali jatir muktir sanad koy  6 dopha dabir pokkhe desh beapi tibro goṇo andoloner suchuna hoy ebong kobe?
     - choy dhofar jonno andolon kobe shuru hoy?
     - bangali er mukti er sonoder pokkhe anodolon kobe hoyechilo?
+    - 6 dofa dabi
+    - choy dopha dabi
 
 - intent: pakistan_politics_06
   examples: |
@@ -994,11 +904,11 @@ nlu:
 
 - intent: pakistan_politics_07
   examples: |
-    - Pakistan sarakar koto shale mithha mamla somuho prattahar kore ney ebong mamla gulir nam ki?
+    - Pakistan govt koto shale mithha mamla somuho prattahar kore ney ebong mamla gulir nam ki?
     - Pakistani sarakar sheikh mujib biruddhe kora mithha mamala kobe prottahar kore niyechilo?
     - Mujib er upor theke kobe pakistani sarakar mamla tule ney?
-    - Pakistani sarakar sheikh mujiber upor ki ki mithha mamla kore?
-    - Sheikh mujib er upor ki ki mithha mamala deẏ pakistani sarakar?
+    - Pakistani sorkar sheikh mujiber upor ki ki mithha mamla kore?
+    - Sheikh mujib er upor ki ki mithha mamala deẏ pakistan?
 
 - intent: pakistan_politics_08
   examples: |
@@ -1012,12 +922,14 @@ nlu:
     - Jatiya pariṣhad nirbachone awami league koyti ashon pay, pakistan people's party koyti ashon pay?
     - Jatiya pariṣhad nirbachone awami league koyti ashon peye bijoyi hoyechilo?
     - Jatiyo  pariṣad nirbachone pakistan people's party koyti ashon peye porajito hoy?
+    - Jatiya pariṣhad nirbachone
 
 - intent: pakistan_politics_11
   examples: |
     - 25  March ke pr̥ithibir itihase joghonnotomo kalo rat bola hoy keno?
-    - 25 March ke  kalo rat bola hoẏ keno?
+    - 25 March ke  kalo rat bola hoy keno?
     - Pr̥thibir itihas e joghonnotomo kalo rat bola hoẏ keno 25 march ke?
+    - 25 march k kalo rat keno bole
 
 - intent: pre_war_incident_01
   examples: |
@@ -1050,6 +962,7 @@ nlu:
     - 1971 saler koy tarikhe Iyahiya Khan Dhakay ashen?
     - yahya Khan 1971 shale kokhon Dhakay ashen?
     - yahya Khan 1971 saler koy tarikhe Dhakay eshe chilen?
+    - yahya dhakae ashen kobe
 
 - intent: pre_war_incident_05
   examples: |
@@ -1072,22 +985,19 @@ nlu:
     - 7 e march er bhashon koto somoy sthayi hoy?
     - 7 march er bhason koto somoy chole?
     - Koto somoy  7  march er bhason sthayi hoyechilo?
-    - Koto somoy  7  march er bhason chole chilo?
+    - Koto somoy  7  march er vason chole chilo?
     - 7 march er bhason koto somoy dhore hoyechilo?
-
-- intent: speech_of_liberation_02
-  examples: |
     - 7 march er bhason koytay shuru hoy?
     - 7 e march er bhason kokhon shuru hoyechilo?
     - Kokhon 7  march er bhason aromvo hoy?
     - koytay 7 marcher bhason shuru hoyechilo?
-
-- intent: speech_of_liberation_03
-  examples: |
     - 7  marcher bhason kothay hoy?
     - 7 marcher bhason kothay deya hoyechilo?
     - Kothay 7 marcher bhason  onusthito hoy?
     - Kothay 7 marcher bhason deya hoy?
+    - 7 march er bhasoner bokta ke chilen?
+    - 7 march e ke bhason diyechilen?
+    - 7 march bhasoner bokta ke chilen?
 
 - intent: speech_of_liberation_04
   examples: |
@@ -1095,24 +1005,26 @@ nlu:
     - 7 e march er  bhasoner ki ki dik niye alochona hoy?
     - 7 march bhasoner koyti dik niye alokpat hoy?
     - 7  march bhasoner ki ki dik niye kotha hoy?
-
-- intent: speech_of_liberation_05
-  examples: |
     - 7 e march er bhasoner potobhumi ki chilo?
     - 7 e march er bhasoner vhumika ki chilo?
     - 7 e march bhasohon er nepottho ki chilo?
 
-- intent: speech_of_liberation_06
+- intent: bangabondhu
   examples: |
-    - 7 march er bhasoner bokta ke chilen?
-    - 7 march e ke bhason diyechilen?
-    - 7 march bhasoner bokta ke chilen?
+    - bangabondhu k
+    - seikh mujib k
+    - mujib k
+    - jatir janak k
+    - father of the nation k
 
-- intent: speech_of_liberation_07
+- intent: bangabondhu_family
   examples: |
-    - Mujibur rahman er pokkhe abaro major Ziaur rahman kobe bangladesh er shadhinota ghosona koren?
-    - Mujibur rahmaner pokkhe abaro major Ziaur rahman kokhon bangladesh er shdhinota ghosona koren?
-    - Mujibur rahmaner pokkhe abaro  Ziaur rahman koto tarikje bangladesh er shadhinotar ghosona punoray koren?
-    - Mujibur rahmaner pokkhe abaro Ziyaur rahman bangladesh er shadhinota ghosona koren?
-    - Mujibur rahmaner pokkho theke abaro major Zia  kobe bangladesher shadhinota ghosona koren?
-    - Mujibur rahman er pokkho theke abaro Ziaur rahman kokhon bangladesher swadhinota ghosona koren?
+    - bongobondhur pitamatar nam ki?
+    - bongobondhur pitamata kara?
+    - Sheikh Mujibur Rahmaner pita matar nam ki?
+    - bongobondhu Sheikh Mujibur Rahmaner pita matar nam ki?
+    - Sheikh Mujiber pita matar nam ki?
+    - Mujiber babar nam ki?
+    - Sheikh Mujiber mar nam ki?
+    - Sheikh Mujiber abbar nam ki?
+    - Mujiber ammar nam ki??

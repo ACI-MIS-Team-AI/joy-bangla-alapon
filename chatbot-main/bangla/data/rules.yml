@@ -98,11 +98,6 @@ rules:
 
 - rule: respond to FAQs
   steps:
-  - intent: liberation_war_flag_07
-  - action: utter_liberation_war_flag_07
-
-- rule: respond to FAQs
-  steps:
   - intent: liberation_war_flag_08
   - action: utter_liberation_war_flag_08
 
@@ -165,11 +160,6 @@ rules:
   steps:
   - intent: liberation_war_flag_20
   - action: utter_liberation_war_flag_20
-
-- rule: respond to FAQs
-  steps:
-  - intent: liberation_war_flag_21
-  - action: utter_liberation_war_flag_21
 
 - rule: respond to FAQs
   steps:
@@ -449,32 +439,7 @@ rules:
 - rule: respond to FAQs
   steps:
   - intent: liberation_war_sector_05
-  - action: utter_liberation_war_sector_05
-
-- rule: respond to FAQs
-  steps:
-  - intent: liberation_war_sector_06
-  - action: utter_liberation_war_sector_06
-
-- rule: respond to FAQs
-  steps:
-  - intent: liberation_war_sector_07
-  - action: utter_liberation_war_sector_07
-
-- rule: respond to FAQs
-  steps:
-  - intent: liberation_war_sector_08
-  - action: utter_liberation_war_sector_08
-
-- rule: respond to FAQs
-  steps:
-  - intent: liberation_war_sector_09
-  - action: utter_liberation_war_sector_09
-
-- rule: respond to FAQs
-  steps:
-  - intent: liberation_war_sector_10
-  - action: utter_liberation_war_sector_10
+  - action: action_liberation_war_sector_05
 
 - rule: respond to FAQs
   steps:
@@ -490,26 +455,6 @@ rules:
   steps:
   - intent: liberation_war_sector_13
   - action: utter_liberation_war_sector_13
-
-- rule: respond to FAQs
-  steps:
-  - intent: liberation_war_sector_14
-  - action: utter_liberation_war_sector_14
-
-- rule: respond to FAQs
-  steps:
-  - intent: liberation_war_sector_15
-  - action: utter_liberation_war_sector_15
-
-- rule: respond to FAQs
-  steps:
-  - intent: liberation_war_sector_16
-  - action: utter_liberation_war_sector_16
-
-- rule: respond to FAQs
-  steps:
-  - intent: liberation_war_sector_17
-  - action: utter_liberation_war_sector_17
 
 - rule: respond to FAQs
   steps:
@@ -748,16 +693,6 @@ rules:
 
 - rule: respond to FAQs
   steps:
-  - intent: speech_of_liberation_02
-  - action: utter_speech_of_liberation_02
-
-- rule: respond to FAQs
-  steps:
-  - intent: speech_of_liberation_03
-  - action: utter_speech_of_liberation_03
-
-- rule: respond to FAQs
-  steps:
   - intent: speech_of_liberation_04
   - action: utter_speech_of_liberation_04
 
@@ -768,15 +703,11 @@ rules:
 
 - rule: respond to FAQs
   steps:
-  - intent: speech_of_liberation_06
-  - action: utter_speech_of_liberation_06
-
-- rule: respond to FAQs
-  steps:
-  - intent: speech_of_liberation_07
-  - action: utter_speech_of_liberation_07
-
-- rule: respond to FAQs
-  steps:
   - intent: bangabondhu
   - action: utter_bangabondhu
+
+- rule: respond to FAQs
+  steps:
+  - intent: bangabondhu_family
+  - action: utter_bangabondhu_family
+
