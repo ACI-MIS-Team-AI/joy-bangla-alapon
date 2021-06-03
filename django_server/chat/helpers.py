@@ -4,8 +4,7 @@ import requests
 from . import config
 
 
-def get_rasa_path(in_text):
-    option = get_language(in_text)
+def get_rasa_path(option):
     if option == 'BNL':
         port = config.RASA_BNL_PORT
     elif option == 'EN':
@@ -53,19 +52,17 @@ def get_language(text):
 
 
 def get_language_bnl(text):
-    if re.search("^[A-Za-z0-9\s]+$", text):
-        if re.search("^[0-9\s]+$", text):
-            return "NUM"
-        else:
-            return "BNL"
+    if re.search("^[A-Za-z0-9.,:;!?'()\s]+$", text):
+        return "BNL"
     else:
         return "BN"
 
 
 def get_rasa_message(sender, message):
-    if get_language_bnl(message) == 'NUM':
+    option = get_language_bnl(message)
+    if option == 'NUM':
         return config.ERR_TXT
-    path = get_rasa_path(message)
+    path = get_rasa_path(option)
     # print(path)
 
     data = {
