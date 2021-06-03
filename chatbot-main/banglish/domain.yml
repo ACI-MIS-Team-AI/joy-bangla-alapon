@@ -138,6 +138,7 @@ entities:
   - bs_birth
   - post
   - post_1
+  - sector_area
 
 slots:
   sector_no:
@@ -155,12 +156,16 @@ slots:
   post_1:
     type: text
     influence_conversation: false
+  sector_area:
+    type: text
+    influence_conversation: false
 actions:
   - action_liberation_war_sector_19
   - action_liberation_war_honorary_title_13
   - action_liberation_war_honorary_title_14
   - action_liberation_war_secretariate_08
   - action_liberation_war_secretariate_13
+  - action_liberation_war_sector_05
 
 
 responses:
@@ -374,24 +379,6 @@ responses:
   utter_liberation_war_sector_03:
   - text: মুক্তিবাহিনী মার্চ ১৯৭১ থেকে ডিসেম্বর ১৯৭১ অপারেশান করে
 
-  utter_liberation_war_sector_05:
-  - text: মুুক্তিযুদ্ধে কুষ্টিয়া, যশোর, খুলনা, বরিশাল, ফরিদপুর এবং পটুয়াখালী জেলার সেক্টর কমান্ডার ছিলেন দুইজন। প্রথমে মেজর আবু ওসমান চৌধুরী এবং পরবর্তীতে মেজর আবুল মঞ্জুর ।
-
-  utter_liberation_war_sector_06:
-  - text: মুুক্তিযুদ্ধে চট্টগ্রাম জেলার সেক্টর কমান্ডার ছিলেন দুইজন। প্রথমে মেজর জিয়াউর রহমান এবং পরবর্তীতে ক্যাপ্টেন রফিকুল ইসলাম।
-
-  utter_liberation_war_sector_07:
-  - text: মুুক্তিযুদ্ধে ঢাকার সেক্টর কমান্ডার ছিলেন মেজর খালেদ মোশাররফ,পরবর্তীতে মেজর এ টি এম হায়দার।
-
-  utter_liberation_war_sector_08:
-  - text: মুুক্তিযুদ্ধে দুর্গাপুর সেক্টর কমান্ডার ছিলেন মেজর মীর শওকত আলী
-
-  utter_liberation_war_sector_09:
-  - text: মুুক্তিযুদ্ধে নৌ কমান্ডো ১০ নম্বর সেক্টর এর অধীনে ছিল। এই সেক্টরটি বাংলাদেশ সশস্ত্র বাহিনীর সদর দপ্তর এর অধীনের পরিচালিত হত।
-
-  utter_liberation_war_sector_10:
-  - text: মুুক্তিযুদ্ধে বরিশাল, পটুয়াখালী জেলার সেক্টর কমান্ডার ছিলেন তিনজন। প্রথমে মেজর এম এ জলিল এবং পরবর্তীতে মেজর এম এ মঞ্জুর ও মেজর জয়নাল আবেদীন।
-
   utter_liberation_war_sector_11:
   - text: মুক্তুযুদ্ধে বাংলাদেশে ১১টি সেক্টর ছিলো
 
@@ -400,21 +387,6 @@ responses:
 
   utter_liberation_war_sector_13:
   - text: বাংলাদেশের মুুক্তিযুদ্ধে সর্বাধিনায়ক ছিলেন জেনারেল মুহাম্মদ আতাউল গণি ওসমানী।
-
-  utter_liberation_war_sector_14:
-  - text: মুুক্তিযুদ্ধে ময়মনসিংহ ও টাঙ্গাইল জেলার সেক্টর কমান্ডার ছিলেন তিনজন। প্রথমে মেজর জিয়াউর রহমান এবং পরবর্তীতে মেজর আবু তাহের এবং এম হামিদুল্লাহ খান।
-
-  utter_liberation_war_sector_15:
-  - text: মুুক্তিযুদ্ধে রংপুর জেলার সেক্টর কমান্ডার ছিলেন উইং কমান্ডার এম খাদেমুল বাশার ।
-
-  utter_liberation_war_sector_16:
-  - text: মুুক্তিযুদ্ধে রাজশাহী, পাবনা, বগুড়া জেলার সেক্টর কমান্ডার ছিলেন দুইজন। প্রথমে সেক্টর কমান্ডার ছিলেন মেজর নাজমুল হক এবং পরবর্তীতে মেজর কাজী নুরুজ্জামান।
-
-  utter_liberation_war_sector_17:
-  - text: মুুক্তিযুদ্ধের সময় সিলেট তিনটি সেকটর এর অধীনে ছিলো(৩,৪ ও ৫)। এদের সেক্টর কমানফদার ছিলেন যথাক্রমে মেজর কে এম শফিউল্লাহ,মেজর এ এন এম নুরুজ্জামান[৩], মেজর চিত্তরঞ্জন দত্ত ও ক্যাপ্টেন আবদুর রব[৪] এবং মেজর মীর শওকত আলী।
-
-  utter_liberation_war_sector_29:
-  - text: মুুক্তিযুদ্ধে হবিগঞ্জ জেলার সেক্টর কমান্ডার ছিলেন মেজর চিত্ত রঞ্জন দত্ত
 
   utter_liberation_war_sector_30:
   - text: সেক্টর কমান্ডারদের সম্মেলন শুরু হয় ১১ - ১৭ জুলাই ১৯৭১

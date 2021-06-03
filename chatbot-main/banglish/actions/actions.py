@@ -17,7 +17,7 @@ class LiberationWarSector19(Action):
             domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
 
         value = tracker.get_slot("sector_no")
-        value = value.lower()
+        #value = value.lower()
         sector_map = {
             'one': 1,
             'two': 2,
@@ -81,7 +81,7 @@ class LiberationWarHonoraryTitle13(Action):
             domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
 
         value = tracker.get_slot("bs_death")
-        value = value.lower()
+        #value = value.lower()
         # dispatcher.utter_message(text=f'{value}')
         bs_map = {
             "1": "Engineroom Room Artificer Mohammad Ruhul Amin",
@@ -131,7 +131,7 @@ class LiberationWarHonoraryTitle14(Action):
             domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
 
         value = tracker.get_slot("bs_birth")
-        value = value.lower()
+        #value = value.lower()
         # dispatcher.utter_message(text=f'{value}')
         bs_map = {
             "1": "Engineroom Room Artificer Mohammad Ruhul Amin",
@@ -252,7 +252,7 @@ class LiberationWarSector05(Action):
 
         value = tracker.get_slot("sector_area")
         # value = value.lower()
-        # dispatcher.utter_message(text=f'{value}')
+        #dispatcher.utter_message(text=f'{value}')
         area_map = {
             "1": "Kushtia Jessore Khulna Barisal Faridpur Potuakhali]",
             "2": "Chattogram Chittagong",
@@ -271,6 +271,7 @@ class LiberationWarSector05(Action):
             area = area_map[key].lower()
             ratio.append(fuzz.partial_ratio(area,value))
 
+        #dispatcher.utter_message(text = f"{ratio}")
         max_value = max(ratio)
         max_index = int(ratio.index(max_value) + 1)
         if max_index == 1:
