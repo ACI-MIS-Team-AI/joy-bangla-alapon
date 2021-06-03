@@ -52,8 +52,18 @@ def get_language(text):
         return "BN"
 
 
+def get_language_bnl(text):
+    if re.search("^[A-Za-z0-9\s]+$", text):
+        if re.search("^[0-9\s]+$", text):
+            return "NUM"
+        else:
+            return "BNL"
+    else:
+        return "BN"
+
+
 def get_rasa_message(sender, message):
-    if get_language(message) == 'NUM':
+    if get_language_bnl(message) == 'NUM':
         return config.ERR_TXT
     path = get_rasa_path(message)
     # print(path)
