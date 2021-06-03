@@ -1,0 +1,14 @@
+[Unit]
+Description=Rasa-Core Banglish Actions
+After=multi-user.target
+
+[Service]
+User=root
+Group=daemon
+Type=simple
+WorkingDirectory=/home/aci-mis-ai/joy-bangla-alapon/chatbot-main/banglish
+
+ExecStart=/home/aci-mis-ai/joy-bangla-alapon/venv/bin/python -m rasa run actions
+
+[Install]
+WantedBy=multi-user.target

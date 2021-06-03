@@ -1,0 +1,15 @@
+[Unit]
+Description=Rasa-Core Bangla Actions
+After=multi-user.target
+
+[Service]
+User=root
+Group=daemon
+Type=simple
+WorkingDirectory=/home/aci-mis-ai/joy-bangla-alapon/chatbot-main/bangla
+
+ExecStart=/home/aci-mis-ai/joy-bangla-alapon/venv/bin/python -m rasa run actions \
+    --port 5056
+
+[Install]
+WantedBy=multi-user.target
