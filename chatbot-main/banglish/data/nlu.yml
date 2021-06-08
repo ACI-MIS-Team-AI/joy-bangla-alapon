@@ -15,6 +15,21 @@ nlu:
     - e mama
     - oih
     - hi
+    - perfect
+    - great
+    - amazing
+    - feeling like a king
+    - wonderful
+    - I am feeling very good
+    - I am great
+    - I am amazing
+    - I am going to save the world
+    - super stoked
+    - extremely good
+    - so so perfect
+    - so good
+    - so perfect
+
 - intent: wassup
   examples: |
     - kemon aso
