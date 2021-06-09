@@ -15,6 +15,9 @@ nlu:
     - e mama
     - oih
     - hi
+
+- intent: start_faq
+  examples:  |
     - perfect
     - great
     - amazing
@@ -29,6 +32,7 @@ nlu:
     - so so perfect
     - so good
     - so perfect
+    - fine
 
 - intent: wassup
   examples: |

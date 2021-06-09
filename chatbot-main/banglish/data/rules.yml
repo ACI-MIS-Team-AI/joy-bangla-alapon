@@ -12,6 +12,11 @@ rules:
   - intent: greet
   - action: utter_greet
 
+- rule: Acknowledged
+  steps:
+  - intent: start_faq
+  - action: utter_start_faq
+
 - rule: Respond to wassups
   steps:
   - intent: wassup

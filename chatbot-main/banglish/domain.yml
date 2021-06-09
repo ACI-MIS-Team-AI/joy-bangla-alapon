@@ -1,6 +1,7 @@
 version: "2.0"
 intents:
   - greet
+  - start_faq
   - wassup
   - goodbye
   - affirm
@@ -171,6 +172,9 @@ actions:
 responses:
   utter_greet:
   - text: "কেমন আছেন ?"
+
+  utter_start_faq:
+  - text: "যেনে ভালো লাগলো"
 
   utter_wassup:
   - text: "ধন্যবাদ,আমি ভালো আছই"
