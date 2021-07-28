@@ -1,5 +1,7 @@
 import os
 
+from .data_loaders import all_question_dict
+
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = 'mbt*60aqvx88e%jiud9sz&e=kd#t5sylx2j0y14equm#@&k+iz'
 
@@ -9,6 +11,7 @@ DEBUG = True
 ALLOWED_HOSTS = ['*']
 INTERNAL_IPS = ['127.0.0.1']
 
+Q_DICT = all_question_dict()
 
 # Application definition
 

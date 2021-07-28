@@ -101,5 +101,8 @@ CUSTOM_EN_DICT = [
     'Maidan',
     'Yahya-Mujib',
     'Rakibul',
-    'Ziaur'
+    'Ziaur',
+    'kforce',
+    'zforce',
+
 ]

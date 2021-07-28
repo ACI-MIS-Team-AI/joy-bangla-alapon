@@ -39,7 +39,7 @@ def is_banglish(text):
 
 
 def get_language(text):
-    if re.search("^[A-Za-z0-9.,:;!?'()\s]+$", text):
+    if re.search("^[A-Za-z0-9.,:;!?'()#$%&*+,\-./<=>@\[\]^_`{|}~\s]+$", text):
         if is_banglish(text):
             return "BNL"
         else:
@@ -52,7 +52,7 @@ def get_language(text):
 
 
 def get_language_bnl(text):
-    if re.search("^[A-Za-z0-9.,:;!?'()\s]+$", text):
+    if re.search("^[A-Za-z0-9.,:;!?'()#$%&*+,\-./<=>@\[\]^_`{|}~\s]+$", text):
         return "BNL"
     else:
         return "BN"

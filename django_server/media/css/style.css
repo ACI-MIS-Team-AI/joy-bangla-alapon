@@ -389,6 +389,37 @@ body, html {
 	background-color: rgba(25, 147, 147, 0.2);
 }
 
+
+.autocomplete-items {
+  position: absolute;
+  border: 1px solid #d4d4d4;
+  border-bottom: none;
+  border-top: none;
+  /*position the autocomplete items to be the same width as the container:*/
+  bottom: 10%;
+  left: 0;
+  right: 5%;
+}
+
+.autocomplete-items div {
+  padding: 10px;
+  cursor: pointer;
+  background-color: rgb(102, 101, 98);
+  border-bottom: 1px solid #d4d4d4;
+}
+
+/*when hovering an item:*/
+.autocomplete-items div:hover {
+  background-color: brown;
+}
+
+/*when navigating through the items using the arrow keys:*/
+.autocomplete-active {
+  background-color: DodgerBlue !important;
+  color: #ffffff;
+}
+
+
 @keyframes show-chat-even {
 	0% {
 		margin-left: -480px;
