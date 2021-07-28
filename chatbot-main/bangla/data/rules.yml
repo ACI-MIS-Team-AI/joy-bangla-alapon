@@ -633,11 +633,6 @@ rules:
 
 - rule: respond to FAQs
   steps:
-  - intent: pakistan_politics_06
-  - action: utter_pakistan_politics_06
-
-- rule: respond to FAQs
-  steps:
   - intent: pakistan_politics_07
   - action: utter_pakistan_politics_07
 
