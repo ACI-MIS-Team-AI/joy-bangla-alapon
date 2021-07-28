@@ -131,7 +131,6 @@ intents:
   - pakistan_politics_03
   - pakistan_politics_04
   - pakistan_politics_05
-  - pakistan_politics_06
   - pakistan_politics_07
   - pakistan_politics_08
   - pakistan_politics_10
@@ -542,9 +541,6 @@ responses:
 
   utter_pakistan_politics_05:
   - text: বঙ্গবন্ধু কতৃক ঘোষিত বাঙালি জাতির মুক্তির সনদ ছয় দফা দাবির পক্ষে দেশব্যাপী তীব্র গণ আন্দলের সূচনা হয় ১৯৬৬ সালের ৭ মার্চ।
-
-  utter_pakistan_politics_06:
-  - text: বঙ্গবন্ধুকে কোন মামলায় এক নাম্বার আসামী করে পাকিস্তান সরকার এবং কবে? --শেখ মুজিব
 
   utter_pakistan_politics_07:
   - text: ১৯৬৯ সালের ২২ ফেব্রয়ারী পাকিস্তানি সরকার  মিথ্যা মামলা সমূহ প্রত্যাহার করে নেন ,"রাষ্ট্র বনাম শেখ মুজিবর রহমান ও অন্যান্য মিথ্যা মামলা সমূহ দিয়েছিলেন বঙ্গবন্ধুর বিরুদ্ধে

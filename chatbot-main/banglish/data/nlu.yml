@@ -263,6 +263,7 @@ nlu:
     - Bangladesher potakar shathe kon desher potakar mil royeche?
     - kon desher sathe edesher potakar mil ache?
     - Bangladesh er potakar shathe kon desher potakar mil ache?
+    - kon desher potaka amader desher moto?
 
 - intent: liberation_war_flag_09
   examples: |
@@ -283,6 +284,7 @@ nlu:
     - Prothom jaityo potakar designer ke chilen?
     - Manchitro khochito edesher prothom jaityo potakar designer ke chilen?
     - edesher prothom jaityo potakar design k korechen ?
+    - manchitro deya potakar design ke koren?
 
 - intent: liberation_war_flag_12
   examples: |
@@ -346,6 +348,8 @@ nlu:
   examples: |
     - Concert for bangladesher gayok k chilen?
     - Concert for bangladesher singer k chilen?
+    - Concert for bangladeshe k gan gan?
+
 
 - intent: liberation_war_foreign_aid_03
   examples: |
@@ -913,14 +917,6 @@ nlu:
     - 6 dofa dabi
     - choy dopha dabi
 
-- intent: pakistan_politics_06
-  examples: |
-    - Bangabondhu ke kon mamlay ek number ashami kore pakistan sarakar ebong kobe?
-    - Bangabandhu kon mamlay ek number asami kora hoy?
-    - sheikh mujib ke kon mamlay pakistani sarakar ek number asami kore?
-    - Pakistani sarakar sheikh mujiber biruddhe kon mamala diyechilo ebong kobe?
-    - Sheikh mujib er biruddhe pakistani sarakar kobe mamala dey?
-
 - intent: pakistan_politics_07
   examples: |
     - Pakistan govt koto shale mithha mamla somuho prattahar kore ney ebong mamla gulir nam ki?
@@ -934,7 +930,7 @@ nlu:
     - Purbo banglay voyaboho jhoṛ ebong jollochhash koto sale hoyechilo ebong koto manush mara jay?
     - Purbo bangla er voyaboho jhoṛ ebong jollochhash koto shale hoyechilo ?
     - Purbo banglay jollochhash e koto manush mara jay?
-    - Kokhon purbo banlay jhoṛ ebong jollochash hoyechilo?
+    - Kokhon purbo banglay jhoṛ ebong jollochash hoyechilo?
 
 - intent: pakistan_politics_10
   examples: |
