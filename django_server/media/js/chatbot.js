@@ -193,8 +193,10 @@ function autocomplete() {
   inp.addEventListener("input", function(e) {
       let a, b, i, val = this.value;
       if (!val) return false;
-      if (val.length < 5)  return false;
-//      if (e.keyCode == 32 || e.keyCode == 8) return false;
+      if (val.length < 5 || val[val.length-1]==" ")  {
+          return false;
+      }
+     // if (e.keyCode == 32 || e.keyCode == 8) return false;
       closeAllLists();
       currentFocus = -1;
       a = document.createElement("DIV");

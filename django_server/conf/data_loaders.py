@@ -1,3 +1,16 @@
+import re
+
+
+def clean_question(question):
+    pattern = r'\(.*?\)'
+    question = re.sub(pattern, '', question)
+    punctuations = '''[]'''
+    cleaned_questions = ""
+    for char in question:
+        if char not in punctuations:
+            cleaned_questions = cleaned_questions + char
+
+    return cleaned_questions
 
 
 def all_question_dict():
@@ -24,10 +37,9 @@ def all_question_dict():
             for i in range(1, len(questions)):
                 if questions[i] != '':
                     try:
-                        all_question.append((questions[i].split('-')[-1]).strip())
-                    except:
+                        all_question.append(clean_question((questions[i].split('-')[-1]).strip()))
+                    except Exception as e:
+                        print(e)
                         pass
-
         question_dict.update({language: all_question})
-
     return question_dict

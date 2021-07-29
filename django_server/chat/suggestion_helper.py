@@ -17,17 +17,24 @@ def sort_score(val):
 
 
 def auto_complete(input_text, language='BNL', limit=3):
-    ratios = [0, 0, 0, 0, 0]
+    ratios = [0, 0, 0]
     result = []
+    input_text = input_text.strip()
     questions = settings.Q_DICT[language]
+    result_test = []
     for question in questions:
         ratio = fuzz.partial_ratio(question, input_text)
+        # ratio = fuzz.token_set_ratio(question, input_text)
         ratios, flag = check_above(ratio, ratios)
         if flag:
-            result.append(question)
+            result.append((question, ratio))
             result.sort(key=sort_score, reverse=True)
             if len(result) > limit:
                 result = result[0:limit]
 
-    return result
+    for r, _ in result:
+        result_test.append(r)
+
+
+    return result_test
 
