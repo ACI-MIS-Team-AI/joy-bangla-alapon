@@ -553,7 +553,7 @@ nlu:
     - Tajuddin Ahmed kon kon montronalayer dayitte chilen?
     - Tajuddin Ahmed kon kon montronalayer dayitte niyojito chilen?
     - kon kon montronalayer dayitto Tajuddin Ahmed er chilo?
-    - Tajuddin Ahmedke kon kon montroṇalayer dayitto deya hoyechilo?
+    - Tajuddin Ahmedke kon kon montronalayer dayitto deya hoyechilo?
     - Tajuddin Ahmed kon kon mantralaye dayittoprapta chilen?
 
 - intent: liberation_war_secretarieate_19
@@ -561,7 +561,7 @@ nlu:
     - M Monsur Ali kon kon montronalayer dayitte chilen?
     - M Monsur Ali kon kon montronalayer dayitte niyojito chilen?
     - kon kon montronalayer dayitto M Monsur Alir chilo?
-    - M Monsur Alike kon kon montroṇalayer dayitto deya hoyechilo?
+    - M Monsur Alike kon kon montronalayer dayitto deya hoyechilo?
     - M Monsur Ali kon kon mantralaye dayittoprapta chilen?
 
 - intent: liberation_war_secretarieate_20
@@ -569,7 +569,7 @@ nlu:
     - AHM Kamruzzaman kon kon montronalayer dayitte chilen?
     - AHM Kamruzzaman kon kon montronalayer dayitte niyojito chilen?
     - kon kon montronalayer dayitto AHM Kamruzzamaner chilo?
-    - Kamruzzamanke kon kon montroṇalayer dayitto deya hoyechilo?
+    - Kamruzzamanke kon kon montronalayer dayitto deya hoyechilo?
     - Kamruzzaman kon kon mantralaye dayittoprapta chilen?
 
 - intent: liberation_war_secretarieate_21
@@ -577,7 +577,7 @@ nlu:
     - montroṇalayer baire aro sangstha chilo jara sarasari montriparisader kotrittadhine kaj korto. sangsthagulor nama ki ki?
     - montroṇalayer baire aro sangstha chilo jara sarasari montriparisader kotrittadhine kaj korto, tadera nama ki ki?
     - montroṇalayer baire aro sangstha chilo jara sarasari montriparisader kotrittadhine kaj korto, sei sangsthagulor nama ki ki?
-    - Jei sangsthagulo montroṇalayer baire theke sarasari montriparisader kotrittadhine kaj korto. ogulor nama ki ki?
+    - Jei sangsthagulo montronalayer baire theke sarasari montriparisader kotrittadhine kaj korto. ogulor nama ki ki?
 
 - intent: liberation_war_secretarieate_22
   examples: |
@@ -609,7 +609,6 @@ nlu:
     - Protirrokha montronaloyer chief of staff er nam ki chilo?
     - Ekattore protirokkha montronaloyer chief of staff k chilen?
     - Chief of staff k chilen protirokkha montronaloyer?
-    -
 
 - intent: liberation_war_secretarieate_26
   examples: |
@@ -776,7 +775,7 @@ nlu:
 
 - intent: mujib_birth
   examples: |
-    - Bangabandhu sheikh mujibur rahaman koto tarikh e jonmogrohoṇ koren ebong kothay?
+    - Bangabandhu sheikh mujibur rahaman koto tarikh e jonmogrohon koren ebong kothay?
     - Bangabandhu kothay jonmo grohoṇ koren?
     - Sheikh mujibur rahaman er jonmo sal koto?
     - Sheikh mujib er jonmosal konti ?
@@ -806,14 +805,14 @@ nlu:
 
 - intent: mujib_politics_02
   examples: |
-    - Sheikh mujibur rahaman ke koto tarikh ebong kothay 'baṅgabandhu' upadhite bhuṣito kara hoẏ?
+    - Sheikh mujibur rahaman ke koto tarikh ebong kothay 'bangabandhu' upadhite bhuṣito kara hoẏ?
     - Bangabandhu kothay bangabandhu upadhite bhuṣito hon?
     - Sheikh mujibur rahaman  kobe bangabandhu upadhite peyechilen?
     - Mujib kobe 'bangabondhu' hoye chilen?
 
 - intent: mujib_politics_03
   examples: |
-    - Bangabondhu rescouse moyadan e koto tarikh e ghoṣoṇa diyechilen,  bhaṣhon ṭi ki chilo?
+    - Bangabondhu rescouse moyadan e koto tarikh e ghosona diyechilen,  bhaṣhon ti ki chilo?
     - Bangabandhu kobe shadinotar bhaṣhon diyehilen?
     - Bangabandhur bhashonti ki chilo?
     - Race course moyadane bangabandhu ki bhashon diyechilen?
@@ -821,10 +820,10 @@ nlu:
 - intent: mujib_politics_04
   examples: |
     - Kobe bangabondhu karamukti labh koren?
-    - Sangbad sammelone bangabondhu ki ghoṣaṇa koren?
+    - Sangbad sammelone bangabondhu ki ghosana koren?
     - Bangabandhu kobe jel theke chaṛa pan?
     - Sheikh mujibur rahaman kobe karamukti labh koren?
-    - Karamuktir por bangabandhu sangbad sommenlone ki ghoṣhona korechilen?
+    - Karamuktir por bangabandhu sangbad sommenlone ki ghoshona korechilen?
 
 - intent: mujib_politics_05
   examples: |
@@ -855,17 +854,17 @@ nlu:
     - Bangabandhu muktijuddher por koto tarikhe pradhanmantri hisabe sapath grohoṇ korechilen?
     - Koto tarikhe bangabandhu pradhanmantri hisabe sopoth grohoṇ korechilen?
     - Kokhon bangabondhu prodhan montri hisabe sapath grohon koren?
-    - Muktijuddher por koto tarikhe bangabandhu pradhanmantri hisabe sapoth grohoṇ koren?
+    - Muktijuddher por koto tarikhe bangabandhu pradhanmantri hisabe sapoth grohon koren?
 
 - intent: mujib_politics_09
   examples: |
     - Bagabandhu bangali neta hisebe jatisongher 29 tomo sadharon parisadhe kobe banglay baktrita den?
     - sheikh mujibur rahaman kobe jatisongher  sadharon parisadhe banglay boktobbo diyechilen?
-    - Jatisangher sadharon pariṣhode sheikh mujib kobe banglay baktrita den?
+    - Jatisangher sadharon parishode sheikh mujib kobe banglay baktrita den?
 
 - intent: mujib_primary_school_01
   examples: |
-    - Jatir jonok er prathiṣṭhanik chatra jibon suru hoy koto bochor boyose?
+    - Jatir jonok er prathisthanik chatra jibon suru hoy koto bochor boyose?
     - Jatir pita koto bochor boyose poṛahona suru koren?
     - sheikh mujibur rahaman prothom  school e jan koto bochor boyose?
     - sheikh mujib prothom school bhorti hon koto bochor boyose?
@@ -874,7 +873,7 @@ nlu:
 
 - intent: mujib_primary_school_02
   examples: |
-    - Jatir jonok er pratiṣṭhanik chatrajibon kothaẏ suru koren?
+    - Jatir jonok er pratisthanik chatrajibon kothay suru koren?
     - Jatir jonoker prothom school er nam ki?
     - sheikh mujiber prothom school er nam ki ebong kothay?
     - sheikh mujib kon school prothom bhorti hoyechilen?
@@ -893,9 +892,9 @@ nlu:
   examples: |
     - 1954 shale koto tarikh e jukto front bijoyi hon ebong koto ti ashone bijoyi hon?
     - Jukto front koto tarikhe bijoyi hoyechilo?
-    - Jukto front koẏṭi ashone bijoy labh korechilo?
-    - Jukto-front bijoy e hoyechilo kobe ebong koyṭi asone ?
-    - Jukto front bijoy e  hoy koyṭi asone kar bipokkhe?
+    - Jukto front koyti ashone bijoy labh korechilo?
+    - Jukto-front bijoy e hoyechilo kobe ebong koyti asone ?
+    - Jukto front bijoy e hoy koyti asone kar bipokkhe?
 
 - intent: pakistan_politics_03
   examples: |
@@ -923,27 +922,27 @@ nlu:
     - Pakistani sarakar sheikh mujib biruddhe kora mithha mamala kobe prottahar kore niyechilo?
     - Mujib er upor theke kobe pakistani sarakar mamla tule ney?
     - Pakistani sorkar sheikh mujiber upor ki ki mithha mamla kore?
-    - Sheikh mujib er upor ki ki mithha mamala deẏ pakistan?
+    - Sheikh mujib er upor ki ki mithha mamala dey pakistan?
 
 - intent: pakistan_politics_08
   examples: |
     - Purbo banglay voyaboho jhoṛ ebong jollochhash koto sale hoyechilo ebong koto manush mara jay?
-    - Purbo bangla er voyaboho jhoṛ ebong jollochhash koto shale hoyechilo ?
+    - Purbo bangla er voyaboho jhor ebong jollochhash koto shale hoyechilo ?
     - Purbo banglay jollochhash e koto manush mara jay?
     - Kokhon purbo banglay jhoṛ ebong jollochash hoyechilo?
 
 - intent: pakistan_politics_10
   examples: |
-    - Jatiya pariṣhad nirbachone awami league koyti ashon pay, pakistan people's party koyti ashon pay?
-    - Jatiya pariṣhad nirbachone awami league koyti ashon peye bijoyi hoyechilo?
-    - Jatiyo  pariṣad nirbachone pakistan people's party koyti ashon peye porajito hoy?
-    - Jatiya pariṣhad nirbachone
+    - Jatiya parishad nirbachone awami league koyti ashon pay, pakistan people's party koyti ashon pay?
+    - Jatiya parishad nirbachone awami league koyti ashon peye bijoyi hoyechilo?
+    - Jatiyo  parisad nirbachone pakistan people's party koyti ashon peye porajito hoy?
+    - Jatiya parishad nirbachone
 
 - intent: pakistan_politics_11
   examples: |
     - 25  March ke pr̥ithibir itihase joghonnotomo kalo rat bola hoy keno?
     - 25 March ke  kalo rat bola hoy keno?
-    - Pr̥thibir itihas e joghonnotomo kalo rat bola hoẏ keno 25 march ke?
+    - Pr̥thibir itihas e joghonnotomo kalo rat bola hoy keno 25 march ke?
     - 25 march k kalo rat keno bole
 
 - intent: pre_war_incident_01
