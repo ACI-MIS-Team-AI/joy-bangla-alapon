@@ -155,10 +155,14 @@ function get_suggested_question(chat_text, inp, a){
                 let sg_words = suggestions[i].toLowerCase().split(" ");
                 b = document.createElement("DIV");
                 for (j = 0; j < sg_words.length; j++){
-                    if (in_words.includes(sg_words[j]))
+                    if (in_words.includes(sg_words[j])){
+                        // let start_sub_str = in_words.indexof(sg_words[j]);
+                        // let end_sub_str = start + sg_words[j].length;
                         b.innerHTML += "<strong>" + sg_words[j] + "</strong>" + " ";
-                    else
-                       b.innerHTML += sg_words[j] + " ";
+                    }
+                    else{
+                        b.innerHTML += sg_words[j] + " ";
+                    }
                 }
                 /*insert a input field that will hold the current array item's value:*/
                 b.innerHTML += "<input type='hidden' value='" + suggestions[i] + "'>";
