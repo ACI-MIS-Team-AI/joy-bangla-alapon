@@ -781,6 +781,7 @@ nlu:
     - Sheikh mujib er jonmosal konti ?
     - Sheikh mujib er jonmosthan kothay?
     - bangabondhu kothay jonmo grohon kore
+    - Bangabandhur jonmodin Kobe?
 
 
 - intent: mujib_death
@@ -1026,6 +1027,7 @@ nlu:
 - intent: bangabondhu
   examples: |
     - bangabondhu k
+    - Bangabandhu ke
     - seikh mujib k
     - mujib k
     - jatir janak k
